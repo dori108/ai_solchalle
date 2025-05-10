@@ -1,26 +1,33 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM, TextGenerationPipeline
-from huggingface_hub import login  # ✅ Hugging Face 로그인 기능 추가
+from huggingface_hub import login
 import torch
 import re
 import json
 import os
 
-# ✅ 환경 변수에서 Hugging Face Token 불러오기
-token = os.environ.get("HUGGINGFACE_HUB_TOKEN")
-if token:
-    login(token=token)
+# ✅ 환경 변수에서 Hugging Face 토큰 불러오기
+hf_token = os.environ.get("HF_TOKEN")  # Render에서는 이 이름 사용!
+if hf_token:
+    login(token=hf_token)
+    print("[INFO] Hugging Face 로그인 성공")
 else:
-    print("[WARNING] HUGGINGFACE_HUB_TOKEN not set. Model loading may fail.")
+    print("[WARNING] HF_TOKEN 환경변수가 설정되지 않았습니다. 모델 로딩에 실패할 수 있습니다.")
 
 MODEL_ID = "google/gemma-2b-it"
 device = torch.device("cpu")
 
 # ✅ 모델과 토크나이저 로드
-tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
-model = AutoModelForCausalLM.from_pretrained(MODEL_ID).to(device)
-generator = TextGenerationPipeline(model=model, tokenizer=tokenizer, device=0)
+try:
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
+    model = AutoModelForCausalLM.from_pretrained(MODEL_ID).to(device)
+    generator = TextGenerationPipeline(model=model, tokenizer=tokenizer, device=0)
+except Exception as e:
+    print(f"[ERROR] 모델 로딩 실패: {e}")
+    generator = None
 
 def call_gemma(prompt: str, max_tokens: int = 512) -> str:
+    if not generator:
+        return "[ERROR] Gemma 모델이 로드되지 않았습니다."
     result = generator(prompt, max_new_tokens=max_tokens, temperature=0.7, do_sample=True)[0]["generated_text"]
     return result
 
