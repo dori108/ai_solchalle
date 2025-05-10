@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from pathlib import Path
 import json
 import random
+import os
 from pubmed_fetcher import process_disease
 from gemma_util import call_gemma, extract_json
 from diet_generator import extract_keywords_from_diet_text, analyze_diet_nutrition_by_keywords, detect_conflicts
@@ -144,4 +145,5 @@ def generate_diet():
     })
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=False, host="0.0.0.0", port=port)
