@@ -10,7 +10,7 @@ payload = {
         "weight": 50,
         "allergy": [],
         "disease": ["PKU"],
-        "ingredients": ["감자", "현미", "브로콜리"]
+        "ingredients": ["potato", "brown rice", "broccoli"]
     },
     "meal_type": "meal2",
     "consumed_so_far": {}
@@ -18,6 +18,6 @@ payload = {
 
 response = requests.post(url, json=payload)
 
-print("응답 코드:", response.status_code)
-print("응답 내용:")
-print(response.text)  # JSON이 아니더라도 안전하게 출력
+print("Status code:", response.status_code)
+print("Response:")
+print(response.text)
