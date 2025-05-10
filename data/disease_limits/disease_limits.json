@@ -1,0 +1,403 @@
+[
+  {
+    "diseaseId": 1,
+    "diseaseName": "Phenylketonuria (PKU)",
+    "proteinLimit": 10,
+    "sugarLimit": 40,
+    "sodiumLimit": 1500,
+    "notes": "Strictly limit phenylalanine intake; use medical formula for protein."
+  },
+  {
+    "diseaseId": 2,
+    "diseaseName": "Maple Syrup Urine Disease (MSUD)",
+    "proteinLimit": 8,
+    "sugarLimit": 40,
+    "sodiumLimit": 1500,
+    "notes": "Avoid BCAA-rich foods (leucine, isoleucine, valine); use metabolic formula."
+  },
+  {
+    "diseaseId": 3,
+    "diseaseName": "Galactosemia",
+    "proteinLimit": 60,
+    "sugarLimit": 25,
+    "sodiumLimit": 2000,
+    "notes": "Exclude all dairy, lactose, and galactose-containing foods; supplement calcium and vitamin D."
+  },
+  {
+    "diseaseId": 4,
+    "diseaseName": "Homocystinuria",
+    "proteinLimit": 15,
+    "sugarLimit": 35,
+    "sodiumLimit": 1800,
+    "notes": "Limit methionine intake; use low-protein foods and ensure vitamin B6/B12/folate."
+  },
+  {
+    "diseaseId": 5,
+    "diseaseName": "Tyrosinemia Type I",
+    "proteinLimit": 12,
+    "sugarLimit": 40,
+    "sodiumLimit": 1500,
+    "notes": "Restrict tyrosine and phenylalanine; avoid high-protein animal foods."
+  },
+  {
+    "diseaseId": 6,
+    "diseaseName": "Tyrosinemia Type II",
+    "proteinLimit": 15,
+    "sugarLimit": 35,
+    "sodiumLimit": 1600,
+    "notes": "Low-tyrosine and low-phenylalanine diet essential; use prescribed amino acid mix."
+  },
+  {
+    "diseaseId": 7,
+    "diseaseName": "Tyrosinemia Type III",
+    "proteinLimit": 18,
+    "sugarLimit": 35,
+    "sodiumLimit": 1700,
+    "notes": "Same dietary restrictions as Type I; ensure metabolic balance and monitor neurologic signs."
+  },
+  {
+    "diseaseId": 8,
+    "diseaseName": "Isovaleric Acidemia",
+    "proteinLimit": 10,
+    "sugarLimit": 35,
+    "sodiumLimit": 1500,
+    "notes": "Avoid leucine-rich foods such as dairy, meat, and legumes; use special formula for protein needs."
+  },
+  {
+    "diseaseId": 9,
+    "diseaseName": "Propionic Acidemia",
+    "proteinLimit": 8,
+    "sugarLimit": 30,
+    "sodiumLimit": 1400,
+    "notes": "Restrict intake of odd-chain amino acids (isoleucine, valine, methionine, threonine); avoid high-protein foods."
+  },
+  {
+    "diseaseId": 10,
+    "diseaseName": "Methylmalonic Acidemia (MMA)",
+    "proteinLimit": 8,
+    "sugarLimit": 30,
+    "sodiumLimit": 1400,
+    "notes": "Avoid precursors of propionyl-CoA; restrict animal proteins; use medical formula for nutrition."
+  },
+  {
+    "diseaseId": 11,
+    "diseaseName": "Glutaric Acidemia Type I",
+    "proteinLimit": 10,
+    "sugarLimit": 35,
+    "sodiumLimit": 1500,
+    "notes": "Restrict lysine and tryptophan; avoid high-protein foods such as meat and eggs."
+  },
+  {
+    "diseaseId": 12,
+    "diseaseName": "Argininosuccinic Aciduria",
+    "proteinLimit": 10,
+    "sugarLimit": 35,
+    "sodiumLimit": 1800,
+    "notes": "Limit total protein intake; ensure arginine supplementation; avoid fasting and high nitrogen load."
+  },
+  {
+    "diseaseId": 13,
+    "diseaseName": "Citrullinemia Type I",
+    "proteinLimit": 10,
+    "sugarLimit": 30,
+    "sodiumLimit": 1800,
+    "notes": "Restrict protein intake; avoid prolonged fasting; supplement with essential amino acids as needed."
+  },
+  {
+    "diseaseId": 14,
+    "diseaseName": "Citrullinemia Type II",
+    "proteinLimit": 12,
+    "sugarLimit": 30,
+    "sodiumLimit": 1800,
+    "notes": "Limit protein intake moderately; avoid alcohol and fasting; maintain glucose availability."
+  },
+  {
+    "diseaseId": 15,
+    "diseaseName": "Ornithine Transcarbamylase (OTC) Deficiency",
+    "proteinLimit": 8,
+    "sugarLimit": 35,
+    "sodiumLimit": 1600,
+    "notes": "Limit protein to reduce ammonia load; ensure adequate calorie intake; avoid fasting."
+  },
+  {
+    "diseaseId": 16,
+    "diseaseName": "Carbamoyl Phosphate Synthetase I Deficiency",
+    "proteinLimit": 6,
+    "sugarLimit": 35,
+    "sodiumLimit": 1600,
+    "notes": "Severe urea cycle defect; restrict protein strictly; frequent meals and glucose support essential."
+  },
+  {
+    "diseaseId": 17,
+    "diseaseName": "Medium-Chain Acyl-CoA Dehydrogenase Deficiency (MCADD)",
+    "proteinLimit": 50,
+    "sugarLimit": 40,
+    "sodiumLimit": 1800,
+    "notes": "Avoid fasting; provide regular carbohydrate intake to prevent hypoglycemia."
+  },
+  {
+    "diseaseId": 18,
+    "diseaseName": "Very-Long-Chain Acyl-CoA Dehydrogenase Deficiency (VLCADD)",
+    "proteinLimit": 45,
+    "sugarLimit": 40,
+    "sodiumLimit": 1800,
+    "notes": "Avoid long fasting and high-fat meals; frequent high-carb meals recommended."
+  },
+  {
+    "diseaseId": 19,
+    "diseaseName": "Long-Chain 3-Hydroxyacyl-CoA Dehydrogenase Deficiency (LCHADD)",
+    "proteinLimit": 40,
+    "sugarLimit": 40,
+    "sodiumLimit": 1800,
+    "notes": "Restrict long-chain fats; use medium-chain triglycerides (MCT); avoid fasting."
+  },
+  {
+    "diseaseId": 20,
+    "diseaseName": "Short-Chain Acyl-CoA Dehydrogenase Deficiency (SCADD)",
+    "proteinLimit": 50,
+    "sugarLimit": 35,
+    "sodiumLimit": 1800,
+    "notes": "Generally mild; maintain regular meals and stable glucose intake; fasting is discouraged."
+  },
+  {
+    "diseaseId": 21,
+    "diseaseName": "Carnitine Transporter Deficiency",
+    "proteinLimit": 50,
+    "sugarLimit": 35,
+    "sodiumLimit": 1700,
+    "notes": "Avoid fasting; high-carbohydrate, low-fat diet; carnitine supplementation required."
+  },
+  {
+    "diseaseId": 22,
+    "diseaseName": "Carnitine Palmitoyltransferase I Deficiency",
+    "proteinLimit": 45,
+    "sugarLimit": 40,
+    "sodiumLimit": 1800,
+    "notes": "Restrict long-chain fats; high-carbohydrate meals; prevent fasting-induced crisis."
+  },
+  {
+    "diseaseId": 23,
+    "diseaseName": "Carnitine Palmitoyltransferase II Deficiency",
+    "proteinLimit": 45,
+    "sugarLimit": 35,
+    "sodiumLimit": 1800,
+    "notes": "Avoid prolonged exercise and fasting; low-fat, high-carb meals are recommended."
+  },
+  {
+    "diseaseId": 24,
+    "diseaseName": "Carnitine-Acylcarnitine Translocase Deficiency",
+    "proteinLimit": 40,
+    "sugarLimit": 40,
+    "sodiumLimit": 1800,
+    "notes": "Severe fatty acid oxidation disorder; strict low-fat diet; use MCT oil and avoid fasting."
+  },
+  {
+    "diseaseId": 25,
+    "diseaseName": "Glycogen Storage Disease Type I (Von Gierke Disease)",
+    "proteinLimit": 50,
+    "sugarLimit": 10,
+    "sodiumLimit": 2000,
+    "notes": "Avoid fructose, lactose, galactose; maintain frequent cornstarch feedings to prevent hypoglycemia."
+  },
+  {
+    "diseaseId": 26,
+    "diseaseName": "Glycogen Storage Disease Type III (Cori Disease)",
+    "proteinLimit": 60,
+    "sugarLimit": 20,
+    "sodiumLimit": 2000,
+    "notes": "High-protein, complex carbohydrate diet; frequent feedings to maintain normoglycemia."
+  },
+  {
+    "diseaseId": 27,
+    "diseaseName": "Glycogen Storage Disease Type V (McArdle Disease)",
+    "proteinLimit": 65,
+    "sugarLimit": 20,
+    "sodiumLimit": 2000,
+    "notes": "Moderate protein; pre-exercise carbohydrate loading; avoid prolonged anaerobic exertion."
+  },
+  {
+    "diseaseId": 28,
+    "diseaseName": "Fructose-1,6-Bisphosphatase Deficiency",
+    "proteinLimit": 50,
+    "sugarLimit": 15,
+    "sodiumLimit": 1800,
+    "notes": "Avoid fasting, sucrose, fructose, and glycerol; maintain glucose intake regularly."
+  },
+  {
+    "diseaseId": 29,
+    "diseaseName": "Hereditary Fructose Intolerance (HFI)",
+    "proteinLimit": 60,
+    "sugarLimit": 0,
+    "sodiumLimit": 1800,
+    "notes": "Absolutely avoid fructose, sucrose, sorbitol, and honey; use glucose-based carbs only."
+  },
+  {
+    "diseaseId": 30,
+    "diseaseName": "Glucose-6-Phosphate Dehydrogenase Deficiency (G6PD)",
+    "proteinLimit": 60,
+    "sugarLimit": 30,
+    "sodiumLimit": 2000,
+    "notes": "Avoid fava beans, menthol, artificial dyes, and oxidative stress-inducing foods or drugs."
+  },
+  {
+    "diseaseId": 31,
+    "diseaseName": "Classic Galactosemia",
+    "proteinLimit": 55,
+    "sugarLimit": 25,
+    "sodiumLimit": 2000,
+    "notes": "Strictly avoid all milk and dairy products; restrict galactose and lactose; calcium supplementation required."
+  },
+  {
+    "diseaseId": 32,
+    "diseaseName": "Dihydrolipoamide Dehydrogenase Deficiency",
+    "proteinLimit": 50,
+    "sugarLimit": 35,
+    "sodiumLimit": 1800,
+    "notes": "Avoid fasting; moderate-protein, high-carb diet to support mitochondrial energy production."
+  },
+  {
+    "diseaseId": 33,
+    "diseaseName": "Pyruvate Dehydrogenase Complex Deficiency",
+    "proteinLimit": 70,
+    "sugarLimit": 15,
+    "sodiumLimit": 1800,
+    "notes": "Low-carb, high-fat ketogenic diet recommended; avoid high glycemic index carbohydrates."
+  },
+  {
+    "diseaseId": 34,
+    "diseaseName": "Mitochondrial Trifunctional Protein Deficiency",
+    "proteinLimit": 45,
+    "sugarLimit": 40,
+    "sodiumLimit": 1800,
+    "notes": "Avoid long-chain fatty acids; frequent carbohydrate feedings; use MCT oil."
+  },
+  {
+    "diseaseId": 35,
+    "diseaseName": "3-Methylcrotonyl-CoA Carboxylase Deficiency",
+    "proteinLimit": 40,
+    "sugarLimit": 35,
+    "sodiumLimit": 1800,
+    "notes": "Restrict leucine intake; monitor protein; supplement biotin and carnitine as prescribed."
+  },
+  {
+    "diseaseId": 36,
+    "diseaseName": "3-Hydroxy-3-Methylglutaryl-CoA Lyase Deficiency",
+    "proteinLimit": 40,
+    "sugarLimit": 35,
+    "sodiumLimit": 1800,
+    "notes": "Avoid fasting; low-leucine, low-fat diet; ensure glucose availability."
+  },
+  {
+    "diseaseId": 37,
+    "diseaseName": "Multiple Acyl-CoA Dehydrogenase Deficiency (MADD)",
+    "proteinLimit": 50,
+    "sugarLimit": 40,
+    "sodiumLimit": 1800,
+    "notes": "Low-fat, high-carb diet; avoid fasting and strenuous exercise; riboflavin supplement needed."
+  },
+  {
+    "diseaseId": 38,
+    "diseaseName": "Glucose Transporter Type 1 Deficiency Syndrome (GLUT1 DS)",
+    "proteinLimit": 50,
+    "sugarLimit": 10,
+    "sodiumLimit": 1800,
+    "notes": "Strict ketogenic diet essential; minimize carbohydrate intake to support brain energy."
+  },
+  {
+    "diseaseId": 39,
+    "diseaseName": "Biotinidase Deficiency",
+    "proteinLimit": 60,
+    "sugarLimit": 30,
+    "sodiumLimit": 1800,
+    "notes": "No specific dietary restrictions; lifelong biotin supplementation required."
+  },
+  {
+    "diseaseId": 40,
+    "diseaseName": "Holocarboxylase Synthetase Deficiency",
+    "proteinLimit": 50,
+    "sugarLimit": 30,
+    "sodiumLimit": 1800,
+    "notes": "Avoid fasting; protein moderation may be needed; maintain stable glucose and biotin supplementation."
+  },
+  {
+    "diseaseId": 41,
+    "diseaseName": "Lysinuric Protein Intolerance",
+    "proteinLimit": 10,
+    "sugarLimit": 35,
+    "sodiumLimit": 1800,
+    "notes": "Severe intolerance to protein-rich foods; restrict animal proteins; supplement citrulline and protein-free amino acids."
+  },
+  {
+    "diseaseId": 42,
+    "diseaseName": "Hyperornithinemia-Hyperammonemia-Homocitrullinuria Syndrome (HHH Syndrome)",
+    "proteinLimit": 8,
+    "sugarLimit": 35,
+    "sodiumLimit": 1800,
+    "notes": "Urea cycle disorder; protein restriction and high-calorie intake required; avoid fasting."
+  },
+  {
+    "diseaseId": 43,
+    "diseaseName": "Arginase Deficiency",
+    "proteinLimit": 8,
+    "sugarLimit": 35,
+    "sodiumLimit": 1800,
+    "notes": "Restrict arginine and total protein; maintain high energy intake; monitor ammonia levels."
+  },
+  {
+    "diseaseId": 44,
+    "diseaseName": "Guanidinoacetate Methyltransferase Deficiency",
+    "proteinLimit": 40,
+    "sugarLimit": 30,
+    "sodiumLimit": 1800,
+    "notes": "Limit arginine and glycine intake; supplement with creatine and avoid fasting."
+  },
+  {
+    "diseaseId": 45,
+    "diseaseName": "Cerebral Creatine Deficiency Syndrome",
+    "proteinLimit": 50,
+    "sugarLimit": 30,
+    "sodiumLimit": 1800,
+    "notes": "Adequate protein allowed; supplement creatine, arginine, or glycine depending on subtype."
+  },
+  {
+    "diseaseId": 46,
+    "diseaseName": "Menkes Disease",
+    "proteinLimit": 55,
+    "sugarLimit": 30,
+    "sodiumLimit": 1800,
+    "notes": "No specific dietary restrictions; copper-histidine supplementation is the primary therapy."
+  },
+  {
+    "diseaseId": 47,
+    "diseaseName": "Wilson Disease",
+    "proteinLimit": 50,
+    "sugarLimit": 30,
+    "sodiumLimit": 1500,
+    "notes": "Avoid high-copper foods (e.g., shellfish, nuts, chocolate); maintain low-copper diet and chelation therapy."
+  },
+  {
+    "diseaseId": 48,
+    "diseaseName": "Hemochromatosis",
+    "proteinLimit": 60,
+    "sugarLimit": 25,
+    "sodiumLimit": 1500,
+    "notes": "Avoid iron-rich foods (e.g., red meat, iron-fortified cereals); avoid vitamin C supplements with iron."
+  },
+  {
+    "diseaseId": 49,
+    "diseaseName": "Familial Hypercholesterolemia",
+    "proteinLimit": 60,
+    "sugarLimit": 25,
+    "sodiumLimit": 1500,
+    "notes": "Follow a low-saturated-fat, low-cholesterol diet; avoid trans fats and fried foods."
+  },
+  {
+    "diseaseId": 50,
+    "diseaseName": "Smith-Lemli-Opitz Syndrome",
+    "proteinLimit": 60,
+    "sugarLimit": 30,
+    "sodiumLimit": 1800,
+    "notes": "Supplement cholesterol; moderate fat and protein intake; avoid fasting and ensure consistent energy supply."
+  }
+
+]

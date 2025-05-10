@@ -1,0 +1,27 @@
+{
+  "user": {
+    "email": "test@example.com",
+    "age": 33,
+    "height": 172,
+    "gender": "male",
+    "allergy": [
+      "shrimp"
+    ],
+    "disease": [
+      "wilson disease"
+    ],
+    "ingredients": [
+      "chicken",
+      "rice",
+      "broccoli"
+    ]
+  },
+  "meal_type": "dinner",
+  "diet": {},
+  "keywords": {
+    "recommended": [],
+    "to_avoid": []
+  },
+  "nutrition": {},
+  "conflicts": []
+}

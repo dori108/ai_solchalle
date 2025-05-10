@@ -1,0 +1,199 @@
+
+You are a certified medical dietitian.
+
+Below is a clinical explanation of a disease. Based on your understanding, fill out the following information in JSON format. You must strictly match the following format.
+
+Disease: phenylketonuria
+
+Explanation:
+"""1. Expert Opin Pharmacother. 2025 Apr 30:1-6. doi: 10.1080/14656566.2025.2498477.
+ Online ahead of print.
+
+Sepiapterin for the treatment of phenylketonuria.
+
+Williams RA(1), Bell DA(1)(2), Hooper AJ(1)(2), Burnett JR(1)(2).
+
+Author information:
+(1)Department of Clinical Biochemistry, PathWest Laboratory Medicine WA, Royal 
+Perth Hospital & Fiona Stanley Hospital Network, Perth, Western Australia, 
+Australia.
+(2)School of Medicine, University of Western Australia, Perth, Western 
+Australia, Australia.
+
+INTRODUCTION: Phenylketonuria (PKU) is an autosomal recessive inborn error of 
+phenylalanine (Phe) metabolism resulting from deficiency of phenylalanine 
+hydroxylase (PAH). Untreated, PKU may result in severe and irreversible 
+intellectual impairment due to marked hyperphenylalaninemia (HPA). Guidelines 
+recommend lifelong reduction in Phe levels, usually achieved via a strict 
+low-protein diet and sometimes medications.
+AREAS COVERED: We discuss the role of tetrahydrobiopterin (BH4), an essential 
+PAH cofactor in Phe metabolism, describe the pharmacodynamics, pharmacokinetics, 
+and metabolism of sepiapterin, as well as reporting on its efficacy and safety 
+in children and adults with PKU.
+EXPERT OPINION: Sepiapterin, an oral synthetic form of a natural precursor of 
+BH4, can reduce HPA in some patients with PKU. In relatively short-term studies, 
+sepiapterin has been shown to be safe, well tolerated, and like the BH4 analog 
+sapropterin dihydrochloride effective in reducing blood Phe levels in responsive 
+individuals. The reductions in blood Phe observed with sepiapterin in the phase 
+III APHENITY trial has the potential to allow more PKU patients to attain Phe 
+treatment targets or alternatively easing of the onerous dietary Phe 
+restrictions. Results of longer-term studies in patients with PKU, including 
+neurocognitive and functional outcomes, nutritional status, and quality of life 
+are awaited.
+
+DOI: 10.1080/14656566.2025.2498477
+PMID: 40272408
+
+
+2. Patient Prefer Adherence. 2025 Apr 13;19:1059-1073. doi: 10.2147/PPA.S512719. 
+eCollection 2025.
+
+Phenylketonuria as an Adherence Disease.
+
+Reach G(1).
+
+Author information:
+(1)Health Education and Promotion Laboratory, Sorbonne Paris Nord University, 
+Bobigny, France.
+
+This narrative review explores a novel challenge to adherence in patients with 
+phenylketonuria (PKU). Traditional barriers to maintaining the core of PKU 
+therapy, which involves dietary restrictions, include limited palatability, high 
+costs, difficult access to low-phenylalanine foods, time constraints, and social 
+interference. We propose that adherence may also be hindered by elevated 
+phenylalanine levels in nonadherent patients, leading to cognitive and executive 
+function impairment that reduces their ability to adhere to the diet. 
+Specifically, we hypothesize that the pathophysiological features of PKU create 
+a vicious cycle that exacerbates adherence challenges to the 
+phenylalanine-restricted diet. We therefore propose that PKU may be considered 
+"an adherence disease". The implications of this hypothesis are threefold: 1. 
+Long-term dietary nonadherence is probable among individuals with PKU; 2. the 
+disease itself contributes to the difficulty in adhering to dietary 
+restrictions, potentially alleviating patient guilt; 3. while treatment options 
+depend on individual factors such as disease severity, the most effective 
+approach to mitigating the neurocognitive and psychosocial impacts of PKU is to 
+replace or restore phenylalanine hydroxylase activity.
+
+Plain Language Summary: Phenylketonuria (PKU) is the most common genetic 
+metabolic disorder. Its management requires adhering to a challenging diet that 
+eliminates phenylalanine to prevent its accumulation in the brain, which can 
+cause significant neurological deficits affecting the patient’s quality of 
+life.This review focuses on long-term adherence to this diet, as part of a 
+broader investigation into the mechanisms of nonadherence which represents a 
+critical issue in medicine.In this article, we propose to consider PKU as an 
+adherence disease—a unique case where the disease’s pathophysiology negatively 
+impacts adherence through a vicious cycle, detailed in this review.This 
+narrative review is the first to apply general adherence concepts from other 
+diseases to PKU in an interdisciplinary manner.Finally, the concept of 
+“adherence disease”—analogous to terms like heart disease— suggests that 
+adherence is a beneficial function prone to failure that can be corrected by 
+understanding its mechanisms.This investigation provides strong support for 
+research in gene therapy for PKU.
+
+© 2025 Reach.
+
+DOI: 10.2147/PPA.S512719
+PMCID: PMC12005202
+PMID: 40248132
+
+Conflict of interest statement: The author reports personal fees as a speaker at 
+symposia organized by Novo-Nordisk, Abbott-Diagnostics, Lifescan, 
+Bayer-Diagnostics, Mylan-Viatris, Astra-Zeneca, Timkl (lectures on patients’ 
+adherence, doctors’ clinical inertia, patient education, and hospitality in the 
+hospital); and personal fees as a participant in the scientific boards of 
+Sanofi-Aventis, Targedys and Timkl.
+
+
+3. Int J Neonatal Screen. 2025 Feb 26;11(1):18. doi: 10.3390/ijns11010018.
+
+International Survey on Phenylketonuria Newborn Screening.
+
+Trampuž D(1), Schielen PCJI(2), Zetterström RH(3)(4), Scarpa M(5), Feillet 
+F(6)(7), Kožich V(8), Tangeraas T(9), Drole Torkar A(10)(11), Mlinarič M(10), 
+Perko D(1), Remec ŽI(1), Lampret BR(1), Battelino T(10)(11), Isns Study Group On 
+Pku, van Spronsen FJ(12), Bonham JR(13), Grošelj U(10)(11)(14).
+
+Author information:
+(1)Clinical Institute for Special Laboratory Diagnostics, University Children's 
+Hospital, Ljubljana University Medical Center, Vrazov trg 1, 1000 Ljubljana, 
+Slovenia.
+(2)International Society for Neonatal Screening, Reigerskamp 273, 3607 HP 
+Stichtse Vecht, The Netherlands.
+(3)Center for Inherited Metabolic Diseases, Karolinska University Hospital, 
+SE-171 76 Stockholm, Sweden.
+(4)Department of Molecular Medicine and Surgery, Karolinska Institutet, SE-171 
+76 Stockholm, Sweden.
+(5)Regional Coordinator Centre for Rare Diseases, University Hospital of Udine, 
+33100 Udine, Italy.
+(6)Pediatric Unit, Reference Center for Inborn Errors of Metabolism, University 
+Hospital of Nancy, 54500 Nancy, France.
+(7)INSERM UMRS 1256, Nutrition, Genetics, and Environmental Risk Exposure 
+(NGERE), Faculty of Medicine of Nancy, University of Lorraine, 54505 Nancy, 
+France.
+(8)Department of Pediatrics and Inherited Metabolic Disorders, Charles 
+University-First Faculty of Medicine and General University Hospital in Prague, 
+Ke Karlovu 2, 128 08 Praha 2, Czech Republic.
+(9)Norwegian National Unit for Newborn Screening, Division of Pediatric and 
+Adolescent Medicine, Oslo University Hospital, 0424 Oslo, Norway.
+(10)Department of Endocrinology, Diabetes and Metabolic Diseases, University 
+Children's Hospital, Ljubljana University Medical Center, Bohoriceva 20, 1000 
+Ljubljana, Slovenia.
+(11)Faculty of Medicine, University of Ljubljana, Vrazov trg 2, 1000 Ljubljana, 
+Slovenia.
+(12)Division of Metabolic Diseases, Beatrix Children's Hospital, University 
+Medical Center Groningen, University of Groningen, 9718 GZ Groningen, The 
+Netherlands.
+(13)Sheffield Children's (NHS) FT, Sheffield S10 2TH, UK.
+(14)Center for Rare Diseases, University Children's Hospital, Ljubljana 
+University Medical Center, Bohoričeva 20, 1000 Ljubljana, Slovenia.
+
+Newborn screening for Phenylketonuria enables early detection and timely 
+treatment with a phenylalanine-restricted diet to prevent severe neurological 
+impairment. Although effective and in use for 60 years, screening, diagnostic, 
+and treatment practices still vary widely across countries and centers. To 
+evaluate the Phenylketonuria newborn screening practices internationally, we 
+designed a survey with questions focusing on the laboratory aspect of the 
+screening system. We analyzed 24 completed surveys from 23 countries. Most 
+participants used the same sampling age range of 48-72 h; they used tandem mass 
+spectrometry and commercial non-derivatized kits to measure phenylalanine (Phe), 
+and had non-negative cut-off values (COV) set mostly at 120 µmol/L of Phe. 
+Participants mostly used genetic analysis of blood and detailed amino acid 
+analysis from blood plasma as their confirmatory methods and set the COV for the 
+initiation of dietary therapy at 360 µmol/L of Phe. There were striking 
+differences in practice as well. While most participants reported a 48-72 h 
+range for age at sampling, that range was overall quite diverse Screening COV 
+varied as well. Additional screening parameters, e.g., the 
+phenylalanine/tyrosine ratio were used by some participants to determine the 
+screening result. Some participants included testing for tetrahydrobiopterin 
+deficiency, or galactosemia in their diagnostic process. Results together showed 
+that there is room to select a best practice from the many practices applied. 
+Such a best practice of PKU-NBS parameters and post-screening parameters could 
+then serve as a generally applicable guideline.
+
+DOI: 10.3390/ijns11010018
+PMCID: PMC11943362
+PMID: 40136633
+
+Conflict of interest statement: The authors declare no conflicts of interest."""
+
+Respond ONLY in this exact JSON format:
+{
+  "avoid": ["..."],
+  "substitute": ["..."],
+  "nutrition_limit": {
+    "protein": 0,
+    "carbohydrates": 0,
+    "fat": 0
+  }
+}
+
+Think carefully about the explanation. Consider what foods should be avoided, which foods are safe or recommended substitutes, and what daily intake limits should apply. Respond only with JSON. Do not include commentary.
+{
+  "avoid": [],
+  "substitute": ["Tryptophan-free foods like milk, cheese, and yogurt"],
+  "nutrition_limit": {
+    "protein": 0.5,
+    "carbohydrates": 1.5,
+    "fat": 0.5
+  }
+}

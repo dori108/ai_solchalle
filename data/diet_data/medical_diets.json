@@ -1,0 +1,6339 @@
+{
+  "Phenylketonuria_meals": {
+    "meal1": {
+      "dish": "Low-protein cereal with berries",
+      "menu": ["Low-protein cornflakes (30g)", "Blueberries (30g)", "Rice milk (100ml)"],
+      "notes": [
+        "Avoid standard cereals with wheat protein.",
+        "Use only PKU-approved rice milk without added protein.",
+        "Limit berry portions to avoid Phe overload."
+      ],
+      "calories": 160,
+      "protein": 0.5,
+      "carbs": 34,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Grilled vegetables with low-protein pasta",
+      "menu": ["Low-protein pasta (50g)", "Grilled zucchini (50g)", "Red bell pepper (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Ensure pasta is PKU-approved with <1g protein per 100g.",
+        "Avoid tomato-based sauces unless Phe content is known.",
+        "Olive oil adds healthy fat without protein."
+      ],
+      "calories": 240,
+      "protein": 0.7,
+      "carbs": 42,
+      "fat": 6
+    },
+    "meal3": {
+      "dish": "Vegetable soup with low-protein bread",
+      "menu": ["Low-protein bread (40g)", "Carrot (30g)", "Celery (30g)", "Zucchini (30g)", "Vegetable broth (150ml)"],
+      "notes": [
+        "Use only homemade or verified Phe-free broth.",
+        "Avoid potatoes and legumes in the soup.",
+        "Pair with Phe-free medical formula for protein."
+      ],
+      "calories": 180,
+      "protein": 0.5,
+      "carbs": 28,
+      "fat": 4
+    },
+    "meal4": {
+      "dish": "Fruit salad with low-protein cookie",
+      "menu": ["Apple (50g)", "Pear (50g)", "Low-protein cookie (20g)"],
+      "notes": [
+        "Use only PKU-allowed fruits with low Phe.",
+        "Cookie must be formulated for PKU diet.",
+        "No bananas or dried fruits due to high Phe."
+      ],
+      "calories": 170,
+      "protein": 0.4,
+      "carbs": 36,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Rice porridge with peach slices",
+      "menu": ["Low-protein rice flakes (40g)", "Peach (50g)", "Water (100ml)"],
+      "notes": [
+        "No dairy or soy milk – use only water or medical formula base.",
+        "Peach is a low-Phe fruit option.",
+        "Sweeten naturally if needed, avoid syrups."
+      ],
+      "calories": 180,
+      "protein": 0.5,
+      "carbs": 35,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "Stuffed bell pepper with low-protein rice",
+      "menu": ["Low-protein rice (50g)", "Red bell pepper (50g)", "Olive oil (5g)", "Carrot bits (30g)"],
+      "notes": [
+        "Avoid meat or cheese fillings.",
+        "Bell pepper provides vitamin C without Phe risk.",
+        "Low-protein rice must be confirmed PKU-safe."
+      ],
+      "calories": 220,
+      "protein": 0.6,
+      "carbs": 38,
+      "fat": 5
+    },
+    "meal7": {
+      "dish": "Zucchini pancake with applesauce",
+      "menu": ["Low-protein pancake mix (40g)", "Grated zucchini (30g)", "Applesauce unsweetened (30g)", "Vegetable oil (5g)"],
+      "notes": [
+        "Avoid egg or dairy in mix – ensure PKU-compliant product.",
+        "Applesauce adds natural sweetness.",
+        "Zucchini is low-Phe and adds fiber."
+      ],
+      "calories": 210,
+      "protein": 0.6,
+      "carbs": 30,
+      "fat": 6
+    },
+    "meal8": {
+      "dish": "Roasted vegetables with low-protein noodles",
+      "menu": ["Low-protein noodles (50g)", "Roasted pumpkin (40g)", "Broccoli florets (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Limit broccoli to small amounts (moderate Phe).",
+        "Avoid commercial sauces.",
+        "Pumpkin is generally PKU-safe in small portions."
+      ],
+      "calories": 250,
+      "protein": 0.7,
+      "carbs": 40,
+      "fat": 7
+    },
+    "meal9": {
+      "dish": "Sweet potato mash with cabbage slaw",
+      "menu": ["Sweet potato (70g)", "Cabbage slaw (30g)", "Olive oil (5g)", "Low-protein cracker (15g)"],
+      "notes": [
+        "Sweet potatoes allowed in limited quantity.",
+        "Cabbage is safe and adds fiber.",
+        "Avoid mayonnaise or dairy-based slaw dressing."
+      ],
+      "calories": 230,
+      "protein": 0.6,
+      "carbs": 35,
+      "fat": 6
+    },
+    "meal10": {
+      "dish": "Low-protein wrap with lettuce and pear",
+      "menu": ["Low-protein wrap (40g)", "Lettuce (20g)", "Pear (50g)", "Hummus substitute spread (10g)"],
+      "notes": [
+        "Use PKU-safe wrap (no wheat/gluten/soy).",
+        "No real hummus (chickpeas high in Phe) – use pea-free alternative.",
+        "Avoid avocado due to high Phe content."
+      ],
+      "calories": 200,
+      "protein": 0.5,
+      "carbs": 33,
+      "fat": 5
+    }
+  },
+  "MapleSyrupUrineDisease_meals": {
+    "meal1": {
+      "dish": "Low-protein rice porridge with apples",
+      "menu": ["Low-protein rice flakes (40g)", "Apple slices (50g)", "Cinnamon powder (1g)", "Water (100ml)"],
+      "notes": [
+        "Avoid natural protein sources high in BCAAs.",
+        "Use only approved low-protein rice substitutes.",
+        "Apple is low in BCAAs and safe in moderation."
+      ],
+      "calories": 170,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Low-protein toast with fruit jam",
+      "menu": ["Low-protein bread (40g)", "Strawberry jam (15g)", "Vegan margarine (5g)"],
+      "notes": [
+        "Low-protein bread must be MSUD-safe.",
+        "Jam must not contain protein additives or gelatin.",
+        "No nut butters or dairy-based spreads allowed."
+      ],
+      "calories": 180,
+      "protein": 0.5,
+      "carbs": 28,
+      "fat": 5
+    },
+    "meal3": {
+      "dish": "Fruit salad with low-protein cookie",
+      "menu": ["Pear (50g)", "Blueberries (30g)", "Low-protein cookie (15g)"],
+      "notes": [
+        "Use only low-protein cookies made for MSUD diets.",
+        "Avoid banana, mango, and other high-protein fruits.",
+        "No yogurt or dairy toppings."
+      ],
+      "calories": 160,
+      "protein": 0.4,
+      "carbs": 32,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Low-protein pasta with sautéed vegetables",
+      "menu": ["Low-protein pasta (50g)", "Zucchini (40g)", "Carrot (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Only use pasta with <0.5g protein per 100g.",
+        "No soy sauce or miso added.",
+        "Cook vegetables without any protein-based broth."
+      ],
+      "calories": 230,
+      "protein": 0.6,
+      "carbs": 40,
+      "fat": 6
+    },
+    "meal5": {
+      "dish": "Vegetable soup with low-protein crackers",
+      "menu": ["Homemade vegetable broth (150ml)", "Cabbage (30g)", "Zucchini (30g)", "Low-protein cracker (20g)"],
+      "notes": [
+        "Avoid legumes and corn in the soup.",
+        "Only approved low-protein crackers allowed.",
+        "Use water or MSUD-safe broth as base."
+      ],
+      "calories": 190,
+      "protein": 0.5,
+      "carbs": 30,
+      "fat": 4
+    },
+    "meal6": {
+      "dish": "Low-protein couscous with steamed pumpkin",
+      "menu": ["Low-protein couscous (50g)", "Steamed pumpkin (50g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid any whole-grain couscous.",
+        "Pumpkin is low in BCAAs and suitable.",
+        "No added cheese or sauces."
+      ],
+      "calories": 210,
+      "protein": 0.5,
+      "carbs": 35,
+      "fat": 5
+    },
+    "meal7": {
+      "dish": "Mashed potato with low-protein gravy",
+      "menu": ["Low-protein potato flakes (50g)", "Low-protein gravy (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Use MSUD-safe potato substitutes.",
+        "Gravy must not contain soy or meat extract.",
+        "No butter or milk unless protein-free."
+      ],
+      "calories": 220,
+      "protein": 0.6,
+      "carbs": 36,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Low-protein wrap with cucumber and peach slices",
+      "menu": ["Low-protein wrap (40g)", "Cucumber slices (30g)", "Peach slices (40g)", "Vegetable spread (10g)"],
+      "notes": [
+        "No tofu, beans, or hummus in wrap.",
+        "Peach and cucumber are safe in small quantities.",
+        "Use only verified low-protein wraps."
+      ],
+      "calories": 200,
+      "protein": 0.5,
+      "carbs": 33,
+      "fat": 4
+    },
+    "meal9": {
+      "dish": "Roasted bell pepper with low-protein rice",
+      "menu": ["Low-protein rice (50g)", "Red bell pepper (50g)", "Olive oil (5g)", "Basil (1g)"],
+      "notes": [
+        "No cheese, meat, or soy-based fillings.",
+        "Avoid stock cubes unless certified safe.",
+        "Basil adds flavor without protein."
+      ],
+      "calories": 220,
+      "protein": 0.6,
+      "carbs": 38,
+      "fat": 5
+    },
+    "meal10": {
+      "dish": "Zucchini pancakes with apple sauce",
+      "menu": ["Low-protein pancake mix (40g)", "Grated zucchini (30g)", "Unsweetened applesauce (30g)", "Vegetable oil (5g)"],
+      "notes": [
+        "Avoid egg and dairy in mix.",
+        "Applesauce must be pure, no protein additives.",
+        "Zucchini is safe in moderate amounts."
+      ],
+      "calories": 210,
+      "protein": 0.5,
+      "carbs": 31,
+      "fat": 6
+    }
+  },
+  "Galactosemia_meals": {
+    "meal1": {
+      "dish": "Oatmeal with sliced banana",
+      "menu": ["Rolled oats (40g)", "Sliced banana (50g)", "Water (150ml)"],
+      "notes": [
+        "Use water or galactose-free milk alternative.",
+        "Avoid adding any dairy or lactose-containing sweeteners.",
+        "Bananas are safe and provide natural sweetness."
+      ],
+      "calories": 180,
+      "protein": 3.5,
+      "carbs": 35,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Grilled chicken salad",
+      "menu": ["Grilled chicken breast (60g)", "Mixed greens (50g)", "Cherry tomatoes (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Ensure chicken is plain, without dairy-based marinades.",
+        "Use olive oil and vinegar dressing; avoid creamy dressings.",
+        "No cheese or croutons unless dairy-free."
+      ],
+      "calories": 220,
+      "protein": 25,
+      "carbs": 5,
+      "fat": 10
+    },
+    "meal3": {
+      "dish": "Rice with steamed vegetables",
+      "menu": ["White rice (50g)", "Steamed broccoli (40g)", "Steamed carrots (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Use plain rice; avoid butter or dairy additives.",
+        "Vegetables should be fresh or frozen without sauces.",
+        "Season with herbs and spices instead of butter."
+      ],
+      "calories": 200,
+      "protein": 4,
+      "carbs": 38,
+      "fat": 5
+    },
+    "meal4": {
+      "dish": "Lentil soup with bread",
+      "menu": ["Lentils (50g)", "Chopped onions (30g)", "Carrots (30g)", "Dairy-free bread slice (40g)"],
+      "notes": [
+        "Ensure bread is free from milk and lactose.",
+        "Use vegetable broth without any dairy additives.",
+        "Avoid adding cream or butter to the soup."
+      ],
+      "calories": 250,
+      "protein": 12,
+      "carbs": 35,
+      "fat": 5
+    },
+    "meal5": {
+      "dish": "Fruit smoothie",
+      "menu": ["Strawberries (50g)", "Banana (50g)", "Galactose-free milk alternative (100ml)"],
+      "notes": [
+        "Use lactose-free and galactose-free milk alternatives.",
+        "Avoid yogurt or ice cream additions.",
+        "Check that milk alternative is fortified with calcium."
+      ],
+      "calories": 150,
+      "protein": 2,
+      "carbs": 30,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "Quinoa salad",
+      "menu": ["Cooked quinoa (50g)", "Cucumber (30g)", "Bell pepper (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Ensure all ingredients are fresh and dairy-free.",
+        "Use lemon juice for added flavor.",
+        "Avoid adding cheese or creamy dressings."
+      ],
+      "calories": 220,
+      "protein": 6,
+      "carbs": 30,
+      "fat": 8
+    },
+    "meal7": {
+      "dish": "Baked sweet potato with herbs",
+      "menu": ["Sweet potato (100g)", "Olive oil (5g)", "Rosemary (1g)"],
+      "notes": [
+        "Do not add butter or sour cream.",
+        "Use herbs for flavor enhancement.",
+        "Ensure sweet potato is baked without dairy."
+      ],
+      "calories": 180,
+      "protein": 2,
+      "carbs": 35,
+      "fat": 4
+    },
+    "meal8": {
+      "dish": "Chickpea stir-fry",
+      "menu": ["Chickpeas (50g)", "Zucchini (30g)", "Bell pepper (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Use fresh or canned chickpeas without additives.",
+        "Avoid sauces containing dairy.",
+        "Season with spices and herbs."
+      ],
+      "calories": 240,
+      "protein": 10,
+      "carbs": 30,
+      "fat": 8
+    },
+    "meal9": {
+      "dish": "Tofu scramble",
+      "menu": ["Firm tofu (60g)", "Spinach (30g)", "Tomato (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Ensure tofu is plain and not marinated with dairy.",
+        "Use turmeric for color and flavor.",
+        "Avoid adding cheese or cream."
+      ],
+      "calories": 210,
+      "protein": 15,
+      "carbs": 5,
+      "fat": 12
+    },
+    "meal10": {
+      "dish": "Pasta with tomato sauce",
+      "menu": ["Dairy-free pasta (50g)", "Tomato sauce (50g)", "Basil (1g)", "Olive oil (5g)"],
+      "notes": [
+        "Ensure pasta contains no egg or dairy.",
+        "Use homemade or dairy-free tomato sauce.",
+        "Do not add cheese toppings."
+      ],
+      "calories": 230,
+      "protein": 6,
+      "carbs": 40,
+      "fat": 6
+    }
+  },
+  "Homocystinuria_meals": {
+    "meal1": {
+      "dish": "Low-protein pancake with strawberry compote",
+      "menu": ["Low-protein pancake mix (40g)", "Strawberry compote (30g)", "Maple syrup (5g)", "Olive oil (5g)"],
+      "notes": [
+        "Pancake mix must be methionine-free and protein-restricted.",
+        "Avoid eggs, dairy, and soy in batter.",
+        "Use only fruit-based, unsweetened compote."
+      ],
+      "calories": 210,
+      "protein": 0.5,
+      "carbs": 35,
+      "fat": 6
+    },
+    "meal2": {
+      "dish": "Rice porridge with diced pear",
+      "menu": ["Low-protein rice flakes (40g)", "Diced pear (50g)", "Water (100ml)", "Cinnamon (1g)"],
+      "notes": [
+        "Avoid milk or soy milk.",
+        "Pear is low in methionine and suitable.",
+        "Use low-protein rice approved for homocystinuria."
+      ],
+      "calories": 180,
+      "protein": 0.4,
+      "carbs": 36,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Apple slices with low-protein cookie",
+      "menu": ["Apple (50g)", "Low-protein cookie (15g)", "Peach juice (100ml)"],
+      "notes": [
+        "Ensure cookie is methionine-free and made for homocystinuria diets.",
+        "Avoid nuts or dairy-based snacks.",
+        "Apple is safe and fiber-rich."
+      ],
+      "calories": 160,
+      "protein": 0.4,
+      "carbs": 32,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Low-protein pasta with olive tapenade",
+      "menu": ["Low-protein pasta (50g)", "Black olives (15g)", "Zucchini (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Tapenade must not contain anchovies or dairy.",
+        "Only use methionine-free pasta.",
+        "No cheese or soy-based sauces."
+      ],
+      "calories": 240,
+      "protein": 0.6,
+      "carbs": 38,
+      "fat": 7
+    },
+    "meal5": {
+      "dish": "Vegetable soup with low-protein toast",
+      "menu": ["Low-protein bread (40g)", "Carrot (30g)", "Celery (30g)", "Homemade vegetable broth (150ml)"],
+      "notes": [
+        "No legumes, lentils, or grains high in methionine.",
+        "Use only approved low-protein bread.",
+        "Soup base should be protein-free."
+      ],
+      "calories": 200,
+      "protein": 0.5,
+      "carbs": 30,
+      "fat": 5
+    },
+    "meal6": {
+      "dish": "Quinoa-free vegetable salad",
+      "menu": ["Lettuce (30g)", "Red bell pepper (30g)", "Cucumber (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Do not use quinoa, legumes, or cheese.",
+        "Add lemon juice and herbs for flavor.",
+        "Ensure all ingredients are low in methionine."
+      ],
+      "calories": 130,
+      "protein": 0.3,
+      "carbs": 10,
+      "fat": 6
+    },
+    "meal7": {
+      "dish": "Baked pumpkin and cabbage slaw",
+      "menu": ["Baked pumpkin (70g)", "Cabbage slaw with vinegar (30g)", "Olive oil (5g)"],
+      "notes": [
+        "No mayonnaise or cream in slaw.",
+        "Pumpkin is a methionine-safe starch.",
+        "Avoid slaw kits with dairy or soy."
+      ],
+      "calories": 210,
+      "protein": 0.5,
+      "carbs": 33,
+      "fat": 6
+    },
+    "meal8": {
+      "dish": "Low-protein mashed potatoes with chives",
+      "menu": ["Low-protein potato flakes (50g)", "Chopped chives (2g)", "Vegetable oil (5g)", "Water (100ml)"],
+      "notes": [
+        "No butter or milk in preparation.",
+        "Only use approved low-protein potato mix.",
+        "Chives add flavor without protein."
+      ],
+      "calories": 220,
+      "protein": 0.6,
+      "carbs": 36,
+      "fat": 5
+    },
+    "meal9": {
+      "dish": "Low-protein rice bowl with steamed vegetables",
+      "menu": ["Low-protein rice (50g)", "Steamed spinach (30g)", "Zucchini (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid soy sauce, miso, and protein-based condiments.",
+        "Use only approved methionine-free rice.",
+        "Spinach must be fresh, avoid creamed version."
+      ],
+      "calories": 230,
+      "protein": 0.6,
+      "carbs": 35,
+      "fat": 6
+    },
+    "meal10": {
+      "dish": "Fruit medley with low-protein biscuit",
+      "menu": ["Watermelon (50g)", "Pear (50g)", "Low-protein biscuit (20g)"],
+      "notes": [
+        "Avoid dried fruits and fruit yogurts.",
+        "Watermelon is hydrating and methionine-safe.",
+        "Biscuit must be formulated for methionine-restricted diets."
+      ],
+      "calories": 190,
+      "protein": 0.4,
+      "carbs": 38,
+      "fat": 3
+    }
+  },
+  "TyrosinemiaTypeI_meals": {
+    "meal1": {
+      "dish": "Low-protein toast with peach slices",
+      "menu": ["Low-protein bread (40g)", "Peach slices (50g)", "Vegetable spread (10g)"],
+      "notes": [
+        "Avoid regular bread due to high protein.",
+        "Peaches are low in tyrosine and phenylalanine.",
+        "Spread should be free of dairy or soy."
+      ],
+      "calories": 170,
+      "protein": 0.5,
+      "carbs": 32,
+      "fat": 5
+    },
+    "meal2": {
+      "dish": "Low-protein cereal with rice milk",
+      "menu": ["Low-protein cornflakes (30g)", "Rice milk (100ml)", "Strawberries (30g)"],
+      "notes": [
+        "Cornflakes must be tyrosine/phenylalanine-restricted.",
+        "Use rice milk, not soy or almond milk.",
+        "Strawberries are suitable in moderation."
+      ],
+      "calories": 160,
+      "protein": 0.5,
+      "carbs": 35,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Zucchini pancakes with applesauce",
+      "menu": ["Low-protein pancake mix (40g)", "Grated zucchini (30g)", "Applesauce (30g)", "Vegetable oil (5g)"],
+      "notes": [
+        "Avoid eggs and dairy in pancake mix.",
+        "Zucchini is low in restricted amino acids.",
+        "Applesauce must be pure, no additives."
+      ],
+      "calories": 210,
+      "protein": 0.6,
+      "carbs": 33,
+      "fat": 6
+    },
+    "meal4": {
+      "dish": "Low-protein pasta with roasted vegetables",
+      "menu": ["Low-protein pasta (50g)", "Roasted pumpkin (40g)", "Zucchini (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Only use approved low-protein pasta.",
+        "Pumpkin and zucchini are low-tyrosine options.",
+        "No cheese, meat, or soy sauces."
+      ],
+      "calories": 240,
+      "protein": 0.6,
+      "carbs": 40,
+      "fat": 6
+    },
+    "meal5": {
+      "dish": "Vegetable soup with low-protein bread",
+      "menu": ["Low-protein bread (40g)", "Carrot (30g)", "Celery (30g)", "Vegetable broth (150ml)"],
+      "notes": [
+        "Ensure broth is free from protein sources.",
+        "Avoid legumes or potatoes.",
+        "Pair with medical formula for protein needs."
+      ],
+      "calories": 190,
+      "protein": 0.5,
+      "carbs": 28,
+      "fat": 4
+    },
+    "meal6": {
+      "dish": "Fruit salad with low-protein cookie",
+      "menu": ["Apple (50g)", "Blueberries (30g)", "Low-protein cookie (15g)"],
+      "notes": [
+        "Avoid bananas and avocados due to tyrosine content.",
+        "Cookies must be specially formulated.",
+        "No dairy-based dressings or yogurt."
+      ],
+      "calories": 170,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 3
+    },
+    "meal7": {
+      "dish": "Sweet potato mash with steamed spinach",
+      "menu": ["Sweet potato (70g)", "Steamed spinach (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Limit spinach to avoid phenylalanine buildup.",
+        "No butter or cream used.",
+        "Sweet potato must be portion-controlled."
+      ],
+      "calories": 210,
+      "protein": 0.6,
+      "carbs": 35,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Baked bell pepper with low-protein rice",
+      "menu": ["Low-protein rice (50g)", "Red bell pepper (50g)", "Olive oil (5g)", "Herbs (1g)"],
+      "notes": [
+        "No meat, cheese, or high-protein grains inside pepper.",
+        "Rice must be certified low-protein.",
+        "Basil or parsley can be used for flavor."
+      ],
+      "calories": 230,
+      "protein": 0.5,
+      "carbs": 38,
+      "fat": 5
+    },
+    "meal9": {
+      "dish": "Low-protein wrap with cucumbers and pear",
+      "menu": ["Low-protein wrap (40g)", "Cucumber slices (30g)", "Pear (50g)", "Vegan spread (10g)"],
+      "notes": [
+        "Wrap must be free of wheat, soy, and eggs.",
+        "Avoid hummus or nut-based spreads.",
+        "Pear is acceptable in this condition."
+      ],
+      "calories": 200,
+      "protein": 0.5,
+      "carbs": 33,
+      "fat": 5
+    },
+    "meal10": {
+      "dish": "Low-protein noodles with carrot sauce",
+      "menu": ["Low-protein noodles (50g)", "Carrot purée (40g)", "Olive oil (5g)", "Thyme (1g)"],
+      "notes": [
+        "Avoid tomato-based sauces with protein.",
+        "Carrot is a good low-amino-acid option.",
+        "Noodles must be protein-restricted."
+      ],
+      "calories": 220,
+      "protein": 0.6,
+      "carbs": 36,
+      "fat": 5
+    }
+  },
+  "TyrosinemiaTypeIII_meals": {
+    "meal1": {
+      "dish": "Low-protein cereal with apple slices",
+      "menu": ["Low-protein cereal (30g)", "Apple slices (50g)", "Rice milk (100ml)"],
+      "notes": [
+        "Use low-tyrosine cereal products only.",
+        "Avoid soy or almond milk.",
+        "Apple is low in tyrosine and phenylalanine."
+      ],
+      "calories": 160,
+      "protein": 0.5,
+      "carbs": 34,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Pumpkin porridge",
+      "menu": ["Pumpkin puree (60g)", "Low-protein rice flakes (30g)", "Water (100ml)", "Cinnamon (1g)"],
+      "notes": [
+        "No dairy or animal-based toppings.",
+        "Pumpkin and rice flakes must be low in protein.",
+        "Cinnamon adds flavor without protein."
+      ],
+      "calories": 170,
+      "protein": 0.4,
+      "carbs": 33,
+      "fat": 3
+    },
+    "meal3": {
+      "dish": "Fruit bowl with low-protein biscuit",
+      "menu": ["Pear (50g)", "Strawberries (30g)", "Low-protein biscuit (15g)"],
+      "notes": [
+        "Avoid bananas and dried fruits.",
+        "Use biscuits formulated for metabolic diets.",
+        "No yogurt or dairy toppings."
+      ],
+      "calories": 160,
+      "protein": 0.4,
+      "carbs": 32,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Low-protein pasta with steamed carrots",
+      "menu": ["Low-protein pasta (50g)", "Steamed carrots (40g)", "Olive oil (5g)", "Basil (1g)"],
+      "notes": [
+        "Only use tyrosine-restricted pasta.",
+        "Avoid cheese, butter, and cream sauces.",
+        "Carrots are low in Phe and Tyr."
+      ],
+      "calories": 230,
+      "protein": 0.5,
+      "carbs": 39,
+      "fat": 5
+    },
+    "meal5": {
+      "dish": "Sweet potato mash with green beans",
+      "menu": ["Sweet potato (70g)", "Green beans (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Limit green beans portion due to moderate Phe content.",
+        "Sweet potato provides safe starch.",
+        "Avoid butter and animal fats."
+      ],
+      "calories": 210,
+      "protein": 0.6,
+      "carbs": 35,
+      "fat": 5
+    },
+    "meal6": {
+      "dish": "Vegetable soup with low-protein toast",
+      "menu": ["Low-protein toast (40g)", "Zucchini (30g)", "Cabbage (30g)", "Clear broth (150ml)"],
+      "notes": [
+        "Use only protein-free broth.",
+        "Avoid potatoes and legumes.",
+        "Bread must be low-protein and tyrosine-restricted."
+      ],
+      "calories": 190,
+      "protein": 0.5,
+      "carbs": 30,
+      "fat": 4
+    },
+    "meal7": {
+      "dish": "Roasted bell pepper with low-protein couscous",
+      "menu": ["Low-protein couscous (50g)", "Roasted red pepper (50g)", "Olive oil (5g)"],
+      "notes": [
+        "Ensure couscous is protein-free.",
+        "Do not add cheese or protein fillers.",
+        "Red pepper is safe and nutrient-rich."
+      ],
+      "calories": 220,
+      "protein": 0.5,
+      "carbs": 36,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Zucchini and herb sauté with toast",
+      "menu": ["Zucchini (60g)", "Olive oil (5g)", "Thyme (1g)", "Low-protein toast (40g)"],
+      "notes": [
+        "Zucchini is safe in moderate quantity.",
+        "Toast must be low-phenylalanine and low-tyrosine.",
+        "Avoid dairy, butter, or soy-based spreads."
+      ],
+      "calories": 200,
+      "protein": 0.5,
+      "carbs": 34,
+      "fat": 5
+    },
+    "meal9": {
+      "dish": "Low-protein wrap with lettuce and pears",
+      "menu": ["Low-protein wrap (40g)", "Lettuce (20g)", "Pears (50g)", "Dairy-free spread (10g)"],
+      "notes": [
+        "No avocado, hummus, or nut-based fillings.",
+        "Wrap must be protein-restricted.",
+        "Pear is low in phenylalanine and safe."
+      ],
+      "calories": 200,
+      "protein": 0.4,
+      "carbs": 32,
+      "fat": 5
+    },
+    "meal10": {
+      "dish": "Carrot mash with steamed zucchini",
+      "menu": ["Carrot (70g)", "Zucchini (40g)", "Olive oil (5g)", "Herbs (1g)"],
+      "notes": [
+        "Avoid legumes, lentils, and butter.",
+        "Both vegetables are safe in moderate amounts.",
+        "Use herbs for flavor enhancement."
+      ],
+      "calories": 180,
+      "protein": 0.4,
+      "carbs": 30,
+      "fat": 4
+    }
+  },
+  "IsovalericAcidemia_meals": {
+    "meal1": {
+      "dish": "Low-protein toast with peach slices",
+      "menu": ["Low-protein bread (40g)", "Peach slices (50g)", "Vegan margarine (5g)"],
+      "notes": [
+        "Use IVA-approved low-protein bread.",
+        "Avoid butter, cheese, or nut spreads.",
+        "Peach is low in leucine and safe."
+      ],
+      "calories": 170,
+      "protein": 0.4,
+      "carbs": 33,
+      "fat": 5
+    },
+    "meal2": {
+      "dish": "Rice porridge with apple purée",
+      "menu": ["Low-protein rice flakes (40g)", "Apple purée (50g)", "Water (100ml)", "Cinnamon (1g)"],
+      "notes": [
+        "Avoid milk or soy-based liquids.",
+        "Rice flakes must be leucine-restricted.",
+        "Apple is a safe fruit for IVA patients."
+      ],
+      "calories": 180,
+      "protein": 0.5,
+      "carbs": 35,
+      "fat": 3
+    },
+    "meal3": {
+      "dish": "Fruit salad with low-protein cookie",
+      "menu": ["Strawberries (30g)", "Pear (50g)", "Low-protein cookie (15g)"],
+      "notes": [
+        "Avoid bananas and dried fruit.",
+        "Cookies must be IVA-formulated.",
+        "No yogurt or dairy toppings."
+      ],
+      "calories": 160,
+      "protein": 0.4,
+      "carbs": 31,
+      "fat": 4
+    },
+    "meal4": {
+      "dish": "Low-protein pasta with carrot sauce",
+      "menu": ["Low-protein pasta (50g)", "Carrot purée (40g)", "Olive oil (5g)", "Basil (1g)"],
+      "notes": [
+        "No tomato or cheese-based sauces.",
+        "Use only pasta made for metabolic disorders.",
+        "Carrot is low in leucine and suitable."
+      ],
+      "calories": 230,
+      "protein": 0.5,
+      "carbs": 36,
+      "fat": 5
+    },
+    "meal5": {
+      "dish": "Pumpkin soup with toast",
+      "menu": ["Pumpkin (70g)", "Vegetable broth (150ml)", "Low-protein toast (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Ensure broth contains no hidden protein.",
+        "Pumpkin is low in leucine and nutrient-rich.",
+        "No legumes or dairy-based toppings."
+      ],
+      "calories": 210,
+      "protein": 0.5,
+      "carbs": 35,
+      "fat": 6
+    },
+    "meal6": {
+      "dish": "Sweet potato mash with cabbage slaw",
+      "menu": ["Sweet potato (70g)", "Cabbage (30g)", "Vinegar (5g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid mayonnaise or cream in slaw.",
+        "Sweet potato is suitable in moderation.",
+        "Cabbage is safe and adds fiber."
+      ],
+      "calories": 220,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 6
+    },
+    "meal7": {
+      "dish": "Low-protein couscous with steamed zucchini",
+      "menu": ["Low-protein couscous (50g)", "Steamed zucchini (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Do not use wheat couscous unless verified low-protein.",
+        "Zucchini is low in protein and well-tolerated.",
+        "Add herbs for flavor, not sauces."
+      ],
+      "calories": 230,
+      "protein": 0.5,
+      "carbs": 38,
+      "fat": 6
+    },
+    "meal8": {
+      "dish": "Mashed carrot with low-protein bread",
+      "menu": ["Mashed carrot (70g)", "Low-protein bread (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid milk, butter, or soy in preparation.",
+        "Bread must be IVA-approved.",
+        "Carrot is low-leucine and suitable."
+      ],
+      "calories": 210,
+      "protein": 0.4,
+      "carbs": 32,
+      "fat": 5
+    },
+    "meal9": {
+      "dish": "Baked red pepper with low-protein rice",
+      "menu": ["Red bell pepper (50g)", "Low-protein rice (50g)", "Olive oil (5g)", "Parsley (1g)"],
+      "notes": [
+        "No cheese, tofu, or meat stuffing.",
+        "Rice must be protein-restricted.",
+        "Red pepper is vitamin-rich and safe."
+      ],
+      "calories": 230,
+      "protein": 0.5,
+      "carbs": 37,
+      "fat": 5
+    },
+    "meal10": {
+      "dish": "Low-protein wrap with pear and cucumber",
+      "menu": ["Low-protein wrap (40g)", "Pear slices (50g)", "Cucumber (30g)", "Vegan spread (10g)"],
+      "notes": [
+        "Avoid hummus, nuts, or high-protein spreads.",
+        "Wrap must be certified low-leucine.",
+        "Pear and cucumber are safe fruit/veg options."
+      ],
+      "calories": 200,
+      "protein": 0.4,
+      "carbs": 33,
+      "fat": 5
+    }
+  },
+  "PropionicAcidemia_meals": {
+    "meal1": {
+      "dish": "Low-protein toast with apple jam",
+      "menu": ["Low-protein bread (40g)", "Apple jam (15g)", "Vegan margarine (5g)"],
+      "notes": [
+        "Bread must be certified for PA diets.",
+        "Avoid dairy or protein-based spreads.",
+        "Jam must be free from gelatin or additives with protein."
+      ],
+      "calories": 180,
+      "protein": 0.4,
+      "carbs": 32,
+      "fat": 5
+    },
+    "meal2": {
+      "dish": "Rice porridge with banana slices",
+      "menu": ["Low-protein rice flakes (40g)", "Banana (40g)", "Water (100ml)", "Cinnamon (1g)"],
+      "notes": [
+        "Use rice flakes formulated for metabolic disorders.",
+        "Limit banana portions (moderate valine).",
+        "No milk or soy products allowed."
+      ],
+      "calories": 190,
+      "protein": 0.5,
+      "carbs": 36,
+      "fat": 4
+    },
+    "meal3": {
+      "dish": "Fruit cup with low-protein biscuit",
+      "menu": ["Pear (50g)", "Watermelon (50g)", "Low-protein biscuit (15g)"],
+      "notes": [
+        "Avoid dried or canned fruits in syrup.",
+        "Use biscuits formulated without offending amino acids.",
+        "No dairy toppings."
+      ],
+      "calories": 160,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Low-protein pasta with roasted vegetables",
+      "menu": ["Low-protein pasta (50g)", "Zucchini (40g)", "Bell pepper (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Pasta must be low in valine, isoleucine, threonine, methionine.",
+        "No cheese or cream-based sauces.",
+        "Roasted vegetables must not include legumes."
+      ],
+      "calories": 240,
+      "protein": 0.5,
+      "carbs": 40,
+      "fat": 6
+    },
+    "meal5": {
+      "dish": "Pumpkin soup with crackers",
+      "menu": ["Pumpkin (70g)", "Clear broth (150ml)", "Low-protein crackers (20g)", "Olive oil (5g)"],
+      "notes": [
+        "No soy, meat, or lentils in broth.",
+        "Crackers must be PA-approved low-protein.",
+        "Avoid commercial soup bases."
+      ],
+      "calories": 220,
+      "protein": 0.5,
+      "carbs": 36,
+      "fat": 6
+    },
+    "meal6": {
+      "dish": "Sweet potato with cabbage and vinegar",
+      "menu": ["Sweet potato (70g)", "Cabbage (30g)", "Vinegar (5g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid dairy or egg-based slaw.",
+        "Sweet potato is safe in portion-controlled amounts.",
+        "Cabbage is low-protein and fiber-rich."
+      ],
+      "calories": 210,
+      "protein": 0.5,
+      "carbs": 33,
+      "fat": 6
+    },
+    "meal7": {
+      "dish": "Low-protein wrap with cucumber and pear",
+      "menu": ["Low-protein wrap (40g)", "Cucumber slices (30g)", "Pear slices (50g)", "Dairy-free spread (10g)"],
+      "notes": [
+        "No hummus or nut butters.",
+        "Wrap must be extremely low in protein.",
+        "Avoid high-fiber, protein-rich vegetables like spinach."
+      ],
+      "calories": 200,
+      "protein": 0.4,
+      "carbs": 32,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Mashed carrot with low-protein bread",
+      "menu": ["Mashed carrot (70g)", "Low-protein bread (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No added butter or dairy.",
+        "Carrots are generally safe in PA diet.",
+        "Bread must be designed for metabolic use."
+      ],
+      "calories": 210,
+      "protein": 0.5,
+      "carbs": 33,
+      "fat": 5
+    },
+    "meal9": {
+      "dish": "Rice with steamed zucchini and herbs",
+      "menu": ["Low-protein rice (50g)", "Steamed zucchini (40g)", "Olive oil (5g)", "Basil (1g)"],
+      "notes": [
+        "No soy sauce or commercial seasoning blends.",
+        "Rice should be very low protein type.",
+        "Zucchini is safe and light."
+      ],
+      "calories": 220,
+      "protein": 0.5,
+      "carbs": 36,
+      "fat": 5
+    },
+    "meal10": {
+      "dish": "Vegetable stir-fry with low-protein noodles",
+      "menu": ["Low-protein noodles (50g)", "Bell pepper (40g)", "Cabbage (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid soy products and mushrooms.",
+        "Use low-protein noodles approved for PA.",
+        "Cook with minimal seasoning and no protein-rich sauces."
+      ],
+      "calories": 230,
+      "protein": 0.5,
+      "carbs": 38,
+      "fat": 5
+    }
+  },
+  "MethylmalonicAcidemia_meals": {
+    "meal1": {
+      "dish": "Rice porridge with pear",
+      "menu": ["Low-protein rice flakes (40g)", "Diced pear (50g)", "Water (100ml)", "Cinnamon (1g)"],
+      "notes": [
+        "Avoid all milk, soy, and protein powders.",
+        "Pear is low in protein and suitable for MMA.",
+        "Rice flakes must be MMA-approved low-protein products."
+      ],
+      "calories": 180,
+      "protein": 0.4,
+      "carbs": 35,
+      "fat": 3
+    },
+    "meal2": {
+      "dish": "Low-protein toast with plum jam",
+      "menu": ["Low-protein bread (40g)", "Plum jam (15g)", "Vegan spread (5g)"],
+      "notes": [
+        "Use low-protein medical bread.",
+        "Avoid butter or cheese spreads.",
+        "Jam must be free of gelatin and protein concentrates."
+      ],
+      "calories": 190,
+      "protein": 0.5,
+      "carbs": 34,
+      "fat": 5
+    },
+    "meal3": {
+      "dish": "Apples with cinnamon and low-protein cookie",
+      "menu": ["Apple slices (50g)", "Low-protein cookie (20g)", "Cinnamon (1g)"],
+      "notes": [
+        "No dairy or nut toppings.",
+        "Apple is fiber-rich and safe for MMA.",
+        "Use only metabolic cookies without protein."
+      ],
+      "calories": 160,
+      "protein": 0.4,
+      "carbs": 31,
+      "fat": 4
+    },
+    "meal4": {
+      "dish": "Pumpkin stew with low-protein toast",
+      "menu": ["Pumpkin (70g)", "Vegetable broth (150ml)", "Low-protein toast (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No legumes, dairy, or meat in broth.",
+        "Pumpkin is low in protein and supports energy intake.",
+        "Add oil to boost calories without protein."
+      ],
+      "calories": 220,
+      "protein": 0.5,
+      "carbs": 35,
+      "fat": 6
+    },
+    "meal5": {
+      "dish": "Low-protein pasta with zucchini and herbs",
+      "menu": ["Low-protein pasta (50g)", "Zucchini (40g)", "Olive oil (5g)", "Basil (1g)"],
+      "notes": [
+        "No cheese, tomato, or soy-based sauce.",
+        "Zucchini is light and low in nitrogen load.",
+        "Pasta must be certified for MMA use."
+      ],
+      "calories": 230,
+      "protein": 0.5,
+      "carbs": 38,
+      "fat": 5
+    },
+    "meal6": {
+      "dish": "Mashed sweet potato with steamed cabbage",
+      "menu": ["Sweet potato (70g)", "Steamed cabbage (30g)", "Olive oil (5g)"],
+      "notes": [
+        "No dairy (butter, cream) in mash.",
+        "Sweet potato is tolerated in MMA if portioned.",
+        "Cabbage adds fiber and is low in protein."
+      ],
+      "calories": 210,
+      "protein": 0.5,
+      "carbs": 34,
+      "fat": 5
+    },
+    "meal7": {
+      "dish": "Vegetable stir-fry with low-protein rice",
+      "menu": ["Low-protein rice (50g)", "Carrot (30g)", "Bell pepper (30g)", "Olive oil (5g)"],
+      "notes": [
+        "No soy sauce, legumes, or high-protein vegetables.",
+        "Rice must be low-protein substitute.",
+        "Stir-fry with oil to ensure energy intake."
+      ],
+      "calories": 220,
+      "protein": 0.5,
+      "carbs": 36,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Stuffed red pepper with low-protein couscous",
+      "menu": ["Red bell pepper (50g)", "Low-protein couscous (50g)", "Herbs (1g)", "Olive oil (5g)"],
+      "notes": [
+        "No cheese, legumes, or grains not designed for MMA.",
+        "Couscous must be low in methionine and valine.",
+        "Red pepper adds color and vitamin C without risk."
+      ],
+      "calories": 230,
+      "protein": 0.5,
+      "carbs": 37,
+      "fat": 6
+    },
+    "meal9": {
+      "dish": "Low-protein wrap with pear and lettuce",
+      "menu": ["Low-protein wrap (40g)", "Pear (50g)", "Lettuce (20g)", "Vegan mayo (10g)"],
+      "notes": [
+        "Avoid nut spreads, dairy sauces, and soy-based condiments.",
+        "Pear is safe in measured quantity.",
+        "Wrap must be protein-controlled."
+      ],
+      "calories": 200,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 5
+    },
+    "meal10": {
+      "dish": "Carrot mash with low-protein bread",
+      "menu": ["Mashed carrot (70g)", "Low-protein bread (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No butter, no legumes.",
+        "Carrot is tolerated in MMA.",
+        "Use low-protein bread only."
+      ],
+      "calories": 210,
+      "protein": 0.5,
+      "carbs": 33,
+      "fat": 5
+    }
+  },
+  "GlutaricAcidemiaTypeI_meals": {
+    "meal1": {
+      "dish": "Low-protein cereal with apple slices",
+      "menu": ["Low-protein cereal (30g)", "Apple slices (50g)", "Rice milk (100ml)"],
+      "notes": [
+        "Avoid soy or almond milk due to protein content.",
+        "Cereal must be free of lysine and tryptophan.",
+        "Apple is safe and adds fiber."
+      ],
+      "calories": 160,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 3
+    },
+    "meal2": {
+      "dish": "Sweet potato mash with cinnamon",
+      "menu": ["Sweet potato (70g)", "Cinnamon (1g)", "Olive oil (5g)"],
+      "notes": [
+        "Sweet potatoes are suitable in moderate portions.",
+        "Avoid butter or milk in mash.",
+        "Adds energy while keeping protein low."
+      ],
+      "calories": 210,
+      "protein": 0.4,
+      "carbs": 36,
+      "fat": 5
+    },
+    "meal3": {
+      "dish": "Fruit salad with low-protein cookie",
+      "menu": ["Pear (50g)", "Melon (50g)", "Low-protein cookie (20g)"],
+      "notes": [
+        "Avoid banana, avocado, and dried fruits.",
+        "Cookies must be lysine/tryptophan-free.",
+        "No yogurt or cream toppings."
+      ],
+      "calories": 170,
+      "protein": 0.4,
+      "carbs": 35,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Zucchini pasta with herbs",
+      "menu": ["Low-protein pasta (50g)", "Steamed zucchini (40g)", "Olive oil (5g)", "Basil (1g)"],
+      "notes": [
+        "Use low-protein pasta designed for GA-1.",
+        "No cheese, cream, or tomato sauces.",
+        "Zucchini is low in lysine and safe."
+      ],
+      "calories": 230,
+      "protein": 0.5,
+      "carbs": 38,
+      "fat": 6
+    },
+    "meal5": {
+      "dish": "Pumpkin soup with toast",
+      "menu": ["Pumpkin (70g)", "Vegetable broth (150ml)", "Low-protein toast (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Pumpkin is acceptable and energy-dense.",
+        "No legumes, dairy, or soy in broth.",
+        "Toast must be protein-controlled."
+      ],
+      "calories": 220,
+      "protein": 0.4,
+      "carbs": 37,
+      "fat": 6
+    },
+    "meal6": {
+      "dish": "Low-protein rice with bell pepper and carrot",
+      "menu": ["Low-protein rice (50g)", "Red bell pepper (30g)", "Carrot (30g)", "Olive oil (5g)"],
+      "notes": [
+        "No soy sauce or protein-rich sauces.",
+        "Rice must be low-lysine, low-tryptophan.",
+        "Cooked vegetables must be free from legumes."
+      ],
+      "calories": 230,
+      "protein": 0.4,
+      "carbs": 39,
+      "fat": 5
+    },
+    "meal7": {
+      "dish": "Steamed zucchini with toast and pear slices",
+      "menu": ["Zucchini (40g)", "Low-protein toast (40g)", "Pear (50g)", "Olive oil (5g)"],
+      "notes": [
+        "All ingredients must be metabolic-diet-approved.",
+        "No avocado, butter, or legumes.",
+        "Zucchini and pear are both low in lysine."
+      ],
+      "calories": 210,
+      "protein": 0.4,
+      "carbs": 35,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Cabbage stir-fry with rice noodles",
+      "menu": ["Low-protein rice noodles (50g)", "Shredded cabbage (40g)", "Olive oil (5g)", "Vinegar (5g)"],
+      "notes": [
+        "Rice noodles must be protein-controlled.",
+        "Avoid soy, sesame, or peanut sauces.",
+        "Cabbage is low in both target amino acids."
+      ],
+      "calories": 220,
+      "protein": 0.4,
+      "carbs": 38,
+      "fat": 5
+    },
+    "meal9": {
+      "dish": "Mashed carrot with low-protein wrap",
+      "menu": ["Carrot (70g)", "Low-protein wrap (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No legumes or dairy in filling.",
+        "Use wrap certified for GA-1 diet.",
+        "Carrots are safe in moderate amounts."
+      ],
+      "calories": 210,
+      "protein": 0.5,
+      "carbs": 35,
+      "fat": 5
+    },
+    "meal10": {
+      "dish": "Pear and cucumber salad with toast",
+      "menu": ["Pear slices (50g)", "Cucumber (30g)", "Low-protein toast (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid cheese, soy, or nuts.",
+        "Pear and cucumber are safe produce choices.",
+        "Olive oil increases energy intake without protein."
+      ],
+      "calories": 200,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 5
+    }
+  },
+  "ArgininosuccinicAciduria_meals": {
+    "meal1": {
+      "dish": "Low-protein toast with banana purée",
+      "menu": ["Low-protein bread (40g)", "Banana purée (40g)", "Vegan margarine (5g)"],
+      "notes": [
+        "Banana must be portion-controlled due to moderate nitrogen content.",
+        "Use toast that is arginine-supplemented or medical-grade.",
+        "Avoid dairy spreads or protein-based jams."
+      ],
+      "calories": 180,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 5
+    },
+    "meal2": {
+      "dish": "Rice porridge with diced apples",
+      "menu": ["Low-protein rice flakes (40g)", "Apple (50g)", "Water (100ml)", "Cinnamon (1g)"],
+      "notes": [
+        "Apple is low-nitrogen and safe.",
+        "Avoid milk or soy liquids.",
+        "Cinnamon adds taste without metabolic burden."
+      ],
+      "calories": 170,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 3
+    },
+    "meal3": {
+      "dish": "Fruit salad with low-protein biscuit",
+      "menu": ["Watermelon (50g)", "Pear (50g)", "Low-protein biscuit (20g)"],
+      "notes": [
+        "Avoid high-protein fruits like dried figs.",
+        "Use only metabolic-safe biscuit with negligible nitrogen content.",
+        "No yogurt or nut toppings."
+      ],
+      "calories": 160,
+      "protein": 0.4,
+      "carbs": 32,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Zucchini noodles with garlic oil",
+      "menu": ["Low-protein noodles (50g)", "Zucchini (40g)", "Olive oil (5g)", "Garlic powder (1g)"],
+      "notes": [
+        "Noodles must be extremely low in nitrogen.",
+        "Zucchini is safe and low in protein.",
+        "Avoid cheese, soy, or meat sauces."
+      ],
+      "calories": 230,
+      "protein": 0.4,
+      "carbs": 37,
+      "fat": 5
+    },
+    "meal5": {
+      "dish": "Pumpkin soup with toast",
+      "menu": ["Pumpkin (70g)", "Vegetable broth (150ml)", "Low-protein toast (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No dairy or protein-added broths.",
+        "Pumpkin is well tolerated in ASA.",
+        "Bread must be low-nitrogen and enriched if needed."
+      ],
+      "calories": 220,
+      "protein": 0.4,
+      "carbs": 36,
+      "fat": 6
+    },
+    "meal6": {
+      "dish": "Mashed sweet potato with cabbage",
+      "menu": ["Sweet potato (70g)", "Cabbage (30g)", "Olive oil (5g)", "Apple cider vinegar (5g)"],
+      "notes": [
+        "No dairy in mash.",
+        "Cabbage is safe and helps fiber intake.",
+        "Avoid mayo or soy-based dressings."
+      ],
+      "calories": 210,
+      "protein": 0.4,
+      "carbs": 33,
+      "fat": 5
+    },
+    "meal7": {
+      "dish": "Low-protein rice with bell pepper and olive oil",
+      "menu": ["Low-protein rice (50g)", "Bell pepper (40g)", "Olive oil (5g)", "Basil (1g)"],
+      "notes": [
+        "Avoid soy sauce, legumes, or miso.",
+        "Rice must be metabolic formula type.",
+        "Pepper is safe and low in nitrogen."
+      ],
+      "calories": 220,
+      "protein": 0.4,
+      "carbs": 36,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Stuffed pepper with low-protein couscous",
+      "menu": ["Red pepper (50g)", "Low-protein couscous (50g)", "Herbs (1g)", "Olive oil (5g)"],
+      "notes": [
+        "No cheese, beans, or lentils.",
+        "Stuffing must be made of low-nitrogen carb-based filler.",
+        "Couscous should be specially formulated."
+      ],
+      "calories": 230,
+      "protein": 0.4,
+      "carbs": 38,
+      "fat": 6
+    },
+    "meal9": {
+      "dish": "Cucumber and pear salad with toast",
+      "menu": ["Cucumber (30g)", "Pear slices (50g)", "Low-protein toast (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid nuts, cheese, or high-protein dressing.",
+        "Simple oil-and-fruit salad is ideal.",
+        "Use low-nitrogen toast only."
+      ],
+      "calories": 200,
+      "protein": 0.4,
+      "carbs": 35,
+      "fat": 5
+    },
+    "meal10": {
+      "dish": "Carrot mash with herbed toast",
+      "menu": ["Mashed carrot (70g)", "Low-protein toast (40g)", "Olive oil (5g)", "Oregano (1g)"],
+      "notes": [
+        "No butter, milk, or soy.",
+        "Carrot is safe and well tolerated in ASA.",
+        "Toast must be low-protein and safe for nitrogen-restricted diets."
+      ],
+      "calories": 210,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 5
+    }
+  },
+  "CitrullinemiaTypeI_meals": {
+    "meal1": {
+      "dish": "Low-protein toast with pear jam",
+      "menu": [
+        "Low-protein bread (40g)",
+        "Pear jam (15g)",
+        "Vegan margarine (5g)"
+      ],
+      "notes": [
+        "Avoid all animal protein spreads.",
+        "Jam must be free of gelatin and protein.",
+        "Use medical low-protein bread only."
+      ],
+      "calories": 180,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 5
+    },
+    "meal2": {
+      "dish": "Rice porridge with apple slices",
+      "menu": [
+        "Low-protein rice flakes (40g)",
+        "Apple slices (50g)",
+        "Water (100ml)",
+        "Cinnamon (1g)"
+      ],
+      "notes": [
+        "No milk or plant-based proteins added.",
+        "Rice flakes should be specially formulated.",
+        "Apples are safe and well-tolerated."
+      ],
+      "calories": 170,
+      "protein": 0.4,
+      "carbs": 33,
+      "fat": 3
+    },
+    "meal3": {
+      "dish": "Fruit salad with low-protein cookie",
+      "menu": [
+        "Strawberries (30g)",
+        "Melon (50g)",
+        "Low-protein cookie (20g)"
+      ],
+      "notes": [
+        "No dried or canned fruits.",
+        "Cookie must be formulated for nitrogen-restricted diets.",
+        "No yogurt or dairy-based additions."
+      ],
+      "calories": 160,
+      "protein": 0.4,
+      "carbs": 31,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Zucchini stir-fry with low-protein noodles",
+      "menu": [
+        "Low-protein noodles (50g)",
+        "Zucchini (40g)",
+        "Olive oil (5g)",
+        "Garlic (1g)"
+      ],
+      "notes": [
+        "Avoid soy sauce and tofu.",
+        "Zucchini is safe for urea cycle disorders.",
+        "Noodles must be low in nitrogen."
+      ],
+      "calories": 230,
+      "protein": 0.4,
+      "carbs": 38,
+      "fat": 5
+    },
+    "meal5": {
+      "dish": "Pumpkin soup with low-protein toast",
+      "menu": [
+        "Pumpkin (70g)",
+        "Low-nitrogen broth (150ml)",
+        "Low-protein toast (40g)",
+        "Olive oil (5g)"
+      ],
+      "notes": [
+        "Avoid legumes or grains in broth.",
+        "Pumpkin is energy-dense and safe.",
+        "Bread must be formulated for protein restriction."
+      ],
+      "calories": 220,
+      "protein": 0.4,
+      "carbs": 35,
+      "fat": 6
+    },
+    "meal6": {
+      "dish": "Mashed sweet potato with cabbage salad",
+      "menu": [
+        "Sweet potato (70g)",
+        "Shredded cabbage (30g)",
+        "Vinegar (5g)",
+        "Olive oil (5g)"
+      ],
+      "notes": [
+        "No mayonnaise or dairy in salad.",
+        "Sweet potato is suitable in controlled portions.",
+        "Use healthy fat to boost energy."
+      ],
+      "calories": 210,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 5
+    },
+    "meal7": {
+      "dish": "Low-protein couscous with herbs and zucchini",
+      "menu": [
+        "Low-protein couscous (50g)",
+        "Zucchini (40g)",
+        "Olive oil (5g)",
+        "Basil (1g)"
+      ],
+      "notes": [
+        "Couscous must be extremely low in protein.",
+        "No cheese or legumes added.",
+        "Zucchini is fiber-rich and safe."
+      ],
+      "calories": 230,
+      "protein": 0.4,
+      "carbs": 37,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Stuffed bell pepper with rice and carrot",
+      "menu": [
+        "Red bell pepper (50g)",
+        "Low-protein rice (50g)",
+        "Carrot (30g)",
+        "Olive oil (5g)"
+      ],
+      "notes": [
+        "Avoid protein fillings like meat, tofu, or legumes.",
+        "Only use verified low-protein rice.",
+        "Carrot is safe and supports energy balance."
+      ],
+      "calories": 230,
+      "protein": 0.4,
+      "carbs": 38,
+      "fat": 5
+    },
+    "meal9": {
+      "dish": "Pear salad with low-protein wrap",
+      "menu": [
+        "Pear (50g)",
+        "Low-protein wrap (40g)",
+        "Cucumber (30g)",
+        "Dairy-free spread (10g)"
+      ],
+      "notes": [
+        "No hummus, nuts, or eggs allowed.",
+        "Wrap must be formulated for metabolic use.",
+        "Pear is a good source of energy and fiber."
+      ],
+      "calories": 200,
+      "protein": 0.4,
+      "carbs": 35,
+      "fat": 5
+    },
+    "meal10": {
+      "dish": "Mashed carrots with toast and olive oil",
+      "menu": [
+        "Carrot (70g)",
+        "Low-protein toast (40g)",
+        "Olive oil (5g)",
+        "Thyme (1g)"
+      ],
+      "notes": [
+        "Avoid dairy or soy butter.",
+        "Carrots are low in nitrogen and promote fullness.",
+        "Low-protein toast required for safety."
+      ],
+      "calories": 210,
+      "protein": 0.4,
+      "carbs": 33,
+      "fat": 5
+    }
+  },
+  "CitrullinemiaTypeII_meals": {
+    "meal1": {
+      "dish": "Scrambled eggs with olive oil",
+      "menu": ["Eggs (1 medium = 50g)", "Olive oil (5g)"],
+      "notes": [
+        "Egg is tolerated and provides good protein/fat profile.",
+        "Do not serve with bread or juice (carbohydrate spike).",
+        "Salt in moderation only if needed."
+      ],
+      "calories": 150,
+      "protein": 6.5,
+      "carbs": 1,
+      "fat": 13
+    },
+    "meal2": {
+      "dish": "Avocado slices with tofu cubes",
+      "menu": ["Avocado (60g)", "Firm tofu (40g)", "Lime juice (5g)"],
+      "notes": [
+        "Avoid rice or crackers with this meal.",
+        "Tofu is acceptable and provides moderate protein.",
+        "Avocado is ideal due to fat content and low sugar."
+      ],
+      "calories": 190,
+      "protein": 6,
+      "carbs": 3,
+      "fat": 17
+    },
+    "meal3": {
+      "dish": "Plain Greek yogurt with flaxseed",
+      "menu": ["Full-fat Greek yogurt (80g)", "Flaxseed (5g)"],
+      "notes": [
+        "Use plain yogurt with no added sugar.",
+        "Flaxseed adds fiber and omega-3 without carbs.",
+        "Avoid fruit or granola additions."
+      ],
+      "calories": 160,
+      "protein": 8,
+      "carbs": 3,
+      "fat": 11
+    },
+    "meal4": {
+      "dish": "Grilled chicken salad with olive oil",
+      "menu": ["Grilled chicken breast (60g)", "Romaine lettuce (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No croutons or dressing with sugar.",
+        "Use olive oil and lemon only.",
+        "Chicken must be plain, no sweet marinades."
+      ],
+      "calories": 220,
+      "protein": 18,
+      "carbs": 1,
+      "fat": 14
+    },
+    "meal5": {
+      "dish": "Tuna salad with boiled egg",
+      "menu": ["Canned tuna in oil (50g)", "Boiled egg (50g)", "Lettuce (30g)"],
+      "notes": [
+        "Avoid mayonnaise with sugar or starch.",
+        "This combo is high-protein and high-fat, minimal carb.",
+        "Use salt-free if liver condition is sensitive."
+      ],
+      "calories": 240,
+      "protein": 22,
+      "carbs": 1,
+      "fat": 16
+    },
+    "meal6": {
+      "dish": "Fried zucchini with eggs",
+      "menu": ["Zucchini (50g)", "Egg (50g)", "Olive oil (5g)"],
+      "notes": [
+        "Do not bread the zucchini.",
+        "Low-carb veggie with healthy fat and egg protein.",
+        "Keep carbs under 5g per meal."
+      ],
+      "calories": 190,
+      "protein": 7,
+      "carbs": 2,
+      "fat": 16
+    },
+    "meal7": {
+      "dish": "Stir-fried tofu with spinach",
+      "menu": ["Tofu (50g)", "Spinach (30g)", "Sesame oil (5g)"],
+      "notes": [
+        "No rice or noodles added.",
+        "Tofu and spinach both acceptable for Type II.",
+        "Avoid soy sauce with sugar."
+      ],
+      "calories": 180,
+      "protein": 8,
+      "carbs": 2,
+      "fat": 14
+    },
+    "meal8": {
+      "dish": "Grilled salmon with lemon",
+      "menu": ["Salmon fillet (60g)", "Lemon juice (5g)", "Olive oil (5g)"],
+      "notes": [
+        "No starch sides like potatoes or rice.",
+        "Salmon is ideal for high-fat, high-protein needs.",
+        "Use lemon, not sugary sauces."
+      ],
+      "calories": 220,
+      "protein": 17,
+      "carbs": 0,
+      "fat": 16
+    },
+    "meal9": {
+      "dish": "Egg and avocado bowl",
+      "menu": ["Egg (50g)", "Avocado (50g)", "Chives (2g)", "Olive oil (5g)"],
+      "notes": [
+        "Do not pair with bread.",
+        "Good balance of fat, protein, very low carb.",
+        "Chives for flavor instead of salt."
+      ],
+      "calories": 210,
+      "protein": 7,
+      "carbs": 2,
+      "fat": 18
+    },
+    "meal10": {
+      "dish": "Boiled egg with grilled tofu and cucumber",
+      "menu": ["Egg (50g)", "Tofu (50g)", "Cucumber (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Cucumber adds bulk with no sugar.",
+        "Egg and tofu balance protein needs.",
+        "Avoid dipping sauces with sugar or starch."
+      ],
+      "calories": 200,
+      "protein": 13,
+      "carbs": 2,
+      "fat": 15
+    }
+  },
+  "OrnithineTranscarbamylaseDeficiency_meals": {
+    "meal1": {
+      "dish": "Low-protein toast with apple butter",
+      "menu": ["Low-protein bread (40g)", "Apple butter (15g)", "Vegan margarine (5g)"],
+      "notes": [
+        "Avoid protein-rich spreads.",
+        "Bread must be OTC-approved (minimal nitrogen content).",
+        "Use unsweetened fruit-based spread."
+      ],
+      "calories": 180,
+      "protein": 0.4,
+      "carbs": 33,
+      "fat": 5
+    },
+    "meal2": {
+      "dish": "Porridge with pear slices",
+      "menu": ["Low-protein rice flakes (40g)", "Pear slices (50g)", "Water (100ml)"],
+      "notes": [
+        "Avoid milk, soy, or nut-based liquids.",
+        "Pear is low in nitrogen and safe.",
+        "Rice flakes must be protein-restricted."
+      ],
+      "calories": 180,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 3
+    },
+    "meal3": {
+      "dish": "Fruit bowl with low-protein biscuit",
+      "menu": ["Watermelon (50g)", "Blueberries (30g)", "Low-protein biscuit (20g)"],
+      "notes": [
+        "Avoid dairy or banana toppings.",
+        "Use OTC-safe biscuits.",
+        "No added protein powders or sweeteners."
+      ],
+      "calories": 170,
+      "protein": 0.4,
+      "carbs": 32,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Low-protein pasta with zucchini",
+      "menu": ["Low-protein pasta (50g)", "Zucchini (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid tomato or cheese sauces.",
+        "Zucchini is light and nitrogen-safe.",
+        "Use only verified low-nitrogen pasta."
+      ],
+      "calories": 230,
+      "protein": 0.4,
+      "carbs": 38,
+      "fat": 5
+    },
+    "meal5": {
+      "dish": "Pumpkin soup with toast",
+      "menu": ["Pumpkin (70g)", "Low-protein toast (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No legumes, soy, or dairy in preparation.",
+        "Pumpkin is safe and rich in carbs.",
+        "Toast must be metabolic-safe."
+      ],
+      "calories": 220,
+      "protein": 0.4,
+      "carbs": 36,
+      "fat": 6
+    },
+    "meal6": {
+      "dish": "Sweet potato with vinegar slaw",
+      "menu": ["Sweet potato (70g)", "Cabbage (30g)", "Vinegar (5g)", "Olive oil (5g)"],
+      "notes": [
+        "No mayo or dairy-based slaw.",
+        "Cabbage is low in nitrogen.",
+        "Sweet potato is good energy source."
+      ],
+      "calories": 210,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 6
+    },
+    "meal7": {
+      "dish": "Steamed carrot with couscous",
+      "menu": ["Low-protein couscous (50g)", "Steamed carrot (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid legumes, eggs, and cheese.",
+        "Couscous must be metabolic-safe.",
+        "Carrots are safe and sweet-tasting."
+      ],
+      "calories": 220,
+      "protein": 0.4,
+      "carbs": 36,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Stuffed red pepper with low-protein rice",
+      "menu": ["Red bell pepper (50g)", "Low-protein rice (50g)", "Herbs (1g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid stuffing with legumes or animal protein.",
+        "Rice must be very low in nitrogen.",
+        "Red pepper is vitamin-rich and safe."
+      ],
+      "calories": 230,
+      "protein": 0.4,
+      "carbs": 38,
+      "fat": 6
+    },
+    "meal9": {
+      "dish": "Carrot mash with low-protein wrap",
+      "menu": ["Carrot (70g)", "Low-protein wrap (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid fillings with nuts, legumes, or cheese.",
+        "Carrot is excellent for digestion.",
+        "Wrap must be protein-free substitute."
+      ],
+      "calories": 210,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 5
+    },
+    "meal10": {
+      "dish": "Pear and cucumber salad with toast",
+      "menu": ["Pear slices (50g)", "Cucumber (30g)", "Low-protein toast (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No protein-based dressings allowed.",
+        "Fruits and veggies chosen for low nitrogen content.",
+        "Toast must be certified for urea cycle use."
+      ],
+      "calories": 200,
+      "protein": 0.4,
+      "carbs": 33,
+      "fat": 5
+    }
+  },
+  "CarbamoylPhosphateSynthetaseIDeficiency_meals": {
+    "meal1": {
+      "dish": "Low-protein cereal with rice milk",
+      "menu": ["Low-protein flakes (30g)", "Rice milk (100ml)", "Pear slices (50g)"],
+      "notes": [
+        "Cereal must be <0.5g protein per serving.",
+        "Avoid soy, almond, or dairy milk.",
+        "Fruit must be low-nitrogen."
+      ],
+      "calories": 170,
+      "protein": 0.4,
+      "carbs": 35,
+      "fat": 3
+    },
+    "meal2": {
+      "dish": "Toast with berry jam",
+      "menu": ["Low-protein bread (40g)", "Berry jam (15g)", "Vegan spread (5g)"],
+      "notes": [
+        "Bread must be CPS-safe (protein <0.5g).",
+        "No butter, cheese, or nut spreads.",
+        "Jam must be pure fruit-based."
+      ],
+      "calories": 180,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 5
+    },
+    "meal3": {
+      "dish": "Fruit medley with metabolic cookie",
+      "menu": ["Melon (50g)", "Apple (50g)", "Low-protein cookie (15g)"],
+      "notes": [
+        "All fruits must be fresh and low in nitrogen.",
+        "Cookie must be from metabolic diet brand.",
+        "No yogurt or milk."
+      ],
+      "calories": 160,
+      "protein": 0.4,
+      "carbs": 33,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Pumpkin stew with bread",
+      "menu": ["Pumpkin (70g)", "Low-protein broth (150ml)", "Low-protein bread (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No meat or dairy base.",
+        "Pumpkin is safe in controlled portion.",
+        "Bread must be protein-free substitute."
+      ],
+      "calories": 220,
+      "protein": 0.4,
+      "carbs": 36,
+      "fat": 5
+    },
+    "meal5": {
+      "dish": "Zucchini noodles with olive oil",
+      "menu": ["Zucchini spirals (50g)", "Low-protein pasta (50g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid any commercial sauces.",
+        "Zucchini and oil are safe for CPS diets.",
+        "Noodles must be urea-cycle approved."
+      ],
+      "calories": 230,
+      "protein": 0.4,
+      "carbs": 38,
+      "fat": 6
+    },
+    "meal6": {
+      "dish": "Carrot mash with couscous",
+      "menu": ["Carrot (70g)", "Low-protein couscous (50g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid cheese or animal protein additions.",
+        "Couscous must be metabolic-formulated.",
+        "Carrots help provide energy and fiber."
+      ],
+      "calories": 220,
+      "protein": 0.4,
+      "carbs": 37,
+      "fat": 5
+    },
+    "meal7": {
+      "dish": "Pear and spinach salad with toast",
+      "menu": ["Pear slices (50g)", "Raw spinach (30g)", "Low-protein toast (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No dressing except olive oil or lemon juice.",
+        "Spinach should be fresh, not creamed.",
+        "Bread must be verified CPS-safe."
+      ],
+      "calories": 200,
+      "protein": 0.4,
+      "carbs": 35,
+      "fat": 4
+    },
+    "meal8": {
+      "dish": "Cucumber salad with toast",
+      "menu": ["Cucumber (40g)", "Low-protein toast (40g)", "Olive oil (5g)", "Vinegar (5g)"],
+      "notes": [
+        "Avoid any fermented or soy dressing.",
+        "Light salad supports hydration.",
+        "Low-protein toast only."
+      ],
+      "calories": 190,
+      "protein": 0.4,
+      "carbs": 33,
+      "fat": 5
+    },
+    "meal9": {
+      "dish": "Mashed carrots with wrap",
+      "menu": ["Carrot (70g)", "Low-protein wrap (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No dairy or legumes in the wrap.",
+        "Carrots are highly digestible and safe.",
+        "Wrap must be for metabolic diets."
+      ],
+      "calories": 210,
+      "protein": 0.4,
+      "carbs": 34,
+      "fat": 5
+    },
+    "meal10": {
+      "dish": "Sweet potato with herbs and oil",
+      "menu": ["Sweet potato (70g)", "Thyme (1g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid butter or cream in preparation.",
+        "Portion-controlled sweet potato is acceptable.",
+        "Herbs enhance taste without protein."
+      ],
+      "calories": 210,
+      "protein": 0.4,
+      "carbs": 35,
+      "fat": 5
+    }
+  },
+  "MCADD_meals": {
+    "meal1": {
+      "dish": "Oatmeal with banana and maple syrup",
+      "menu": [
+        "Rolled oats (40g)",
+        "Banana slices (50g)",
+        "Maple syrup (10g)"
+      ],
+      "notes": [
+        "Avoid fasting; ensure frequent meals.",
+        "Focus on high-carbohydrate, low-fat meals.",
+        "Avoid medium-chain triglyceride oils (MCTs)."
+      ],
+      "calories": 220,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 3
+    },
+    "meal2": {
+      "dish": "Rice porridge with apple and cinnamon",
+      "menu": [
+        "White rice (50g)",
+        "Apple slices (50g)",
+        "Cinnamon powder (1g)"
+      ],
+      "notes": [
+        "Do not skip meals to avoid hypoglycemia.",
+        "Use enriched white rice for higher energy.",
+        "Apples are a good low-fat fruit option."
+      ],
+      "calories": 210,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Sweet potato mash with pear slices",
+      "menu": [
+        "Sweet potato (70g)",
+        "Pear slices (50g)"
+      ],
+      "notes": [
+        "Provides slow-releasing carbs for energy.",
+        "No added fats or oils recommended.",
+        "Avoid high-fat toppings like butter."
+      ],
+      "calories": 200,
+      "protein": 2,
+      "carbs": 42,
+      "fat": 1
+    },
+    "meal4": {
+      "dish": "Vegetable stir-fry with rice",
+      "menu": [
+        "White rice (60g)",
+        "Bell pepper (40g)",
+        "Carrot (30g)",
+        "Soy sauce (5g)"
+      ],
+      "notes": [
+        "Cook without oil to minimize fat content.",
+        "Ensure protein is limited and from plants.",
+        "Use low-fat cooking methods only."
+      ],
+      "calories": 250,
+      "protein": 5,
+      "carbs": 48,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Noodle soup with bok choy and tofu",
+      "menu": [
+        "Rice noodles (60g)",
+        "Bok choy (30g)",
+        "Soft tofu (30g)",
+        "Vegetable broth (150ml)"
+      ],
+      "notes": [
+        "Use only a small portion of tofu.",
+        "Avoid fatty or fried ingredients.",
+        "Provides hydration and carbohydrates."
+      ],
+      "calories": 240,
+      "protein": 6,
+      "carbs": 45,
+      "fat": 3
+    },
+    "meal6": {
+      "dish": "Lentil soup with white bread",
+      "menu": [
+        "Lentils (30g)",
+        "White bread slice (40g)",
+        "Carrot (20g)"
+      ],
+      "notes": [
+        "Lentils in small amounts for protein.",
+        "Limit oils and fatty garnishes.",
+        "Ensure adequate carbs in each meal."
+      ],
+      "calories": 260,
+      "protein": 7,
+      "carbs": 42,
+      "fat": 4
+    },
+    "meal7": {
+      "dish": "Baked sweet potato and peas",
+      "menu": [
+        "Sweet potato (80g)",
+        "Green peas (40g)"
+      ],
+      "notes": [
+        "Baked without oil for low-fat prep.",
+        "Peas provide protein and fiber.",
+        "Sweet potato gives steady energy."
+      ],
+      "calories": 270,
+      "protein": 6,
+      "carbs": 47,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Couscous with grilled vegetables",
+      "menu": [
+        "Couscous (50g)",
+        "Zucchini (40g)",
+        "Red bell pepper (30g)",
+        "Lemon juice (5g)"
+      ],
+      "notes": [
+        "Use no added oil; roast or steam instead.",
+        "Avoid creamy or fatty sauces.",
+        "High in carbs, low in fat—ideal for MCADD."
+      ],
+      "calories": 240,
+      "protein": 5,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "Vegetable risotto with herbs",
+      "menu": [
+        "Arborio rice (60g)",
+        "Spinach (30g)",
+        "Parsley (1g)",
+        "Vegetable broth (150ml)"
+      ],
+      "notes": [
+        "No cheese or butter added.",
+        "Use broth only for cooking.",
+        "Energy-dense and low-fat."
+      ],
+      "calories": 250,
+      "protein": 5,
+      "carbs": 47,
+      "fat": 3
+    },
+    "meal10": {
+      "dish": "Pasta with tomato sauce and carrots",
+      "menu": [
+        "Spaghetti (60g)",
+        "Tomato sauce (50g)",
+        "Carrot (30g)"
+      ],
+      "notes": [
+        "Avoid meat or cheese toppings.",
+        "Use whole grain or enriched pasta if possible.",
+        "Tomato-based sauces are fat-free."
+      ],
+      "calories": 260,
+      "protein": 6,
+      "carbs": 48,
+      "fat": 2
+    }
+  },
+  "VLCADD_meals": {
+    "meal1": {
+      "dish": "Oatmeal with MCT oil and strawberries",
+      "menu": ["Oatmeal (40g)", "Strawberries (50g)", "MCT oil (5g)"],
+      "notes": [
+        "Avoid long-chain fats; supplement with MCT oil.",
+        "Strawberries provide low-fat carbohydrate content.",
+        "Frequent meals are essential to prevent energy depletion."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 40,
+      "fat": 8
+    },
+    "meal2": {
+      "dish": "Rice porridge with MCT oil and apples",
+      "menu": ["White rice (50g)", "Apple slices (50g)", "MCT oil (5g)"],
+      "notes": [
+        "Use MCT oil for fat source.",
+        "Avoid butter, nuts, or long-chain oils.",
+        "Maintain steady glucose intake throughout the day."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 42,
+      "fat": 7
+    },
+    "meal3": {
+      "dish": "Boiled sweet potato with MCT drizzle",
+      "menu": ["Sweet potato (70g)", "MCT oil (5g)"],
+      "notes": [
+        "Excellent source of complex carbohydrates.",
+        "MCT provides usable fat energy without LCFA buildup.",
+        "Avoid fasting or fat restriction."
+      ],
+      "calories": 220,
+      "protein": 2,
+      "carbs": 40,
+      "fat": 6
+    },
+    "meal4": {
+      "dish": "MCT-enriched pasta with grilled vegetables",
+      "menu": ["Pasta (60g)", "Zucchini (40g)", "Red pepper (30g)", "MCT oil (5g)"],
+      "notes": [
+        "Do not use butter, cheese, or meat.",
+        "Ensure vegetables are grilled with MCT, not LCFA.",
+        "Provides long-lasting carb energy."
+      ],
+      "calories": 270,
+      "protein": 5,
+      "carbs": 45,
+      "fat": 8
+    },
+    "meal5": {
+      "dish": "Couscous with carrot and MCT oil",
+      "menu": ["Couscous (50g)", "Carrot (40g)", "MCT oil (5g)"],
+      "notes": [
+        "No sauces with hidden long-chain fats.",
+        "Carrots are vitamin-rich and well tolerated.",
+        "MCT oil supports energy metabolism."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 43,
+      "fat": 7
+    },
+    "meal6": {
+      "dish": "Vegetable soup with toast and MCT oil",
+      "menu": ["Vegetable broth (150ml)", "Low-protein toast (40g)", "Zucchini (30g)", "MCT oil (5g)"],
+      "notes": [
+        "No animal fat or dairy allowed.",
+        "Toast and soup base must be LCFA-free.",
+        "Include MCT to support lipid needs."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 38,
+      "fat": 6
+    },
+    "meal7": {
+      "dish": "Baked pumpkin with MCT oil and rice",
+      "menu": ["Pumpkin (60g)", "White rice (50g)", "MCT oil (5g)"],
+      "notes": [
+        "Pumpkin is high in carbs and safe.",
+        "Rice provides base carbohydrate.",
+        "No added long-chain fats allowed."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 7
+    },
+    "meal8": {
+      "dish": "MCT-enhanced stir-fry with noodles",
+      "menu": ["Rice noodles (60g)", "Cabbage (30g)", "Zucchini (30g)", "MCT oil (5g)"],
+      "notes": [
+        "Avoid soy sauce or high-fat meats.",
+        "MCT used as primary fat.",
+        "Noodles must be low in added oils."
+      ],
+      "calories": 260,
+      "protein": 5,
+      "carbs": 45,
+      "fat": 7
+    },
+    "meal9": {
+      "dish": "Pear and spinach salad with MCT dressing",
+      "menu": ["Pear (50g)", "Spinach (30g)", "MCT oil (5g)", "Lemon juice (5g)"],
+      "notes": [
+        "Avoid dressings with long-chain oils.",
+        "Spinach provides fiber and micronutrients.",
+        "Pear adds natural carbs for energy."
+      ],
+      "calories": 200,
+      "protein": 3,
+      "carbs": 36,
+      "fat": 6
+    },
+    "meal10": {
+      "dish": "Tomato risotto with olive and MCT oil blend",
+      "menu": ["Arborio rice (60g)", "Tomato purée (50g)", "MCT oil (5g)", "Olive oil (2g)"],
+      "notes": [
+        "Blend of MCT and small olive oil for balance.",
+        "No cheese or animal protein added.",
+        "High-carb, moderate-fat ideal for VLCADD."
+      ],
+      "calories": 270,
+      "protein": 5,
+      "carbs": 46,
+      "fat": 8
+    }
+  },
+  "LCHADD_meals": {
+    "meal1": {
+      "dish": "Rice congee with MCT oil and kiwi slices",
+      "menu": ["White rice (60g)", "Kiwi slices (50g)", "MCT oil (5g)"],
+      "notes": [
+        "Limit long-chain fat; use MCT as main fat source.",
+        "Kiwi provides vitamin C and low fat.",
+        "Frequent carb-rich meals reduce catabolic stress."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 7
+    },
+    "meal2": {
+      "dish": "Polenta with pear and MCT drizzle",
+      "menu": ["Polenta (50g)", "Pear slices (50g)", "MCT oil (5g)"],
+      "notes": [
+        "Corn-based meals are naturally low-fat.",
+        "Pear supports hydration and energy.",
+        "Avoid dairy or meat additives."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 43,
+      "fat": 6
+    },
+    "meal3": {
+      "dish": "Tapioca pudding with banana and MCT",
+      "menu": ["Tapioca pearls (40g)", "Banana (50g)", "MCT oil (5g)", "Rice milk (50ml)"],
+      "notes": [
+        "Tapioca is pure starch—ideal for energy.",
+        "MCT added for fat source.",
+        "Use non-dairy milk to avoid LCFA."
+      ],
+      "calories": 260,
+      "protein": 2,
+      "carbs": 48,
+      "fat": 8
+    },
+    "meal4": {
+      "dish": "Steamed pumpkin with millet and MCT oil",
+      "menu": ["Pumpkin (50g)", "Millet (50g)", "MCT oil (5g)"],
+      "notes": [
+        "Millet is low in fat and good carbohydrate.",
+        "No butter or animal products added.",
+        "Ensure hydration and electrolyte balance."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 6
+    },
+    "meal5": {
+      "dish": "Barley salad with green peas and lemon",
+      "menu": ["Cooked barley (50g)", "Green peas (40g)", "Lemon juice (5g)", "MCT oil (5g)"],
+      "notes": [
+        "Barley adds fiber and carbs.",
+        "Peas in small amounts for protein.",
+        "No cheese or fatty dressings."
+      ],
+      "calories": 260,
+      "protein": 5,
+      "carbs": 44,
+      "fat": 6
+    },
+    "meal6": {
+      "dish": "Amaranth porridge with apricot and MCT",
+      "menu": ["Amaranth (50g)", "Diced apricot (40g)", "MCT oil (5g)"],
+      "notes": [
+        "Use grain alternatives to vary intake.",
+        "Apricots provide fiber and natural sugar.",
+        "MCT supports lipid metabolism without LCFA."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 7
+    },
+    "meal7": {
+      "dish": "Buckwheat noodles with spinach and MCT",
+      "menu": ["Buckwheat noodles (60g)", "Steamed spinach (30g)", "MCT oil (5g)"],
+      "notes": [
+        "No meat, eggs, or cheese included.",
+        "Buckwheat is high-carb, low-fat.",
+        "Spinach adds iron without high protein."
+      ],
+      "calories": 260,
+      "protein": 5,
+      "carbs": 44,
+      "fat": 7
+    },
+    "meal8": {
+      "dish": "MCT toast with raspberry jam",
+      "menu": ["Low-fat bread slice (40g)", "Raspberry jam (15g)", "MCT oil (5g)"],
+      "notes": [
+        "No butter or margarine used.",
+        "Jam is sugar-based, low-fat energy.",
+        "Toast must be low in LCFA."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 41,
+      "fat": 6
+    },
+    "meal9": {
+      "dish": "Bulgur with grilled zucchini and MCT",
+      "menu": ["Bulgur (50g)", "Zucchini (40g)", "MCT oil (5g)"],
+      "notes": [
+        "Bulgur is a good base grain, low in fat.",
+        "Zucchini adds fiber without nitrogen load.",
+        "Avoid frying or creamy sauces."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 6
+    },
+    "meal10": {
+      "dish": "Red lentil soup with rice and MCT oil",
+      "menu": ["Red lentils (30g)", "White rice (50g)", "MCT oil (5g)", "Carrot (30g)"],
+      "notes": [
+        "Use lentils in moderation for plant protein.",
+        "Balance with rice for carb support.",
+        "MCT provides controlled fat intake."
+      ],
+      "calories": 270,
+      "protein": 6,
+      "carbs": 44,
+      "fat": 7
+    }
+  },
+  "SCADD_meals": {
+    "meal1": {
+      "dish": "Oatmeal with cinnamon and apple",
+      "menu": ["Rolled oats (40g)", "Apple slices (50g)", "Cinnamon (1g)"],
+      "notes": [
+        "SCADD typically does not require strict dietary restrictions.",
+        "Maintain balanced carbohydrate intake for energy.",
+        "Support general metabolic health with fiber and fruit."
+      ],
+      "calories": 230,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 4
+    },
+    "meal2": {
+      "dish": "Brown rice with mixed vegetables",
+      "menu": ["Brown rice (60g)", "Carrot (30g)", "Zucchini (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Well-balanced macronutrient profile.",
+        "Olive oil supports healthy fat intake.",
+        "Cooked vegetables aid digestion."
+      ],
+      "calories": 260,
+      "protein": 5,
+      "carbs": 46,
+      "fat": 6
+    },
+    "meal3": {
+      "dish": "Sweet potato with green beans",
+      "menu": ["Sweet potato (70g)", "Green beans (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Good source of complex carbs and fiber.",
+        "No dietary restriction required unless symptomatic.",
+        "Olive oil for healthy fat intake."
+      ],
+      "calories": 250,
+      "protein": 5,
+      "carbs": 42,
+      "fat": 6
+    },
+    "meal4": {
+      "dish": "Vegetable soup with bread",
+      "menu": ["Vegetable broth (150ml)", "Carrot (30g)", "Cabbage (30g)", "Whole grain bread (40g)"],
+      "notes": [
+        "Soups help hydration and digestion.",
+        "Whole grain bread provides fiber and energy.",
+        "Include variety of low-fat vegetables."
+      ],
+      "calories": 240,
+      "protein": 6,
+      "carbs": 40,
+      "fat": 4
+    },
+    "meal5": {
+      "dish": "Pasta with tomato and peas",
+      "menu": ["Pasta (60g)", "Tomato sauce (50g)", "Green peas (30g)"],
+      "notes": [
+        "Balanced protein and carbs for sustained energy.",
+        "Peas add fiber and plant protein.",
+        "Avoid heavy cheese sauces."
+      ],
+      "calories": 260,
+      "protein": 7,
+      "carbs": 44,
+      "fat": 4
+    },
+    "meal6": {
+      "dish": "Lentil stew with rice",
+      "menu": ["Red lentils (30g)", "White rice (50g)", "Carrot (30g)"],
+      "notes": [
+        "Protein from lentils is sufficient for SCADD cases.",
+        "Rice provides necessary carbohydrate.",
+        "Use herbs, not salt-heavy sauces."
+      ],
+      "calories": 270,
+      "protein": 8,
+      "carbs": 42,
+      "fat": 5
+    },
+    "meal7": {
+      "dish": "Barley salad with lemon vinaigrette",
+      "menu": ["Cooked barley (50g)", "Cucumber (40g)", "Olive oil (5g)", "Lemon juice (5g)"],
+      "notes": [
+        "Barley is a slow-digesting grain for energy.",
+        "Lemon vinaigrette is a light, healthy dressing.",
+        "Cucumber adds hydration."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 43,
+      "fat": 6
+    },
+    "meal8": {
+      "dish": "Baked squash with bulgur",
+      "menu": ["Butternut squash (60g)", "Bulgur wheat (50g)", "Olive oil (5g)"],
+      "notes": [
+        "Squash adds vitamin A and sweetness.",
+        "Bulgur is fiber-rich and satiating.",
+        "No restrictions for SCADD unless symptomatic."
+      ],
+      "calories": 260,
+      "protein": 5,
+      "carbs": 45,
+      "fat": 6
+    },
+    "meal9": {
+      "dish": "Stir-fried rice with broccoli and tofu",
+      "menu": ["White rice (50g)", "Broccoli (30g)", "Tofu (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Tofu offers moderate protein.",
+        "Broccoli supports antioxidant intake.",
+        "Rice gives necessary energy."
+      ],
+      "calories": 270,
+      "protein": 7,
+      "carbs": 43,
+      "fat": 6
+    },
+    "meal10": {
+      "dish": "Mashed potatoes with sautéed spinach",
+      "menu": ["Potatoes (70g)", "Spinach (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Potatoes provide carbs and potassium.",
+        "Spinach is rich in iron and fiber.",
+        "Healthy fat source through olive oil."
+      ],
+      "calories": 250,
+      "protein": 5,
+      "carbs": 41,
+      "fat": 6
+    }
+  },
+  "CarnitineTransporterDeficiency_meals": {
+    "meal1": {
+      "dish": "Rice porridge with pear and cinnamon",
+      "menu": ["White rice (60g)", "Pear slices (50g)", "Cinnamon (1g)"],
+      "notes": [
+        "Ensure consistent carbohydrate intake.",
+        "Avoid high-fat or high-protein meals.",
+        "Supports energy balance when carnitine transport is impaired."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Sweet potato bowl with apple",
+      "menu": ["Sweet potato (70g)", "Apple (50g)", "Olive oil (5g)"],
+      "notes": [
+        "Natural carbohydrates aid in preventing hypoglycemia.",
+        "Use olive oil in moderation.",
+        "No need for protein supplementation."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 5
+    },
+    "meal3": {
+      "dish": "Toast with banana and jam",
+      "menu": ["Low-fat toast (40g)", "Banana (50g)", "Strawberry jam (10g)"],
+      "notes": [
+        "Avoid fatty spreads like butter or margarine.",
+        "Good source of simple and complex carbs.",
+        "Helps maintain energy with impaired fat metabolism."
+      ],
+      "calories": 220,
+      "protein": 3,
+      "carbs": 43,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Vegetable stew with barley",
+      "menu": ["Barley (50g)", "Zucchini (40g)", "Tomato (30g)", "Vegetable broth (150ml)"],
+      "notes": [
+        "Use vegetable broth with no added fats.",
+        "Barley provides sustained glucose.",
+        "Vegetables supply vitamins without fat burden."
+      ],
+      "calories": 250,
+      "protein": 5,
+      "carbs": 46,
+      "fat": 3
+    },
+    "meal5": {
+      "dish": "Noodles with pumpkin and olive oil",
+      "menu": ["Rice noodles (60g)", "Steamed pumpkin (50g)", "Olive oil (5g)"],
+      "notes": [
+        "Rice noodles are low-fat, easy to digest.",
+        "Pumpkin supports energy metabolism.",
+        "Avoid fried toppings or high-fat sauces."
+      ],
+      "calories": 260,
+      "protein": 4,
+      "carbs": 48,
+      "fat": 5
+    },
+    "meal6": {
+      "dish": "Millet with peas and carrots",
+      "menu": ["Millet (50g)", "Green peas (30g)", "Carrot (30g)"],
+      "notes": [
+        "Balanced plant-based protein and carbs.",
+        "No meat, dairy, or high-fat dressings.",
+        "Millet aids in steady glucose levels."
+      ],
+      "calories": 250,
+      "protein": 5,
+      "carbs": 44,
+      "fat": 4
+    },
+    "meal7": {
+      "dish": "Couscous with lemon and spinach",
+      "menu": ["Couscous (50g)", "Spinach (30g)", "Lemon juice (5g)", "Olive oil (5g)"],
+      "notes": [
+        "Supports fiber and micronutrient intake.",
+        "Low-fat and easily digestible.",
+        "Helps avoid catabolic state."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Tomato rice with herbs",
+      "menu": ["White rice (60g)", "Tomato purée (50g)", "Basil (1g)", "Olive oil (5g)"],
+      "notes": [
+        "Carbohydrate-rich base with flavor.",
+        "No cheese, cream, or fatty toppings.",
+        "Simple and tolerable for low-fat requirement."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 5
+    },
+    "meal9": {
+      "dish": "Roasted squash with bulgur and vinegar",
+      "menu": ["Butternut squash (60g)", "Bulgur (50g)", "Apple cider vinegar (5g)"],
+      "notes": [
+        "Squash offers slow-releasing carbs.",
+        "No need for high-fat sauces.",
+        "Balanced for fat metabolism disorders."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 4
+    },
+    "meal10": {
+      "dish": "Steamed potato with cabbage",
+      "menu": ["Potato (70g)", "Cabbage (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Potato helps maintain blood glucose levels.",
+        "Cabbage provides fiber and vitamin C.",
+        "Keep fat content minimal."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 43,
+      "fat": 5
+    }
+  },
+  "CPTI_Deficiency_meals": {
+    "meal1": {
+      "dish": "Steamed rice with zucchini and carrot",
+      "menu": ["White rice (60g)", "Zucchini (40g)", "Carrot (30g)"],
+      "notes": [
+        "Avoid all high-fat foods.",
+        "Ensure carbohydrate intake is consistent.",
+        "Do not fast; maintain regular meal intervals."
+      ],
+      "calories": 230,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Sweet potato porridge with apple",
+      "menu": ["Sweet potato (70g)", "Apple slices (50g)", "Water (100ml)"],
+      "notes": [
+        "No dairy or fatty toppings allowed.",
+        "Sweet potatoes are ideal for slow energy release.",
+        "Hydration is important alongside carbohydrate intake."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Toast with pear jam",
+      "menu": ["Low-fat bread (40g)", "Pear jam (15g)"],
+      "notes": [
+        "Do not use butter or high-fat spreads.",
+        "Simple carb-based meal to prevent energy dips.",
+        "Jam must contain no added fat."
+      ],
+      "calories": 210,
+      "protein": 3,
+      "carbs": 43,
+      "fat": 1
+    },
+    "meal4": {
+      "dish": "Vegetable soup with pasta",
+      "menu": ["Pasta (60g)", "Carrot (30g)", "Celery (30g)", "Vegetable broth (150ml)"],
+      "notes": [
+        "No oil or cheese in preparation.",
+        "Use light broth without meat or dairy.",
+        "Supports high-carb and low-fat structure."
+      ],
+      "calories": 250,
+      "protein": 5,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Couscous with steamed broccoli and lemon",
+      "menu": ["Couscous (50g)", "Broccoli (30g)", "Lemon juice (5g)"],
+      "notes": [
+        "Avoid butter or creamy sauces.",
+        "Broccoli in limited amount due to moderate protein.",
+        "Simple, digestible meal with low fat."
+      ],
+      "calories": 230,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "Rice porridge with kiwi",
+      "menu": ["White rice (60g)", "Kiwi (50g)"],
+      "notes": [
+        "No milk or soy-based products.",
+        "Kiwi adds vitamin C without fat.",
+        "Rice provides stable glucose levels."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 1
+    },
+    "meal7": {
+      "dish": "Bulgur with steamed pumpkin",
+      "menu": ["Bulgur (50g)", "Pumpkin (50g)"],
+      "notes": [
+        "Avoid oil during cooking.",
+        "Pumpkin is low-fat and high in fiber.",
+        "Maintain steady carb intake."
+      ],
+      "calories": 220,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 1
+    },
+    "meal8": {
+      "dish": "Vegetable rice with basil",
+      "menu": ["White rice (60g)", "Tomato (30g)", "Basil (1g)", "Zucchini (30g)"],
+      "notes": [
+        "No high-fat sauces or toppings.",
+        "Tomato and basil add flavor without fat.",
+        "Great for high-carb, low-fat requirement."
+      ],
+      "calories": 230,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "Polenta with spinach",
+      "menu": ["Polenta (50g)", "Spinach (30g)", "Garlic (1g)"],
+      "notes": [
+        "No butter or cheese allowed.",
+        "Spinach adds micronutrients and fiber.",
+        "Avoid excessive protein intake."
+      ],
+      "calories": 220,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Mashed potato with cabbage",
+      "menu": ["Potato (70g)", "Cabbage (30g)"],
+      "notes": [
+        "Avoid oil or creamy mash styles.",
+        "Cabbage supports digestion and is low fat.",
+        "Helps sustain energy without lipid load."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 1
+    }
+  },
+  "CPTII_Deficiency_meals": {
+    "meal1": {
+      "dish": "Banana rice bowl with cinnamon",
+      "menu": ["White rice (60g)", "Banana (50g)", "Cinnamon (1g)"],
+      "notes": [
+        "Maintain steady carbohydrate intake.",
+        "Avoid high-fat toppings like butter or cream.",
+        "Prevents fasting-related energy depletion."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 47,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Toast with apple compote",
+      "menu": ["Low-fat toast (40g)", "Apple compote (50g)"],
+      "notes": [
+        "No margarine or high-fat spreads.",
+        "Apple provides vitamin C and carbs.",
+        "Simple and digestible for early meal."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Sweet corn porridge with pear",
+      "menu": ["Cornmeal (50g)", "Pear slices (50g)", "Water (100ml)"],
+      "notes": [
+        "No milk or cream added.",
+        "Cornmeal offers clean carbohydrate source.",
+        "Good for energy stability in CPT II."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal4": {
+      "dish": "Pumpkin soup with white rice",
+      "menu": ["Pumpkin (60g)", "White rice (50g)", "Vegetable broth (150ml)"],
+      "notes": [
+        "No cream, butter, or cheese allowed.",
+        "Pumpkin supports digestion and glucose balance.",
+        "Light broth aids in hydration."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Couscous with zucchini and lemon",
+      "menu": ["Couscous (50g)", "Zucchini (40g)", "Lemon juice (5g)"],
+      "notes": [
+        "Avoid frying or using oil.",
+        "Zucchini provides fiber without excess protein.",
+        "Simple meal for energy support."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 43,
+      "fat": 1
+    },
+    "meal6": {
+      "dish": "Barley and carrot pilaf",
+      "menu": ["Barley (50g)", "Carrot (40g)", "Vegetable stock (150ml)"],
+      "notes": [
+        "Cook with no added fat.",
+        "Barley gives long-lasting carb energy.",
+        "Carrot adds color and nutrients."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal7": {
+      "dish": "Polenta with roasted red pepper",
+      "menu": ["Polenta (50g)", "Red pepper (40g)", "Herbs (1g)"],
+      "notes": [
+        "Avoid cheese or fatty sauces.",
+        "Polenta is easy to digest.",
+        "Helps sustain glucose levels between meals."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Vegetable rice with tomato and spinach",
+      "menu": ["White rice (60g)", "Tomato (30g)", "Spinach (30g)"],
+      "notes": [
+        "Do not add cheese or oils.",
+        "Tomato and spinach are rich in micronutrients.",
+        "Good for lunch or light dinner."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "Mashed potatoes with green peas",
+      "menu": ["Potatoes (70g)", "Green peas (40g)"],
+      "notes": [
+        "No butter or milk added to mash.",
+        "Peas add a bit of protein and fiber.",
+        "Great for maintaining energy in low-fat diet."
+      ],
+      "calories": 250,
+      "protein": 5,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Rice congee with melon",
+      "menu": ["White rice (60g)", "Melon (50g)", "Water (100ml)"],
+      "notes": [
+        "Mild and hydrating option.",
+        "Melon provides sugar without fat.",
+        "Avoid any fatty broth or toppings."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 1
+    }
+  },
+  "CarnitineAcylcarnitineTranslocaseDeficiency_meals": {
+    "meal1": {
+      "dish": "Rice porridge with banana slices",
+      "menu": ["White rice (60g)", "Banana (50g)", "Water (100ml)"],
+      "notes": [
+        "Avoid fasting entirely to prevent metabolic crisis.",
+        "High-carbohydrate, very low-fat diet required.",
+        "No medium/long-chain fatty acids or high-protein foods."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 47,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Sweet potato mash with applesauce",
+      "menu": ["Sweet potato (70g)", "Unsweetened applesauce (40g)"],
+      "notes": [
+        "Provides slow-digesting carbohydrates.",
+        "No added fats or dairy.",
+        "Prevents hypoglycemia during waking hours."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 1
+    },
+    "meal3": {
+      "dish": "Toasted low-fat bread with jam",
+      "menu": ["Low-fat bread (40g)", "Fruit jam (15g)"],
+      "notes": [
+        "Avoid butter or any fat-based spread.",
+        "Easy to digest and high in carbs.",
+        "Ideal for morning or snack use."
+      ],
+      "calories": 220,
+      "protein": 3,
+      "carbs": 43,
+      "fat": 1
+    },
+    "meal4": {
+      "dish": "Boiled rice with steamed zucchini and carrot",
+      "menu": ["White rice (60g)", "Zucchini (40g)", "Carrot (30g)"],
+      "notes": [
+        "Only steamed, no oil or animal fat.",
+        "Support hydration and digestion.",
+        "Avoid high-protein and high-fat vegetables like avocado."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Corn grits with steamed pumpkin",
+      "menu": ["Corn grits (50g)", "Pumpkin (50g)"],
+      "notes": [
+        "No butter, cheese, or fat toppings.",
+        "Pumpkin is high in vitamin A and low fat.",
+        "Regular intake maintains energy levels."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 1
+    },
+    "meal6": {
+      "dish": "Rice noodles with tomato and spinach",
+      "menu": ["Rice noodles (60g)", "Tomato (30g)", "Spinach (30g)"],
+      "notes": [
+        "No soy sauce, oils, or animal proteins.",
+        "Tomato and spinach add variety and micronutrients.",
+        "Spinach in moderate amounts due to oxalate content."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal7": {
+      "dish": "Potato salad with lemon dressing",
+      "menu": ["Boiled potato (70g)", "Lemon juice (5g)", "Parsley (1g)"],
+      "notes": [
+        "No mayonnaise, oils, or dairy.",
+        "Use lemon and herbs only.",
+        "Potatoes are excellent low-fat carb sources."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 42,
+      "fat": 1
+    },
+    "meal8": {
+      "dish": "Bulgur with steamed green beans",
+      "menu": ["Bulgur wheat (50g)", "Green beans (40g)"],
+      "notes": [
+        "No oil or butter in preparation.",
+        "Provides fiber and moderate plant protein.",
+        "Beans in small quantity are acceptable."
+      ],
+      "calories": 240,
+      "protein": 5,
+      "carbs": 42,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "Vegetable broth with soft rice",
+      "menu": ["Vegetable broth (150ml)", "Soft white rice (50g)", "Carrot (30g)", "Celery (30g)"],
+      "notes": [
+        "No fatty broth or meat added.",
+        "Supports hydration and mild digestion.",
+        "Great for evening or recovery meal."
+      ],
+      "calories": 230,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 1
+    },
+    "meal10": {
+      "dish": "Fruit salad with melon and kiwi",
+      "menu": ["Melon (50g)", "Kiwi (50g)", "Rice cracker (15g)"],
+      "notes": [
+        "Avoid fruits high in fat (e.g. avocado).",
+        "No syrup or dairy cream added.",
+        "Rice cracker provides additional carbs."
+      ],
+      "calories": 220,
+      "protein": 2,
+      "carbs": 43,
+      "fat": 1
+    }
+  },
+  "GlycogenStorageDiseaseTypeI_meals": {
+    "meal1": {
+      "dish": "Cornstarch porridge with apple",
+      "menu": ["Uncooked cornstarch (30g)", "Apple slices (50g)", "Water (100ml)"],
+      "notes": [
+        "Uncooked cornstarch is key for maintaining glucose levels.",
+        "Avoid milk, lactose, and fructose-rich fruits.",
+        "Apple is acceptable in small quantities."
+      ],
+      "calories": 230,
+      "protein": 2,
+      "carbs": 44,
+      "fat": 1
+    },
+    "meal2": {
+      "dish": "White rice with steamed pumpkin",
+      "menu": ["White rice (60g)", "Steamed pumpkin (50g)"],
+      "notes": [
+        "Use white rice for fast glucose absorption.",
+        "Pumpkin adds volume and vitamins without fructose overload.",
+        "No fat or protein additions."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 1
+    },
+    "meal3": {
+      "dish": "Low-fat bread with jam",
+      "menu": ["Low-fat bread (40g)", "Glucose-based jam (15g)"],
+      "notes": [
+        "Jam must not contain fructose or sucrose.",
+        "Avoid butter, cheese, or any fats.",
+        "Bread provides quick carbohydrates."
+      ],
+      "calories": 220,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 1
+    },
+    "meal4": {
+      "dish": "Boiled potatoes with green beans",
+      "menu": ["Potatoes (70g)", "Green beans (40g)"],
+      "notes": [
+        "No cream or fat added.",
+        "Potatoes support stable glucose.",
+        "Beans used in moderation for fiber."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Couscous with carrot and zucchini",
+      "menu": ["Couscous (50g)", "Carrot (30g)", "Zucchini (30g)"],
+      "notes": [
+        "No sauces or fats.",
+        "Carrot is safe in small amounts.",
+        "Provides sustained carbohydrate energy."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 43,
+      "fat": 1
+    },
+    "meal6": {
+      "dish": "Cornmeal porridge with kiwi",
+      "menu": ["Cornmeal (50g)", "Kiwi (50g)", "Water (100ml)"],
+      "notes": [
+        "Avoid dairy or coconut milk.",
+        "Kiwi adds variety with low fructose risk.",
+        "Ensure meals are frequent to avoid hypoglycemia."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 1
+    },
+    "meal7": {
+      "dish": "Soft rice with tomato and spinach",
+      "menu": ["White rice (60g)", "Tomato (30g)", "Spinach (30g)"],
+      "notes": [
+        "Avoid tomato in large quantity due to fructose.",
+        "No oils or animal products.",
+        "Soft texture eases digestion."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Barley with steamed cabbage and lemon",
+      "menu": ["Cooked barley (50g)", "Cabbage (40g)", "Lemon juice (5g)"],
+      "notes": [
+        "No butter or dressing.",
+        "Cabbage is fiber-rich and safe.",
+        "Barley supports stable carb delivery."
+      ],
+      "calories": 230,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 1
+    },
+    "meal9": {
+      "dish": "Vegetable broth with pasta",
+      "menu": ["Vegetable broth (150ml)", "Pasta (50g)", "Carrot (30g)", "Zucchini (30g)"],
+      "notes": [
+        "No added protein or fats.",
+        "Helps with hydration and glucose replenishment.",
+        "Fructose-free vegetable combination."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 1
+    },
+    "meal10": {
+      "dish": "Pear rice bowl with parsley",
+      "menu": ["White rice (60g)", "Peeled pear (50g)", "Parsley (1g)"],
+      "notes": [
+        "Pear in small portion is tolerated.",
+        "High-carb base with low fructose fruit.",
+        "Frequent meals essential for GSD Type I."
+      ],
+      "calories": 230,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 1
+    }
+  },
+  "GlycogenStorageDiseaseTypeIII_meals": {
+    "meal1": {
+      "dish": "Egg white rice bowl with spinach",
+      "menu": ["White rice (60g)", "Boiled egg white (50g)", "Spinach (30g)"],
+      "notes": [
+        "Ensure sufficient protein intake to support gluconeogenesis.",
+        "Avoid high-fat meats or whole eggs.",
+        "Use lean protein sources like egg whites."
+      ],
+      "calories": 240,
+      "protein": 10,
+      "carbs": 40,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Tofu and couscous salad",
+      "menu": ["Couscous (50g)", "Firm tofu (40g)", "Cucumber (30g)"],
+      "notes": [
+        "Tofu provides a low-fat protein option.",
+        "Couscous offers fast-absorbing carbs.",
+        "No sauces or oil dressings."
+      ],
+      "calories": 250,
+      "protein": 9,
+      "carbs": 42,
+      "fat": 3
+    },
+    "meal3": {
+      "dish": "Sweet potato mash with lentils",
+      "menu": ["Sweet potato (70g)", "Boiled lentils (30g)"],
+      "notes": [
+        "Lentils add plant protein and fiber.",
+        "Sweet potato offers slow-releasing carbohydrates.",
+        "Low-fat and muscle-supportive combination."
+      ],
+      "calories": 260,
+      "protein": 8,
+      "carbs": 43,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Brown rice with steamed chicken breast",
+      "menu": ["Brown rice (60g)", "Chicken breast (40g)", "Zucchini (30g)"],
+      "notes": [
+        "Lean poultry is suitable for protein.",
+        "No frying or skin-on meats.",
+        "Maintain stable carb intake."
+      ],
+      "calories": 270,
+      "protein": 12,
+      "carbs": 40,
+      "fat": 3
+    },
+    "meal5": {
+      "dish": "Vegetable soup with kidney beans",
+      "menu": ["Vegetable broth (150ml)", "Kidney beans (30g)", "Carrot (30g)", "Barley (40g)"],
+      "notes": [
+        "Beans offer both protein and carbs.",
+        "No cheese, cream, or butter allowed.",
+        "Ideal for maintaining muscle mass."
+      ],
+      "calories": 270,
+      "protein": 9,
+      "carbs": 44,
+      "fat": 3
+    },
+    "meal6": {
+      "dish": "Tofu stir-fry with rice noodles",
+      "menu": ["Rice noodles (60g)", "Tofu (40g)", "Bok choy (30g)"],
+      "notes": [
+        "Cook with water or minimal oil.",
+        "Tofu is a good low-fat protein.",
+        "Avoid salty sauces."
+      ],
+      "calories": 260,
+      "protein": 9,
+      "carbs": 42,
+      "fat": 3
+    },
+    "meal7": {
+      "dish": "Scrambled egg whites with toast",
+      "menu": ["Egg whites (60g)", "Whole grain toast (40g)"],
+      "notes": [
+        "Egg whites are fat-free protein.",
+        "Toast provides necessary carbohydrates.",
+        "No butter or high-fat spreads."
+      ],
+      "calories": 240,
+      "protein": 10,
+      "carbs": 38,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Millet with peas and carrots",
+      "menu": ["Cooked millet (50g)", "Green peas (30g)", "Carrots (30g)"],
+      "notes": [
+        "Millet is a good carb source.",
+        "Peas contribute plant protein and fiber.",
+        "Avoid added fats or sauces."
+      ],
+      "calories": 250,
+      "protein": 8,
+      "carbs": 43,
+      "fat": 3
+    },
+    "meal9": {
+      "dish": "Bulgur salad with lentils and lemon",
+      "menu": ["Bulgur wheat (50g)", "Cooked lentils (30g)", "Lemon juice (5g)"],
+      "notes": [
+        "Protein-rich legumes enhance muscle support.",
+        "Bulgur is complex carb and fiber-rich.",
+        "Citrus adds flavor without fat."
+      ],
+      "calories": 250,
+      "protein": 9,
+      "carbs": 42,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Quinoa with spinach and tofu",
+      "menu": ["Quinoa (50g)", "Spinach (30g)", "Tofu (30g)"],
+      "notes": [
+        "Quinoa is a complete plant protein.",
+        "Supports balanced glucose and muscle health.",
+        "All ingredients should be cooked low-fat."
+      ],
+      "calories": 260,
+      "protein": 10,
+      "carbs": 41,
+      "fat": 3
+    }
+  },
+  "GlycogenStorageDiseaseTypeV_meals": {
+    "meal1": {
+      "dish": "White rice with boiled zucchini",
+      "menu": ["White rice (60g)", "Zucchini (50g)"],
+      "notes": [
+        "Prioritize high-carb meals for muscle energy.",
+        "Avoid high protein intake to reduce ammonia load.",
+        "Rice is quickly absorbed and suitable for pre-activity."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Cornflakes with rice milk and banana",
+      "menu": ["Unsweetened cornflakes (30g)", "Rice milk (100ml)", "Banana (50g)"],
+      "notes": [
+        "Low-fat, high-carb breakfast ideal before activity.",
+        "Banana adds quick glucose.",
+        "Avoid dairy or high-fat milk alternatives."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 48,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Toast with honey and kiwi slices",
+      "menu": ["Whole grain toast (40g)", "Honey (10g)", "Kiwi (50g)"],
+      "notes": [
+        "Simple sugars (like honey) help provide fast energy.",
+        "Do not pair with high protein foods.",
+        "Fruit adds hydration and electrolytes."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal4": {
+      "dish": "Boiled potatoes with tomato salad",
+      "menu": ["Potatoes (70g)", "Tomato (40g)", "Lemon juice (5g)"],
+      "notes": [
+        "Good balance of starch and electrolytes.",
+        "Avoid adding any oil or fatty dressings.",
+        "Tomato provides hydration."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Couscous with steamed carrots",
+      "menu": ["Couscous (50g)", "Carrots (50g)"],
+      "notes": [
+        "Starch-rich couscous supports glucose needs.",
+        "Carrots are fiber-rich and low-fat.",
+        "No added oils or sauces."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 43,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "Pasta with steamed spinach",
+      "menu": ["White pasta (60g)", "Spinach (30g)", "Garlic (1g)"],
+      "notes": [
+        "Pasta supports carbohydrate loading.",
+        "Spinach adds iron and micronutrients.",
+        "No cheese or butter added."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal7": {
+      "dish": "Barley and cucumber bowl with lemon",
+      "menu": ["Cooked barley (50g)", "Cucumber (40g)", "Lemon juice (5g)"],
+      "notes": [
+        "Cucumber helps hydration.",
+        "Barley provides long-lasting energy.",
+        "No high-fat sauces included."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 42,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Polenta with roasted bell pepper",
+      "menu": ["Polenta (50g)", "Red bell pepper (40g)", "Basil (1g)"],
+      "notes": [
+        "Polenta is a quick source of carbs.",
+        "Bell pepper offers vitamin C.",
+        "Avoid oils or frying."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 43,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "Fruit rice bowl with melon and apple",
+      "menu": ["White rice (60g)", "Melon (40g)", "Apple (40g)"],
+      "notes": [
+        "Combines fast and slow-absorbing carbs.",
+        "Prevents exercise-induced fatigue.",
+        "Fruit offers hydration and sugars."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 48,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Rice porridge with pear and cinnamon",
+      "menu": ["White rice (60g)", "Pear (50g)", "Cinnamon (1g)"],
+      "notes": [
+        "Gentle, digestible meal suitable for post-exercise.",
+        "Pear is low in fat and offers glucose.",
+        "No milk or protein needed."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    }
+  },
+  "HereditaryFructoseIntolerance_meals": {
+    "meal1": {
+      "dish": "Rice porridge with cinnamon",
+      "menu": ["White rice (60g)", "Water (100ml)", "Cinnamon (1g)"],
+      "notes": [
+        "No fruits or sweeteners of any kind.",
+        "Rice provides essential glucose.",
+        "Safe warm meal for breakfast or evening."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Tofu with steamed zucchini and potato",
+      "menu": ["Firm tofu (40g)", "Zucchini (30g)", "Boiled potato (70g)"],
+      "notes": [
+        "No soy sauce or sweet sauces.",
+        "Tofu provides clean protein.",
+        "Potatoes support blood glucose."
+      ],
+      "calories": 260,
+      "protein": 9,
+      "carbs": 43,
+      "fat": 3
+    },
+    "meal3": {
+      "dish": "Boiled egg with toast",
+      "menu": ["Boiled egg (50g)", "Whole grain toast (40g)"],
+      "notes": [
+        "Avoid jams, honey, or fruit-based spreads.",
+        "Simple carb + protein meal.",
+        "Egg is a good source of low-fructose protein."
+      ],
+      "calories": 250,
+      "protein": 10,
+      "carbs": 36,
+      "fat": 4
+    },
+    "meal4": {
+      "dish": "Couscous with cabbage and lemon",
+      "menu": ["Couscous (50g)", "Boiled cabbage (40g)", "Lemon juice (5g)"],
+      "notes": [
+        "Cabbage and lemon are safe vegetables.",
+        "Avoid sauces or sugary condiments.",
+        "Carbs support glucose metabolism."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 42,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Grilled tofu with barley and spinach",
+      "menu": ["Tofu (40g)", "Cooked barley (50g)", "Steamed spinach (30g)"],
+      "notes": [
+        "No sauces or seasonings containing sugars.",
+        "Spinach is iron-rich and fructose-free.",
+        "Balanced carb-protein dinner option."
+      ],
+      "calories": 260,
+      "protein": 9,
+      "carbs": 42,
+      "fat": 3
+    },
+    "meal6": {
+      "dish": "Egg whites with mashed potato",
+      "menu": ["Egg whites (60g)", "Boiled potato (70g)"],
+      "notes": [
+        "Avoid ketchup or sauce with sugar.",
+        "Egg whites are fat-free protein.",
+        "Potato provides complex carbs."
+      ],
+      "calories": 240,
+      "protein": 10,
+      "carbs": 40,
+      "fat": 2
+    },
+    "meal7": {
+      "dish": "Rice noodles with pumpkin",
+      "menu": ["Rice noodles (60g)", "Steamed pumpkin (50g)"],
+      "notes": [
+        "Pumpkin is safe in small amounts.",
+        "Avoid sweet seasoning or glazes.",
+        "No sauces containing sugar or fruit juice."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Scrambled egg whites with couscous",
+      "menu": ["Egg whites (60g)", "Couscous (50g)"],
+      "notes": [
+        "No dairy or fruit in this dish.",
+        "Couscous is easily digestible carbohydrate.",
+        "Balanced protein-carb meal."
+      ],
+      "calories": 250,
+      "protein": 10,
+      "carbs": 40,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "Millet with green peas and herbs",
+      "menu": ["Cooked millet (50g)", "Green peas (30g)", "Parsley (1g)"],
+      "notes": [
+        "Peas are tolerated in moderation.",
+        "No sweeteners or dressings allowed.",
+        "Millet offers complex carbs."
+      ],
+      "calories": 240,
+      "protein": 5,
+      "carbs": 43,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Polenta with spinach and garlic",
+      "menu": ["Polenta (50g)", "Spinach (30g)", "Garlic (1g)"],
+      "notes": [
+        "No fruit, sauces, or sugar.",
+        "Spinach adds iron and fiber.",
+        "Garlic for flavor without risk."
+      ],
+      "calories": 230,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 2
+    }
+  },
+  "G6PDDeficiency_meals": {
+    "meal1": {
+      "dish": "White rice with steamed zucchini",
+      "menu": ["White rice (60g)", "Zucchini (50g)"],
+      "notes": [
+        "Avoid fava beans, soy products, and legumes.",
+        "Zucchini is safe and low in oxidative compounds.",
+        "Rice is a stable carbohydrate base."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Boiled potatoes with spinach",
+      "menu": ["Potatoes (70g)", "Spinach (30g)"],
+      "notes": [
+        "Spinach is high in antioxidants and low in oxidants.",
+        "Avoid oxidative stress-inducing spices or preservatives.",
+        "Hydration and carbs support red blood cell stability."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Tofu with rice noodles",
+      "menu": ["Rice noodles (60g)", "Tofu (40g)", "Cabbage (30g)"],
+      "notes": [
+        "Avoid fermented soy or miso.",
+        "Use fresh tofu only in small quantities.",
+        "No garlic or onion powders."
+      ],
+      "calories": 260,
+      "protein": 9,
+      "carbs": 43,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "Polenta with carrot and parsley",
+      "menu": ["Polenta (50g)", "Carrot (40g)", "Parsley (1g)"],
+      "notes": [
+        "No artificial colorants or sulfites.",
+        "Polenta is naturally low in oxidative compounds.",
+        "Great for lunch or snack."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Barley with steamed pumpkin",
+      "menu": ["Barley (50g)", "Pumpkin (50g)"],
+      "notes": [
+        "Pumpkin provides vitamins A and E.",
+        "No beans, legumes, or organ meats.",
+        "No oxidative stress-inducing fats."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "Boiled egg with white toast",
+      "menu": ["Boiled egg (50g)", "White bread (40g)"],
+      "notes": [
+        "Avoid egg yolk if reacting to oxidants.",
+        "Egg white is a good protein source.",
+        "Bread should be additive-free."
+      ],
+      "calories": 250,
+      "protein": 10,
+      "carbs": 36,
+      "fat": 4
+    },
+    "meal7": {
+      "dish": "Millet with spinach and olive oil",
+      "menu": ["Millet (50g)", "Spinach (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Olive oil is rich in antioxidants and safe.",
+        "No canned vegetables or preserved items.",
+        "Spinach is protective for red blood cells."
+      ],
+      "calories": 260,
+      "protein": 5,
+      "carbs": 43,
+      "fat": 4
+    },
+    "meal8": {
+      "dish": "Quinoa with grilled zucchini",
+      "menu": ["Quinoa (50g)", "Grilled zucchini (40g)"],
+      "notes": [
+        "Quinoa is a complete plant protein.",
+        "Zucchini adds fiber and hydration.",
+        "Avoid seasoning packets or MSG."
+      ],
+      "calories": 240,
+      "protein": 6,
+      "carbs": 42,
+      "fat": 3
+    },
+    "meal9": {
+      "dish": "Soft pasta with tomato and parsley",
+      "menu": ["White pasta (60g)", "Tomato (30g)", "Parsley (1g)"],
+      "notes": [
+        "Avoid tomato sauces with additives.",
+        "No garlic/onion powder or spice blends.",
+        "Keep meals fresh and unprocessed."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Scrambled egg whites with toast",
+      "menu": ["Egg whites (60g)", "Whole grain toast (40g)"],
+      "notes": [
+        "No cheese, butter, or soy spread.",
+        "Egg white is low in oxidants.",
+        "Avoid baked goods with coloring agents."
+      ],
+      "calories": 240,
+      "protein": 10,
+      "carbs": 38,
+      "fat": 2
+    }
+  },
+  "DihydrolipoamideDehydrogenaseDeficiency_meals": {
+    "meal1": {
+      "dish": "Rice porridge with apple slices",
+      "menu": ["White rice (60g)", "Apple slices (50g)", "Water (100ml)"],
+      "notes": [
+        "High-carb, low-fat, low-protein to avoid lactic acidosis.",
+        "Avoid fasting; frequent small meals are crucial.",
+        "No added fats or dairy."
+      ],
+      "calories": 230,
+      "protein": 2,
+      "carbs": 46,
+      "fat": 1
+    },
+    "meal2": {
+      "dish": "Boiled potato with carrot and zucchini",
+      "menu": ["Potato (70g)", "Carrot (30g)", "Zucchini (30g)"],
+      "notes": [
+        "No cream or cheese additions.",
+        "Provides energy without fat load.",
+        "All vegetables should be steamed."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 1
+    },
+    "meal3": {
+      "dish": "Low-protein toast with glucose syrup",
+      "menu": ["Low-protein toast (40g)", "Glucose syrup (10g)"],
+      "notes": [
+        "Avoid jams or spreads with fat or protein.",
+        "Glucose syrup provides fast energy.",
+        "Must be low-fat and dairy-free."
+      ],
+      "calories": 220,
+      "protein": 2,
+      "carbs": 42,
+      "fat": 1
+    },
+    "meal4": {
+      "dish": "Soft pasta with steamed pumpkin",
+      "menu": ["White pasta (60g)", "Pumpkin (40g)"],
+      "notes": [
+        "Avoid sauces, meat, or cheese.",
+        "Pumpkin is gentle and nutritious.",
+        "Supports glucose availability."
+      ],
+      "calories": 240,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 1
+    },
+    "meal5": {
+      "dish": "Polenta with green beans",
+      "menu": ["Polenta (50g)", "Green beans (40g)"],
+      "notes": [
+        "Low-protein combo suitable for stable energy.",
+        "No butter, milk, or oils.",
+        "Avoid legumes high in protein."
+      ],
+      "calories": 230,
+      "protein": 2,
+      "carbs": 43,
+      "fat": 1
+    },
+    "meal6": {
+      "dish": "Corn grits with spinach",
+      "menu": ["Corn grits (50g)", "Steamed spinach (30g)"],
+      "notes": [
+        "Spinach adds iron, but avoid overcooking.",
+        "No cheese or dairy.",
+        "Helps maintain glucose supply."
+      ],
+      "calories": 230,
+      "protein": 2,
+      "carbs": 44,
+      "fat": 1
+    },
+    "meal7": {
+      "dish": "Sweet potato mash with parsley",
+      "menu": ["Sweet potato (70g)", "Chopped parsley (1g)"],
+      "notes": [
+        "High in natural carbohydrates.",
+        "Avoid butter or cream.",
+        "Great afternoon snack option."
+      ],
+      "calories": 240,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 1
+    },
+    "meal8": {
+      "dish": "Rice noodles with cucumber",
+      "menu": ["Rice noodles (60g)", "Cucumber slices (40g)"],
+      "notes": [
+        "No soy sauce or oils.",
+        "Cucumber is hydrating and light.",
+        "Perfect low-fat meal before rest."
+      ],
+      "calories": 230,
+      "protein": 2,
+      "carbs": 44,
+      "fat": 1
+    },
+    "meal9": {
+      "dish": "Oatmeal with water and cinnamon",
+      "menu": ["Rolled oats (50g)", "Water (100ml)", "Cinnamon (1g)"],
+      "notes": [
+        "No milk, no butter.",
+        "Cinnamon adds taste without fat or protein.",
+        "Good for mornings or evenings."
+      ],
+      "calories": 230,
+      "protein": 3,
+      "carbs": 43,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Vegetable broth with soft white rice",
+      "menu": ["Vegetable broth (150ml)", "White rice (50g)", "Carrot (30g)"],
+      "notes": [
+        "Avoid legumes and protein thickeners.",
+        "Helps keep hydration and glucose up.",
+        "Suitable for any time of day."
+      ],
+      "calories": 230,
+      "protein": 2,
+      "carbs": 44,
+      "fat": 1
+    }
+  },
+  "PyruvateDehydrogenaseComplexDeficiency_meals": {
+    "meal1": {
+      "dish": "Scrambled eggs with avocado",
+      "menu": ["Eggs (50g)", "Avocado (40g)", "Olive oil (5g)"],
+      "notes": [
+        "High-fat content supports ketone production.",
+        "Avoid carbohydrate-rich foods.",
+        "Use olive oil for added healthy fat."
+      ],
+      "calories": 320,
+      "protein": 8,
+      "carbs": 6,
+      "fat": 30
+    },
+    "meal2": {
+      "dish": "Coconut milk smoothie with chia seeds",
+      "menu": ["Coconut milk (100ml)", "Chia seeds (20g)", "Ice cubes (optional)"],
+      "notes": [
+        "Chia seeds provide fiber and healthy fat.",
+        "No sugar, fruit, or sweeteners.",
+        "Coconut milk is high in fat, low in carbs."
+      ],
+      "calories": 300,
+      "protein": 5,
+      "carbs": 5,
+      "fat": 28
+    },
+    "meal3": {
+      "dish": "Zucchini noodles with walnut pesto",
+      "menu": ["Zucchini (60g)", "Walnut pesto (20g)", "Olive oil (5g)"],
+      "notes": [
+        "Zucchini is low-carb.",
+        "Pesto should be dairy-free and ketogenic.",
+        "No pasta or starchy substitutes."
+      ],
+      "calories": 310,
+      "protein": 6,
+      "carbs": 4,
+      "fat": 30
+    },
+    "meal4": {
+      "dish": "Boiled egg with olive tapenade",
+      "menu": ["Boiled egg (50g)", "Olive tapenade (15g)"],
+      "notes": [
+        "Egg provides protein and fat.",
+        "Tapenade is a savory, fat-rich option.",
+        "Avoid bread or crackers."
+      ],
+      "calories": 290,
+      "protein": 7,
+      "carbs": 3,
+      "fat": 28
+    },
+    "meal5": {
+      "dish": "Tofu cubes sautéed in coconut oil",
+      "menu": ["Firm tofu (50g)", "Coconut oil (10g)"],
+      "notes": [
+        "Cook in fat, not water.",
+        "Tofu is moderate protein and low-carb.",
+        "No sauces containing sugar."
+      ],
+      "calories": 280,
+      "protein": 7,
+      "carbs": 4,
+      "fat": 26
+    },
+    "meal6": {
+      "dish": "Avocado salad with flaxseed oil",
+      "menu": ["Avocado (50g)", "Lettuce (30g)", "Flaxseed oil (5g)"],
+      "notes": [
+        "High-fat, fiber-rich salad.",
+        "No carrots or corn.",
+        "Lettuce provides volume without carbs."
+      ],
+      "calories": 270,
+      "protein": 3,
+      "carbs": 5,
+      "fat": 25
+    },
+    "meal7": {
+      "dish": "Cream cheese egg pancakes",
+      "menu": ["Eggs (50g)", "Cream cheese (20g)", "Butter (5g)"],
+      "notes": [
+        "Cream cheese adds fat and flavor.",
+        "No syrup or fruit.",
+        "Ketogenic balance maintained."
+      ],
+      "calories": 310,
+      "protein": 8,
+      "carbs": 4,
+      "fat": 29
+    },
+    "meal8": {
+      "dish": "Macadamia nuts and coconut flakes",
+      "menu": ["Macadamia nuts (20g)", "Unsweetened coconut flakes (20g)"],
+      "notes": [
+        "Very high fat snack.",
+        "Zero sugar; no dried fruits.",
+        "Use small portions due to density."
+      ],
+      "calories": 320,
+      "protein": 4,
+      "carbs": 4,
+      "fat": 32
+    },
+    "meal9": {
+      "dish": "Cauliflower mash with olive oil",
+      "menu": ["Cauliflower (60g)", "Olive oil (10g)"],
+      "notes": [
+        "Cauliflower is a low-carb alternative to potato.",
+        "Add olive oil for fat enrichment.",
+        "Do not add cheese unless lactose-free."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 5,
+      "fat": 25
+    },
+    "meal10": {
+      "dish": "Almond butter spoon with cucumber slices",
+      "menu": ["Almond butter (20g)", "Cucumber slices (50g)"],
+      "notes": [
+        "High in fat and low in carbs.",
+        "Cucumber hydrates and adds crunch.",
+        "No bread or starchy dippers."
+      ],
+      "calories": 270,
+      "protein": 5,
+      "carbs": 5,
+      "fat": 26
+    }
+  },
+  "MitochondrialTrifunctionalProteinDeficiency_meals": {
+    "meal1": {
+      "dish": "Oatmeal with peeled apple and cinnamon",
+      "menu": ["Rolled oats (50g)", "Peeled apple slices (50g)", "Cinnamon (1g)", "Water (100ml)"],
+      "notes": [
+        "Avoid long-chain fats, including butter or cream.",
+        "No fasting allowed; eat small meals often.",
+        "Apples are safe and low-fat."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "White rice with carrot and zucchini",
+      "menu": ["White rice (60g)", "Steamed carrot (30g)", "Steamed zucchini (30g)"],
+      "notes": [
+        "All components should be fat-free.",
+        "Avoid cooking oils unless MCT oil is used.",
+        "Maintain hydration and glucose availability."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 48,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Low-fat toast with glucose syrup",
+      "menu": ["Low-fat bread (40g)", "Glucose syrup (10g)"],
+      "notes": [
+        "No butter, margarine or nut spreads.",
+        "Glucose syrup gives quick energy.",
+        "Support energy levels through frequent carb intake."
+      ],
+      "calories": 220,
+      "protein": 3,
+      "carbs": 42,
+      "fat": 1
+    },
+    "meal4": {
+      "dish": "Potato mash with parsley and MCT oil",
+      "menu": ["Potato (70g)", "Chopped parsley (1g)", "MCT oil (5g)"],
+      "notes": [
+        "Use only MCT oil for fat inclusion.",
+        "Avoid dairy or butter.",
+        "Potatoes offer complex carbs."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 4
+    },
+    "meal5": {
+      "dish": "Rice noodles with steamed spinach",
+      "menu": ["Rice noodles (60g)", "Steamed spinach (30g)", "MCT oil (5g)"],
+      "notes": [
+        "Rice noodles provide low-fat carbs.",
+        "Spinach supports micronutrient needs.",
+        "Only use MCT oil."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 46,
+      "fat": 3
+    },
+    "meal6": {
+      "dish": "Corn porridge with pumpkin",
+      "menu": ["Cornmeal (50g)", "Pumpkin (50g)", "Water (100ml)"],
+      "notes": [
+        "No butter or cream in cooking.",
+        "Pumpkin adds natural sweetness and fiber.",
+        "Frequent intake prevents hypoglycemia."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal7": {
+      "dish": "Quinoa with steamed peas",
+      "menu": ["Cooked quinoa (50g)", "Steamed green peas (30g)", "MCT oil (5g)"],
+      "notes": [
+        "Peas offer plant-based protein.",
+        "MCT oil used sparingly to support fat metabolism.",
+        "Avoid high-fat proteins or oils."
+      ],
+      "calories": 260,
+      "protein": 6,
+      "carbs": 42,
+      "fat": 3
+    },
+    "meal8": {
+      "dish": "Polenta with steamed broccoli",
+      "menu": ["Polenta (50g)", "Steamed broccoli (40g)", "MCT oil (5g)"],
+      "notes": [
+        "Broccoli is fiber-rich and safe.",
+        "Polenta is corn-based and low-fat.",
+        "Avoid cheese or butter."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 43,
+      "fat": 3
+    },
+    "meal9": {
+      "dish": "Tofu and couscous with carrot",
+      "menu": ["Couscous (50g)", "Tofu (30g)", "Carrot (30g)"],
+      "notes": [
+        "Use low-fat tofu; avoid frying.",
+        "No sauces or long-chain oils.",
+        "Maintains glucose stability."
+      ],
+      "calories": 250,
+      "protein": 7,
+      "carbs": 42,
+      "fat": 3
+    },
+    "meal10": {
+      "dish": "Barley salad with lemon and spinach",
+      "menu": ["Cooked barley (50g)", "Spinach (30g)", "Lemon juice (5g)"],
+      "notes": [
+        "No oil-based dressings.",
+        "Barley provides slow-release energy.",
+        "Lemon enhances taste without adding fat."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 2
+    }
+  },
+  "3MethylcrotonylCoACarboxylaseDeficiency_meals": {
+    "meal1": {
+      "dish": "White rice with steamed carrots",
+      "menu": ["White rice (60g)", "Carrot (40g)"],
+      "notes": [
+        "Avoid high-leucine foods (meat, soy, nuts, dairy).",
+        "White rice is low in protein and leucine.",
+        "Vegetables like carrots are safe and mild."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Oatmeal with pear slices",
+      "menu": ["Rolled oats (50g)", "Peeled pear (50g)", "Water (100ml)"],
+      "notes": [
+        "No milk or protein powders.",
+        "Pears are low-leucine fruit.",
+        "Supports energy needs without excess protein."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Polenta with steamed zucchini",
+      "menu": ["Polenta (50g)", "Zucchini (40g)"],
+      "notes": [
+        "Zucchini is safe and low in protein.",
+        "No added butter or cheese.",
+        "Polenta provides mild carbohydrates."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal4": {
+      "dish": "Cornmeal porridge with apple slices",
+      "menu": ["Cornmeal (50g)", "Apple slices (50g)", "Water (100ml)"],
+      "notes": [
+        "Apples are low in leucine.",
+        "Avoid mixing with dairy or soy milk.",
+        "Simple and energy-supporting."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Rice noodles with pumpkin",
+      "menu": ["Rice noodles (60g)", "Pumpkin (40g)"],
+      "notes": [
+        "Avoid meat, eggs, dairy sauces.",
+        "Pumpkin is suitable and mildly sweet.",
+        "No added fats required."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "Tofu and quinoa salad with lemon",
+      "menu": ["Quinoa (50g)", "Soft tofu (30g)", "Lemon juice (5g)"],
+      "notes": [
+        "Use small amount of tofu for controlled protein.",
+        "Quinoa provides balanced energy.",
+        "No dressings with fat or dairy."
+      ],
+      "calories": 260,
+      "protein": 6,
+      "carbs": 42,
+      "fat": 3
+    },
+    "meal7": {
+      "dish": "Mashed potatoes with parsley",
+      "menu": ["Potatoes (70g)", "Chopped parsley (1g)"],
+      "notes": [
+        "Avoid using butter or milk.",
+        "No cheese or cream topping.",
+        "Great for midday energy support."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Barley with cabbage and MCT oil",
+      "menu": ["Cooked barley (50g)", "Boiled cabbage (40g)", "MCT oil (5g)"],
+      "notes": [
+        "Cabbage is safe and hydrating.",
+        "MCT oil can be used in small quantities.",
+        "Avoid animal fats and protein sources."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 42,
+      "fat": 3
+    },
+    "meal9": {
+      "dish": "Couscous with boiled peas",
+      "menu": ["Couscous (50g)", "Boiled green peas (30g)"],
+      "notes": [
+        "Peas contain some protein; use in moderation.",
+        "Couscous is soft and digestible.",
+        "Avoid nuts, seeds, and cheese."
+      ],
+      "calories": 250,
+      "protein": 5,
+      "carbs": 43,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Rice porridge with banana",
+      "menu": ["White rice (60g)", "Banana (40g)", "Water (100ml)"],
+      "notes": [
+        "Banana is a good low-protein fruit.",
+        "No milk or cream should be added.",
+        "Balanced and easy to digest."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    }
+  },
+  "3Hydroxy3MethylglutarylCoALyaseDeficiency_meals": {
+    "meal1": {
+      "dish": "Oatmeal with apple puree",
+      "menu": ["Rolled oats (50g)", "Apple puree (50g)", "Water (100ml)"],
+      "notes": [
+        "Avoid high-fat and high-protein items.",
+        "Maintain carbohydrate intake to avoid hypoglycemia.",
+        "No added cream or butter."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Boiled rice with zucchini and carrot",
+      "menu": ["White rice (60g)", "Steamed zucchini (30g)", "Carrot (30g)"],
+      "notes": [
+        "No sauces or fats added.",
+        "Vegetables provide fiber and hydration.",
+        "Helps prevent metabolic crisis through carbs."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 47,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Polenta with spinach",
+      "menu": ["Polenta (50g)", "Steamed spinach (30g)"],
+      "notes": [
+        "No cheese or butter added.",
+        "Low-fat and moderate fiber option.",
+        "Supports energy balance."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal4": {
+      "dish": "Mashed potato with parsley",
+      "menu": ["Potatoes (70g)", "Chopped parsley (1g)"],
+      "notes": [
+        "Avoid cream or milk in mash.",
+        "Potatoes are high in carbs and easy to digest.",
+        "Perfect for midday energy support."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Rice noodles with pumpkin",
+      "menu": ["Rice noodles (60g)", "Pumpkin (50g)"],
+      "notes": [
+        "No meat, dairy, or egg ingredients.",
+        "Pumpkin is naturally sweet and low-fat.",
+        "Carbs help maintain energy between meals."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 47,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "Cornmeal porridge with pear",
+      "menu": ["Cornmeal (50g)", "Peeled pear (50g)", "Water (100ml)"],
+      "notes": [
+        "Fruit should be low in fiber and low-fat.",
+        "No added sweeteners or fats.",
+        "High-carb, soft and digestible."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal7": {
+      "dish": "Barley salad with steamed peas",
+      "menu": ["Cooked barley (50g)", "Boiled peas (30g)"],
+      "notes": [
+        "Peas provide some protein – use moderately.",
+        "No oils or fatty dressings.",
+        "Balanced for carbs and light protein."
+      ],
+      "calories": 260,
+      "protein": 5,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Couscous with lemon and cabbage",
+      "menu": ["Couscous (50g)", "Boiled cabbage (40g)", "Lemon juice (5g)"],
+      "notes": [
+        "Avoid sauces and dressings.",
+        "No dairy or fat additions.",
+        "Simple and hydrating meal."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "Quinoa with steamed green beans",
+      "menu": ["Quinoa (50g)", "Steamed green beans (30g)"],
+      "notes": [
+        "No animal proteins or sauces.",
+        "Quinoa offers balanced amino acids.",
+        "Watch portion size for protein load."
+      ],
+      "calories": 250,
+      "protein": 5,
+      "carbs": 43,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Rice porridge with banana",
+      "menu": ["White rice (60g)", "Banana (40g)", "Water (100ml)"],
+      "notes": [
+        "Bananas are high in carbs and safe.",
+        "No milk or butter added.",
+        "Ideal as a pre-bedtime or early morning meal."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    }
+  },
+  "MultipleAcylCoADehydrogenaseDeficiency_meals": {
+    "meal1": {
+      "dish": "Rice porridge with banana slices",
+      "menu": ["White rice (60g)", "Banana (40g)", "Water (100ml)"],
+      "notes": [
+        "Avoid fatty meats and dairy.",
+        "Provides complex carbs to prevent hypoglycemia.",
+        "Low-fat, easy-to-digest breakfast."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Boiled potatoes with spinach",
+      "menu": ["Boiled potatoes (70g)", "Steamed spinach (30g)"],
+      "notes": [
+        "Avoid cream, butter, and oils.",
+        "Spinach adds iron and fiber.",
+        "Supports energy without fat stress."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Polenta with carrot sticks",
+      "menu": ["Polenta (50g)", "Carrot sticks (40g)"],
+      "notes": [
+        "No cheese or fatty sauces.",
+        "Carrot is safe and low-fat.",
+        "Polenta provides mild energy source."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal4": {
+      "dish": "Cornmeal porridge with applesauce",
+      "menu": ["Cornmeal (50g)", "Unsweetened applesauce (50g)"],
+      "notes": [
+        "Avoid added sugar, butter, or milk.",
+        "Applesauce adds gentle fiber and sweetness.",
+        "Carbs help with stable glucose."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Rice noodles with zucchini",
+      "menu": ["Rice noodles (60g)", "Steamed zucchini (40g)"],
+      "notes": [
+        "Avoid sauces with fat or protein.",
+        "Zucchini is low in protein and high in water.",
+        "High-carb, low-fat lunch."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "Oatmeal with peach slices",
+      "menu": ["Rolled oats (50g)", "Peach slices (50g)", "Water (100ml)"],
+      "notes": [
+        "No milk or sugar added.",
+        "Peach is safe and low-fat.",
+        "Warm and easy-to-digest meal."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal7": {
+      "dish": "Mashed potatoes with MCT oil",
+      "menu": ["Boiled potatoes (70g)", "MCT oil (5g)"],
+      "notes": [
+        "Use only MCT oil for fat source.",
+        "Avoid butter or animal fats.",
+        "Prevents hypoglycemia while minimizing fat stress."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 4
+    },
+    "meal8": {
+      "dish": "Quinoa with green peas",
+      "menu": ["Cooked quinoa (50g)", "Boiled green peas (30g)"],
+      "notes": [
+        "Peas provide moderate plant protein.",
+        "Avoid animal protein sources.",
+        "Balanced and easy to digest."
+      ],
+      "calories": 250,
+      "protein": 5,
+      "carbs": 43,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "Couscous with steamed pumpkin",
+      "menu": ["Couscous (50g)", "Pumpkin (40g)"],
+      "notes": [
+        "Pumpkin is safe and rich in vitamin A.",
+        "Avoid sauces or oils.",
+        "High-carb base with mild taste."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Barley with lemon cabbage",
+      "menu": ["Cooked barley (50g)", "Boiled cabbage (40g)", "Lemon juice (5g)"],
+      "notes": [
+        "No creamy dressings.",
+        "Cabbage is low-fat and fiber-rich.",
+        "Mild, digestive-friendly dinner."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    }
+  },
+  "GlucoseTransporterType1DeficiencySyndrome_meals": {
+    "meal1": {
+      "dish": "Avocado and egg salad",
+      "menu": ["Avocado (50g)", "Boiled egg (50g)", "Olive oil (5g)"],
+      "notes": [
+        "Very low carbohydrate to maintain ketosis.",
+        "Avoid fruits and bread.",
+        "High-fat content is essential."
+      ],
+      "calories": 310,
+      "protein": 7,
+      "carbs": 4,
+      "fat": 30
+    },
+    "meal2": {
+      "dish": "Cream cheese omelette",
+      "menu": ["Eggs (50g)", "Cream cheese (20g)", "Butter (5g)"],
+      "notes": [
+        "No fruit or sugar.",
+        "Maintain high fat for therapeutic ketosis.",
+        "Only ketogenic-friendly dairy used."
+      ],
+      "calories": 320,
+      "protein": 8,
+      "carbs": 3,
+      "fat": 31
+    },
+    "meal3": {
+      "dish": "Coconut smoothie with chia seeds",
+      "menu": ["Coconut milk (100ml)", "Chia seeds (20g)"],
+      "notes": [
+        "Avoid any sweeteners.",
+        "Provides healthy fats and fiber.",
+        "Suitable for morning or evening."
+      ],
+      "calories": 300,
+      "protein": 4,
+      "carbs": 5,
+      "fat": 28
+    },
+    "meal4": {
+      "dish": "Zucchini noodles with almond pesto",
+      "menu": ["Zucchini (60g)", "Almond pesto (20g)", "Olive oil (5g)"],
+      "notes": [
+        "No pasta or grains.",
+        "Almonds and oil support ketosis.",
+        "Zucchini provides volume with minimal carbs."
+      ],
+      "calories": 310,
+      "protein": 5,
+      "carbs": 4,
+      "fat": 30
+    },
+    "meal5": {
+      "dish": "Tofu fried in coconut oil",
+      "menu": ["Tofu (50g)", "Coconut oil (10g)"],
+      "notes": [
+        "Tofu is moderate in protein, low in carbs.",
+        "Avoid sauces with sugar.",
+        "Only fat from coconut oil used."
+      ],
+      "calories": 290,
+      "protein": 6,
+      "carbs": 4,
+      "fat": 28
+    },
+    "meal6": {
+      "dish": "Macadamia nuts and coconut flakes",
+      "menu": ["Macadamia nuts (20g)", "Unsweetened coconut flakes (20g)"],
+      "notes": [
+        "Very high in fat, suitable for snacks.",
+        "No dried fruits or sweeteners.",
+        "Low in carbs and high in MCTs."
+      ],
+      "calories": 320,
+      "protein": 3,
+      "carbs": 4,
+      "fat": 32
+    },
+    "meal7": {
+      "dish": "Egg salad with flaxseed oil",
+      "menu": ["Boiled eggs (50g)", "Flaxseed oil (5g)", "Lettuce (30g)"],
+      "notes": [
+        "No toast or crackers.",
+        "Eggs and oil provide fat and protein.",
+        "Lettuce adds bulk without carbs."
+      ],
+      "calories": 290,
+      "protein": 7,
+      "carbs": 3,
+      "fat": 28
+    },
+    "meal8": {
+      "dish": "Cauliflower mash with olive oil",
+      "menu": ["Cauliflower (60g)", "Olive oil (10g)"],
+      "notes": [
+        "Low-carb potato alternative.",
+        "Fat boosts ketone levels.",
+        "Avoid adding dairy unless ketogenic safe."
+      ],
+      "calories": 270,
+      "protein": 3,
+      "carbs": 5,
+      "fat": 25
+    },
+    "meal9": {
+      "dish": "Baked zucchini with mozzarella",
+      "menu": ["Zucchini (60g)", "Mozzarella cheese (20g)"],
+      "notes": [
+        "Low-carb, high-fat combination.",
+        "Only use full-fat cheese.",
+        "No breadcrumbs or tomato sauce."
+      ],
+      "calories": 280,
+      "protein": 6,
+      "carbs": 3,
+      "fat": 26
+    },
+    "meal10": {
+      "dish": "Almond butter with cucumber slices",
+      "menu": ["Almond butter (20g)", "Cucumber (50g)"],
+      "notes": [
+        "Cucumber adds crunch and hydration.",
+        "No bread or high-carb pairing.",
+        "High-fat and portable snack."
+      ],
+      "calories": 270,
+      "protein": 4,
+      "carbs": 4,
+      "fat": 26
+    }
+  },
+   "BiotinidaseDeficiency_meals": {
+    "meal1": {
+      "dish": "Oatmeal with banana slices",
+      "menu": ["Rolled oats (50g)", "Banana (50g)", "Water (100ml)"],
+      "notes": [
+        "No specific dietary restriction.",
+        "Provides good balance of fiber and carbs.",
+        "Can add biotin supplement separately if needed."
+      ],
+      "calories": 260,
+      "protein": 4,
+      "carbs": 46,
+      "fat": 4
+    },
+    "meal2": {
+      "dish": "Boiled egg with whole grain toast",
+      "menu": ["Boiled egg (50g)", "Whole grain toast (40g)"],
+      "notes": [
+        "Includes biotin-rich egg yolk.",
+        "Whole grains support overall health.",
+        "Can be part of a varied diet."
+      ],
+      "calories": 270,
+      "protein": 10,
+      "carbs": 30,
+      "fat": 10
+    },
+    "meal3": {
+      "dish": "Brown rice with tofu and spinach",
+      "menu": ["Brown rice (60g)", "Tofu (30g)", "Spinach (30g)"],
+      "notes": [
+        "Balanced meal with plant protein and fiber.",
+        "No food exclusions required.",
+        "Spinach adds iron and folate."
+      ],
+      "calories": 280,
+      "protein": 8,
+      "carbs": 44,
+      "fat": 6
+    },
+    "meal4": {
+      "dish": "Yogurt with mixed berries",
+      "menu": ["Plain yogurt (100g)", "Mixed berries (40g)"],
+      "notes": [
+        "Yogurt is a natural biotin source.",
+        "Avoid sweetened or flavored yogurts.",
+        "Berries provide antioxidants."
+      ],
+      "calories": 240,
+      "protein": 7,
+      "carbs": 30,
+      "fat": 6
+    },
+    "meal5": {
+      "dish": "Whole grain pasta with tomato and peas",
+      "menu": ["Whole grain pasta (60g)", "Tomato (30g)", "Green peas (30g)"],
+      "notes": [
+        "Balanced in macronutrients.",
+        "Includes plant-based protein and fiber.",
+        "No dietary restriction necessary."
+      ],
+      "calories": 290,
+      "protein": 9,
+      "carbs": 44,
+      "fat": 6
+    },
+    "meal6": {
+      "dish": "Soft boiled egg with couscous and broccoli",
+      "menu": ["Soft boiled egg (50g)", "Couscous (50g)", "Broccoli (30g)"],
+      "notes": [
+        "Egg provides biotin and protein.",
+        "Balanced with whole grains and vegetables.",
+        "Maintain general nutrition."
+      ],
+      "calories": 270,
+      "protein": 9,
+      "carbs": 38,
+      "fat": 8
+    },
+    "meal7": {
+      "dish": "Stir-fried tofu with rice and cabbage",
+      "menu": ["Tofu (40g)", "White rice (60g)", "Cabbage (30g)"],
+      "notes": [
+        "No special restrictions.",
+        "Add a source of healthy oil if needed.",
+        "Good for general metabolism support."
+      ],
+      "calories": 280,
+      "protein": 7,
+      "carbs": 44,
+      "fat": 6
+    },
+    "meal8": {
+      "dish": "Quinoa bowl with pumpkin and parsley",
+      "menu": ["Quinoa (50g)", "Pumpkin (40g)", "Parsley (1g)"],
+      "notes": [
+        "Fiber-rich and nutrient-dense.",
+        "Supports immune function.",
+        "Biotin supplementation separate if required."
+      ],
+      "calories": 260,
+      "protein": 6,
+      "carbs": 42,
+      "fat": 6
+    },
+    "meal9": {
+      "dish": "Cereal with fortified plant milk",
+      "menu": ["Whole grain cereal (40g)", "Fortified almond milk (100ml)"],
+      "notes": [
+        "Choose fortified milk with added biotin/vitamins.",
+        "Low sugar options preferred.",
+        "Ideal for breakfast or light meal."
+      ],
+      "calories": 240,
+      "protein": 4,
+      "carbs": 36,
+      "fat": 6
+    },
+    "meal10": {
+      "dish": "Sweet potato with chickpeas",
+      "menu": ["Sweet potato (60g)", "Boiled chickpeas (40g)"],
+      "notes": [
+        "Chickpeas provide protein and fiber.",
+        "Sweet potatoes are rich in beta-carotene.",
+        "A complete, unrestricted option."
+      ],
+      "calories": 270,
+      "protein": 7,
+      "carbs": 44,
+      "fat": 5
+    }
+  },
+  "HolocarboxylaseSynthetaseDeficiency_meals": {
+    "meal1": {
+      "dish": "Oatmeal with pear puree",
+      "menu": ["Rolled oats (50g)", "Pear puree (50g)", "Water (100ml)"],
+      "notes": [
+        "Avoid high-protein and high-fat foods.",
+        "Maintain frequent carbohydrate intake to prevent metabolic crisis.",
+        "Pear is low-fat and easily digestible."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "White rice with steamed carrots and zucchini",
+      "menu": ["White rice (60g)", "Carrots (30g)", "Zucchini (30g)"],
+      "notes": [
+        "No added oils or protein-based sauces.",
+        "Use plain vegetables for low-protein content.",
+        "White rice provides clean carbohydrate source."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Sweet potato mash with parsley",
+      "menu": ["Sweet potato (70g)", "Chopped parsley (1g)"],
+      "notes": [
+        "High in carbohydrates, low in fat.",
+        "No added cream or butter.",
+        "Useful as a side or main for energy."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 48,
+      "fat": 2
+    },
+    "meal4": {
+      "dish": "Corn porridge with applesauce",
+      "menu": ["Cornmeal (50g)", "Applesauce (50g)", "Water (100ml)"],
+      "notes": [
+        "No sweeteners or dairy.",
+        "Maintains blood sugar for metabolic support.",
+        "Provides soft and digestible carbs."
+      ],
+      "calories": 240,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Boiled potatoes with pumpkin",
+      "menu": ["Potatoes (60g)", "Steamed pumpkin (40g)"],
+      "notes": [
+        "Pumpkin adds fiber and vitamin A.",
+        "No protein toppings allowed.",
+        "Carb-rich without protein burden."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "White pasta with steamed broccoli",
+      "menu": ["White pasta (60g)", "Broccoli florets (30g)"],
+      "notes": [
+        "Broccoli provides vitamin C and minimal protein.",
+        "Avoid any cheese or sauces.",
+        "Pasta must be plain, low-protein type."
+      ],
+      "calories": 260,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 3
+    },
+    "meal7": {
+      "dish": "Low-fat toast with glucose syrup",
+      "menu": ["Low-fat bread (40g)", "Glucose syrup (10g)"],
+      "notes": [
+        "Simple sugars for rapid energy.",
+        "No fat or dairy spreads.",
+        "Suitable between meals to prevent catabolism."
+      ],
+      "calories": 230,
+      "protein": 2,
+      "carbs": 43,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Couscous with zucchini and lemon",
+      "menu": ["Couscous (50g)", "Zucchini (30g)", "Lemon juice (5g)"],
+      "notes": [
+        "Lemon adds flavor without fat.",
+        "Couscous provides light carbohydrates.",
+        "Zucchini is safe and mild in protein."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "Polenta with spinach",
+      "menu": ["Polenta (50g)", "Steamed spinach (30g)"],
+      "notes": [
+        "Low-fat, low-protein plant option.",
+        "Spinach provides micronutrients and fiber.",
+        "Avoid cheese or fats."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Barley with cabbage and MCT oil",
+      "menu": ["Cooked barley (50g)", "Boiled cabbage (40g)", "MCT oil (5g)"],
+      "notes": [
+        "Barley gives stable energy release.",
+        "Cabbage is safe, MCT used sparingly.",
+        "No animal fat or protein sources."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 4
+    }
+  },
+  "LysinuricProteinIntolerance_meals": {
+    "meal1": {
+      "dish": "Oatmeal with apple puree",
+      "menu": ["Rolled oats (50g)", "Apple puree (50g)", "Water (100ml)"],
+      "notes": [
+        "Avoid high-protein foods including meat, dairy, and legumes.",
+        "Use low-protein oats or control portion size.",
+        "Apples are low in lysine and safe."
+      ],
+      "calories": 240,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "White rice with steamed zucchini and carrot",
+      "menu": ["White rice (60g)", "Zucchini (30g)", "Carrot (30g)"],
+      "notes": [
+        "Rice is low in lysine and safe.",
+        "Vegetables should be mild and not legume-based.",
+        "No soy or bean products."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Sweet potato mash with olive oil",
+      "menu": ["Sweet potato (70g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid butter or cheese.",
+        "Olive oil increases energy without protein.",
+        "Sweet potato is low in lysine."
+      ],
+      "calories": 270,
+      "protein": 2,
+      "carbs": 46,
+      "fat": 5
+    },
+    "meal4": {
+      "dish": "Cornmeal porridge with banana",
+      "menu": ["Cornmeal (50g)", "Banana (40g)", "Water (100ml)"],
+      "notes": [
+        "Avoid high-protein milk or yogurt.",
+        "Banana is low in protein.",
+        "Cornmeal offers digestible carbs."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Rice noodles with steamed pumpkin",
+      "menu": ["Rice noodles (60g)", "Steamed pumpkin (40g)"],
+      "notes": [
+        "No soy sauce or animal proteins.",
+        "Pumpkin is mild and low in lysine.",
+        "Noodles should be plain rice-based."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 47,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "Polenta with cabbage and olive oil",
+      "menu": ["Polenta (50g)", "Boiled cabbage (40g)", "Olive oil (5g)"],
+      "notes": [
+        "No cheese or cream.",
+        "Cabbage is a safe, low-protein vegetable.",
+        "Olive oil for caloric boost."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 5
+    },
+    "meal7": {
+      "dish": "Barley with lemon and parsley",
+      "menu": ["Cooked barley (50g)", "Lemon juice (5g)", "Chopped parsley (1g)"],
+      "notes": [
+        "Avoid protein-rich garnishes.",
+        "Barley provides carbs and some fiber.",
+        "Citrus adds flavor without risk."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Quinoa with steamed spinach",
+      "menu": ["Cooked quinoa (50g)", "Steamed spinach (30g)"],
+      "notes": [
+        "Limit quinoa amount due to protein content.",
+        "Spinach is moderate in lysine, use with caution.",
+        "Do not add cheese or meat."
+      ],
+      "calories": 260,
+      "protein": 5,
+      "carbs": 42,
+      "fat": 3
+    },
+    "meal9": {
+      "dish": "Tofu and couscous with carrot",
+      "menu": ["Couscous (50g)", "Tofu (20g)", "Carrot (30g)"],
+      "notes": [
+        "Tofu provides some protein, use minimally.",
+        "Avoid legumes and nuts.",
+        "Balanced portion for LPI tolerance."
+      ],
+      "calories": 270,
+      "protein": 5,
+      "carbs": 44,
+      "fat": 3
+    },
+    "meal10": {
+      "dish": "Rice porridge with pears",
+      "menu": ["White rice (60g)", "Peeled pear slices (50g)", "Water (100ml)"],
+      "notes": [
+        "Pears are safe, low-lysine fruit.",
+        "No dairy or animal-based toppings.",
+        "Carb-focused for metabolic balance."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 2
+    }
+  },
+  "HHHSyndrome_meals": {
+    "meal1": {
+      "dish": "Rice porridge with pear slices",
+      "menu": ["White rice (60g)", "Peeled pear (50g)", "Water (100ml)"],
+      "notes": [
+        "Avoid high-protein foods to prevent hyperammonemia.",
+        "Pear is low in protein and suitable.",
+        "No dairy or meat additions."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Sweet potato with steamed zucchini",
+      "menu": ["Sweet potato (70g)", "Zucchini (30g)"],
+      "notes": [
+        "Avoid legumes and animal protein.",
+        "Zucchini is low in protein and safe.",
+        "Sweet potatoes provide stable energy."
+      ],
+      "calories": 260,
+      "protein": 2,
+      "carbs": 47,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Cornmeal mash with applesauce",
+      "menu": ["Cornmeal (50g)", "Unsweetened applesauce (50g)"],
+      "notes": [
+        "No protein powders or dairy.",
+        "Applesauce offers natural sweetness.",
+        "Helps maintain carbohydrate intake."
+      ],
+      "calories": 240,
+      "protein": 2,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal4": {
+      "dish": "Polenta with steamed broccoli",
+      "menu": ["Polenta (50g)", "Broccoli (30g)"],
+      "notes": [
+        "Use small portions of broccoli due to protein.",
+        "Avoid cheese or butter.",
+        "Polenta offers digestible carbs."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 43,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Boiled potato with olive oil",
+      "menu": ["Potato (70g)", "Olive oil (5g)"],
+      "notes": [
+        "Olive oil adds calories without protein.",
+        "Potato is safe and provides energy.",
+        "Avoid creamy toppings."
+      ],
+      "calories": 260,
+      "protein": 2,
+      "carbs": 46,
+      "fat": 4
+    },
+    "meal6": {
+      "dish": "White pasta with carrot slices",
+      "menu": ["White pasta (60g)", "Carrot (40g)"],
+      "notes": [
+        "Avoid sauces with dairy or meat.",
+        "Carrots are low-protein and fiber-rich.",
+        "Use plain pasta only."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal7": {
+      "dish": "Barley with steamed pumpkin",
+      "menu": ["Cooked barley (50g)", "Steamed pumpkin (40g)"],
+      "notes": [
+        "Pumpkin provides color and vitamins.",
+        "Avoid legume-based or soy-based additions.",
+        "High-carb, low-protein balance."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Mashed potatoes with parsley",
+      "menu": ["Potatoes (70g)", "Chopped parsley (1g)"],
+      "notes": [
+        "Avoid any cheese or cream in mash.",
+        "High-carb support without protein burden.",
+        "Use herbs sparingly for taste."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "Couscous with lemon spinach",
+      "menu": ["Couscous (50g)", "Spinach (30g)", "Lemon juice (5g)"],
+      "notes": [
+        "Spinach in limited portions due to protein.",
+        "Lemon adds flavor without increasing protein.",
+        "Avoid creamy dressings."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Rice noodles with cabbage and sesame oil",
+      "menu": ["Rice noodles (60g)", "Boiled cabbage (40g)", "Sesame oil (3g)"],
+      "notes": [
+        "No soy sauce or animal protein.",
+        "Cabbage is mild and hydrating.",
+        "Sesame oil adds aroma without much protein."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 3
+    }
+  },
+  "ArginaseDeficiency_meals": {
+    "meal1": {
+      "dish": "Rice porridge with peach slices",
+      "menu": ["White rice (60g)", "Peach (40g)", "Water (100ml)"],
+      "notes": [
+        "Avoid arginine-rich foods (nuts, meat, soy, legumes).",
+        "Peach is low in protein and arginine.",
+        "No dairy or protein toppings."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal2": {
+      "dish": "Boiled sweet potato with olive oil",
+      "menu": ["Sweet potato (70g)", "Olive oil (5g)"],
+      "notes": [
+        "Avoid any cheese or cream.",
+        "Sweet potato is rich in carbohydrates.",
+        "Good energy source with minimal protein."
+      ],
+      "calories": 260,
+      "protein": 2,
+      "carbs": 46,
+      "fat": 4
+    },
+    "meal3": {
+      "dish": "Polenta with steamed carrots",
+      "menu": ["Polenta (50g)", "Carrots (40g)"],
+      "notes": [
+        "Avoid legumes and grains with protein.",
+        "Carrots provide vitamin A with low protein.",
+        "Polenta is easy to digest."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 44,
+      "fat": 3
+    },
+    "meal4": {
+      "dish": "White pasta with boiled zucchini",
+      "menu": ["White pasta (60g)", "Zucchini (40g)"],
+      "notes": [
+        "Avoid cheese or sauces containing protein.",
+        "Zucchini is low in arginine and protein.",
+        "Plain pasta for carbohydrates."
+      ],
+      "calories": 260,
+      "protein": 2,
+      "carbs": 46,
+      "fat": 3
+    },
+    "meal5": {
+      "dish": "Cornmeal porridge with apple puree",
+      "menu": ["Cornmeal (50g)", "Apple puree (50g)"],
+      "notes": [
+        "No added sweeteners or protein ingredients.",
+        "Apple is low in protein and arginine.",
+        "Smooth and digestible option."
+      ],
+      "calories": 240,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "Mashed potatoes with parsley",
+      "menu": ["Potatoes (70g)", "Chopped parsley (1g)"],
+      "notes": [
+        "No dairy or protein additions.",
+        "Potatoes are high in carbs and safe.",
+        "Herbs add flavor without protein."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal7": {
+      "dish": "Rice noodles with steamed spinach",
+      "menu": ["Rice noodles (60g)", "Spinach (30g)"],
+      "notes": [
+        "Spinach has moderate protein; use sparingly.",
+        "Rice noodles are safe and high in carbs.",
+        "No soy sauce or meat additions."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Barley with steamed pumpkin",
+      "menu": ["Cooked barley (50g)", "Pumpkin (40g)"],
+      "notes": [
+        "No protein-rich grains or legumes.",
+        "Pumpkin provides fiber and color.",
+        "Barley gives stable energy."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "Couscous with lemon cabbage",
+      "menu": ["Couscous (50g)", "Boiled cabbage (40g)", "Lemon juice (5g)"],
+      "notes": [
+        "Avoid butter or dairy sauces.",
+        "Cabbage is low in protein and hydrating.",
+        "Lemon adds flavor safely."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Quinoa with steamed carrots",
+      "menu": ["Cooked quinoa (50g)", "Steamed carrots (30g)"],
+      "notes": [
+        "Limit quinoa due to its moderate protein.",
+        "Carrots are safe and sweet.",
+        "No nuts, legumes, or soy."
+      ],
+      "calories": 260,
+      "protein": 4,
+      "carbs": 43,
+      "fat": 3
+    }
+  },
+  "GuanidinoacetateMethyltransferaseDeficiency_meals": {
+    "meal1": {
+      "dish": "Oatmeal with banana slices",
+      "menu": ["Rolled oats (50g)", "Banana (50g)", "Water (100ml)"],
+      "notes": [
+        "Avoid high-protein foods including meat, fish, and dairy.",
+        "Banana is safe and low in creatine precursors.",
+        "Oats provide stable carbohydrates."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 48,
+      "fat": 3
+    },
+    "meal2": {
+      "dish": "White rice with steamed zucchini and pumpkin",
+      "menu": ["White rice (60g)", "Zucchini (30g)", "Pumpkin (30g)"],
+      "notes": [
+        "Low-protein, plant-based meal.",
+        "Avoid soy and legumes.",
+        "Pumpkin adds fiber and color."
+      ],
+      "calories": 260,
+      "protein": 2,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal3": {
+      "dish": "Cornmeal porridge with apple puree",
+      "menu": ["Cornmeal (50g)", "Apple puree (50g)", "Water (100ml)"],
+      "notes": [
+        "Apple is low in protein.",
+        "No dairy, no protein powders.",
+        "Cornmeal is easy to digest."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal4": {
+      "dish": "Mashed potatoes with olive oil",
+      "menu": ["Boiled potatoes (70g)", "Olive oil (5g)"],
+      "notes": [
+        "Potatoes are safe and high in carbohydrates.",
+        "Avoid dairy or meat-based toppings.",
+        "Olive oil for calorie density."
+      ],
+      "calories": 260,
+      "protein": 2,
+      "carbs": 46,
+      "fat": 4
+    },
+    "meal5": {
+      "dish": "Rice noodles with lemon spinach",
+      "menu": ["Rice noodles (60g)", "Spinach (30g)", "Lemon juice (5g)"],
+      "notes": [
+        "No animal-based broth.",
+        "Spinach provides vitamins in moderation.",
+        "Avoid soy sauce and fish paste."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 3
+    },
+    "meal6": {
+      "dish": "Couscous with carrot and cabbage",
+      "menu": ["Couscous (50g)", "Carrot (30g)", "Boiled cabbage (30g)"],
+      "notes": [
+        "Vegetable-based, low-protein meal.",
+        "No butter or cheese.",
+        "Safe for GAMT deficiency."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 44,
+      "fat": 3
+    },
+    "meal7": {
+      "dish": "Quinoa with parsley and olive oil",
+      "menu": ["Quinoa (50g)", "Parsley (1g)", "Olive oil (5g)"],
+      "notes": [
+        "Use quinoa sparingly due to protein content.",
+        "No nuts or high-protein grains.",
+        "Adds variation with herbs."
+      ],
+      "calories": 270,
+      "protein": 4,
+      "carbs": 43,
+      "fat": 4
+    },
+    "meal8": {
+      "dish": "Barley with steamed pumpkin",
+      "menu": ["Cooked barley (50g)", "Pumpkin (40g)"],
+      "notes": [
+        "High-fiber, low-protein source.",
+        "No animal fat or dairy.",
+        "Pumpkin provides natural sweetness."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal9": {
+      "dish": "White pasta with zucchini and lemon",
+      "menu": ["White pasta (60g)", "Zucchini (30g)", "Lemon juice (5g)"],
+      "notes": [
+        "Avoid sauces with meat or fish.",
+        "Zucchini is mild and fiber-rich.",
+        "Simple, light meal."
+      ],
+      "calories": 260,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 3
+    },
+    "meal10": {
+      "dish": "Polenta with steamed spinach and olive oil",
+      "menu": ["Polenta (50g)", "Spinach (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Spinach in moderation due to protein.",
+        "Polenta offers clean energy.",
+        "Olive oil enhances absorption."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 4
+    }
+  },
+   "CerebralCreatineDeficiencySyndrome_meals": {
+    "meal1": {
+      "dish": "Oatmeal with blueberries",
+      "menu": ["Rolled oats (50g)", "Blueberries (30g)", "Water (100ml)"],
+      "notes": [
+        "Avoid high-protein sources (meat, fish, dairy).",
+        "Blueberries are safe and rich in antioxidants.",
+        "Oats provide stable carbs."
+      ],
+      "calories": 250,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 3
+    },
+    "meal2": {
+      "dish": "Sweet potato with steamed spinach",
+      "menu": ["Sweet potato (70g)", "Spinach (30g)"],
+      "notes": [
+        "Spinach used in small amounts due to protein.",
+        "No animal protein or creatine-rich foods.",
+        "Carb-focused to support energy metabolism."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 46,
+      "fat": 3
+    },
+    "meal3": {
+      "dish": "White rice with steamed carrots and olive oil",
+      "menu": ["White rice (60g)", "Carrots (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Rice provides clean energy.",
+        "Carrots are low-protein and suitable.",
+        "Olive oil boosts caloric density."
+      ],
+      "calories": 270,
+      "protein": 2,
+      "carbs": 46,
+      "fat": 5
+    },
+    "meal4": {
+      "dish": "Corn porridge with apple slices",
+      "menu": ["Cornmeal (50g)", "Apple (50g)"],
+      "notes": [
+        "Avoid dairy and egg additions.",
+        "Apples are safe and low-creatine.",
+        "Cornmeal is digestible and low-protein."
+      ],
+      "calories": 240,
+      "protein": 2,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal5": {
+      "dish": "Mashed potatoes with parsley",
+      "menu": ["Potatoes (70g)", "Chopped parsley (1g)"],
+      "notes": [
+        "Avoid butter or cream.",
+        "No creatine-containing animal products.",
+        "Carb-rich side for energy support."
+      ],
+      "calories": 250,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal6": {
+      "dish": "Rice noodles with pumpkin and sesame oil",
+      "menu": ["Rice noodles (60g)", "Pumpkin (40g)", "Sesame oil (3g)"],
+      "notes": [
+        "No soy or meat sauces.",
+        "Pumpkin is safe and hydrating.",
+        "Sesame oil adds healthy fats."
+      ],
+      "calories": 260,
+      "protein": 2,
+      "carbs": 45,
+      "fat": 3
+    },
+    "meal7": {
+      "dish": "Barley with lemon broccoli",
+      "menu": ["Cooked barley (50g)", "Broccoli (30g)", "Lemon juice (5g)"],
+      "notes": [
+        "Broccoli should be used in moderation.",
+        "No cheese or meat.",
+        "Lemon enhances taste without adding protein."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 2
+    },
+    "meal8": {
+      "dish": "Couscous with zucchini and olive oil",
+      "menu": ["Couscous (50g)", "Zucchini (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Zucchini is low in creatine and safe.",
+        "Avoid any dairy toppings.",
+        "Couscous is a mild grain option."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 4
+    },
+    "meal9": {
+      "dish": "White pasta with carrot and lemon",
+      "menu": ["White pasta (60g)", "Carrot (30g)", "Lemon juice (5g)"],
+      "notes": [
+        "No meat, cheese, or egg sauces.",
+        "Carrots are low in protein and high in beta-carotene.",
+        "Suitable for all CCDS types."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 45,
+      "fat": 2
+    },
+    "meal10": {
+      "dish": "Quinoa with parsley and olive oil",
+      "menu": ["Quinoa (50g)", "Parsley (1g)", "Olive oil (5g)"],
+      "notes": [
+        "Quinoa in moderation due to protein content.",
+        "No nuts or animal fats.",
+        "Olive oil for flavor and healthy fat."
+      ],
+      "calories": 270,
+      "protein": 4,
+      "carbs": 43,
+      "fat": 4
+    }
+  },
+  "MenkesDisease_meals": {
+    "meal1": {
+      "dish": "Oatmeal with almond butter and banana",
+      "menu": ["Rolled oats (50g)", "Banana (50g)", "Almond butter (10g)"],
+      "notes": [
+        "Copper supplementation must be medical, not dietary.",
+        "Almond butter provides healthy fats and protein.",
+        "Good for morning energy."
+      ],
+      "calories": 300,
+      "protein": 6,
+      "carbs": 45,
+      "fat": 10
+    },
+    "meal2": {
+      "dish": "Boiled egg with whole grain toast and pear",
+      "menu": ["Boiled egg (50g)", "Whole grain toast (40g)", "Pear (50g)"],
+      "notes": [
+        "Balanced meal with fat, protein, and fiber.",
+        "No restriction on dietary copper.",
+        "Supports growth and energy."
+      ],
+      "calories": 310,
+      "protein": 9,
+      "carbs": 38,
+      "fat": 12
+    },
+    "meal3": {
+      "dish": "Chicken and rice with carrots",
+      "menu": ["Grilled chicken breast (40g)", "White rice (60g)", "Carrots (30g)"],
+      "notes": [
+        "Moderate animal protein intake is fine.",
+        "Rice provides stable energy source.",
+        "Carrots offer vitamin A."
+      ],
+      "calories": 320,
+      "protein": 14,
+      "carbs": 40,
+      "fat": 9
+    },
+    "meal4": {
+      "dish": "Sweet potato mash with olive oil and spinach",
+      "menu": ["Sweet potato (70g)", "Olive oil (5g)", "Steamed spinach (30g)"],
+      "notes": [
+        "Good source of carbs and vitamin A.",
+        "Olive oil increases caloric value.",
+        "Spinach offers iron and fiber."
+      ],
+      "calories": 290,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 8
+    },
+    "meal5": {
+      "dish": "Whole grain pasta with pumpkin and lentils",
+      "menu": ["Whole grain pasta (60g)", "Pumpkin (40g)", "Cooked lentils (20g)"],
+      "notes": [
+        "Provides plant protein and fiber.",
+        "Lentils are safe and nutritious.",
+        "Pumpkin adds beta-carotene."
+      ],
+      "calories": 320,
+      "protein": 10,
+      "carbs": 45,
+      "fat": 7
+    },
+    "meal6": {
+      "dish": "Yogurt with granola and blueberries",
+      "menu": ["Plain yogurt (100g)", "Granola (30g)", "Blueberries (30g)"],
+      "notes": [
+        "No need to restrict dairy.",
+        "Balanced breakfast/snack with probiotics.",
+        "Good source of calcium and energy."
+      ],
+      "calories": 300,
+      "protein": 8,
+      "carbs": 35,
+      "fat": 10
+    },
+    "meal7": {
+      "dish": "Quinoa with roasted zucchini and olive oil",
+      "menu": ["Quinoa (50g)", "Zucchini (30g)", "Olive oil (5g)"],
+      "notes": [
+        "Quinoa offers complete plant protein.",
+        "Healthy fats and fiber included.",
+        "Supports muscle maintenance."
+      ],
+      "calories": 310,
+      "protein": 7,
+      "carbs": 42,
+      "fat": 10
+    },
+    "meal8": {
+      "dish": "Tofu stir-fry with rice and bell peppers",
+      "menu": ["Firm tofu (40g)", "White rice (60g)", "Bell peppers (40g)"],
+      "notes": [
+        "Tofu provides plant-based protein.",
+        "Colorful vegetables enhance nutrient variety.",
+        "Rice stabilizes blood sugar."
+      ],
+      "calories": 320,
+      "protein": 10,
+      "carbs": 44,
+      "fat": 8
+    },
+    "meal9": {
+      "dish": "Barley soup with potatoes and peas",
+      "menu": ["Barley (50g)", "Potato (50g)", "Green peas (30g)"],
+      "notes": [
+        "Warming and balanced meal.",
+        "Peas add protein and fiber.",
+        "Supports digestive health."
+      ],
+      "calories": 300,
+      "protein": 8,
+      "carbs": 46,
+      "fat": 6
+    },
+    "meal10": {
+      "dish": "Whole wheat wrap with hummus and cucumber",
+      "menu": ["Whole wheat wrap (50g)", "Hummus (20g)", "Cucumber (30g)"],
+      "notes": [
+        "Hummus provides fat and fiber.",
+        "No copper-related dietary restriction.",
+        "Cool and balanced light meal."
+      ],
+      "calories": 310,
+      "protein": 7,
+      "carbs": 42,
+      "fat": 9
+    }
+  },
+  "WilsonDisease_meals": {
+    "meal1": {
+      "dish": "Oatmeal with apple slices",
+      "menu": ["Rolled oats (50g)", "Apple (50g)", "Water (100ml)"],
+      "notes": [
+        "Avoid copper-rich foods like shellfish, liver, nuts, and chocolate.",
+        "Apple is safe and low in copper.",
+        "Oats provide energy and fiber."
+      ],
+      "calories": 250,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 3
+    },
+    "meal2": {
+      "dish": "Rice with zucchini and lean chicken",
+      "menu": ["White rice (60g)", "Zucchini (30g)", "Grilled chicken breast (40g)"],
+      "notes": [
+        "Avoid liver and organ meats.",
+        "Zucchini and white rice are copper-safe.",
+        "Lean poultry in moderate amounts is acceptable."
+      ],
+      "calories": 320,
+      "protein": 15,
+      "carbs": 42,
+      "fat": 7
+    },
+    "meal3": {
+      "dish": "Mashed potatoes with steamed broccoli",
+      "menu": ["Potatoes (70g)", "Broccoli (30g)"],
+      "notes": [
+        "Avoid high-copper leafy greens like spinach.",
+        "Broccoli is acceptable in moderate amounts.",
+        "No butter or cheese toppings."
+      ],
+      "calories": 260,
+      "protein": 4,
+      "carbs": 46,
+      "fat": 4
+    },
+    "meal4": {
+      "dish": "Couscous with carrots and olive oil",
+      "menu": ["Couscous (50g)", "Carrots (30g)", "Olive oil (5g)"],
+      "notes": [
+        "No nuts or seeds added.",
+        "Couscous is copper-safe.",
+        "Carrots provide beta-carotene and color."
+      ],
+      "calories": 270,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 6
+    },
+    "meal5": {
+      "dish": "Whole grain toast with scrambled egg whites",
+      "menu": ["Whole grain bread (50g)", "Egg white (60g)", "Vegetable spread (5g)"],
+      "notes": [
+        "Avoid yolks due to slightly higher copper content.",
+        "Egg whites are a good low-copper protein source.",
+        "Use only plant-based spreads."
+      ],
+      "calories": 280,
+      "protein": 10,
+      "carbs": 38,
+      "fat": 6
+    },
+    "meal6": {
+      "dish": "White pasta with bell pepper and herbs",
+      "menu": ["White pasta (60g)", "Red bell pepper (30g)", "Basil (1g)"],
+      "notes": [
+        "Bell peppers are safe and vitamin-rich.",
+        "Avoid pesto (nuts, parmesan).",
+        "Plain herbs are acceptable."
+      ],
+      "calories": 270,
+      "protein": 5,
+      "carbs": 45,
+      "fat": 4
+    },
+    "meal7": {
+      "dish": "Barley soup with potato and peas",
+      "menu": ["Cooked barley (50g)", "Potato (50g)", "Green peas (30g)"],
+      "notes": [
+        "Peas are acceptable in small amounts.",
+        "Avoid mushrooms and soy.",
+        "Soup should be homemade without stock cubes."
+      ],
+      "calories": 280,
+      "protein": 7,
+      "carbs": 44,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Tofu stir-fry with rice and cabbage",
+      "menu": ["Firm tofu (40g)", "White rice (60g)", "Cabbage (30g)"],
+      "notes": [
+        "Tofu is acceptable in moderation.",
+        "Avoid soy sauce with added minerals.",
+        "Cabbage is fiber-rich and low in copper."
+      ],
+      "calories": 290,
+      "protein": 10,
+      "carbs": 45,
+      "fat": 6
+    },
+    "meal9": {
+      "dish": "Polenta with steamed carrots",
+      "menu": ["Polenta (50g)", "Carrots (40g)"],
+      "notes": [
+        "Avoid chocolate or cocoa in any form.",
+        "Carrots are vitamin-rich and low copper.",
+        "Polenta is safe and easy to digest."
+      ],
+      "calories": 260,
+      "protein": 3,
+      "carbs": 44,
+      "fat": 4
+    },
+    "meal10": {
+      "dish": "Banana with plain yogurt and chia-free granola",
+      "menu": ["Banana (50g)", "Plain yogurt (100g)", "Granola (30g, no seeds)"],
+      "notes": [
+        "Avoid granola containing seeds or nuts.",
+        "Banana is low in copper.",
+        "Check yogurt additives for hidden minerals."
+      ],
+      "calories": 310,
+      "protein": 8,
+      "carbs": 42,
+      "fat": 8
+    }
+  },
+  "Hemochromatosis_meals": {
+    "meal1": {
+      "dish": "Oatmeal with soy milk and blueberries",
+      "menu": ["Rolled oats (50g)", "Unsweetened soy milk (100ml)", "Blueberries (30g)"],
+      "notes": [
+        "Avoid red meat and iron-fortified cereals.",
+        "Soy milk and oats are low in absorbable iron.",
+        "Blueberries offer antioxidants without boosting iron."
+      ],
+      "calories": 270,
+      "protein": 7,
+      "carbs": 42,
+      "fat": 6
+    },
+    "meal2": {
+      "dish": "Rice with zucchini and tofu",
+      "menu": ["White rice (60g)", "Zucchini (30g)", "Firm tofu (40g)"],
+      "notes": [
+        "Tofu provides plant-based protein with non-heme iron.",
+        "Avoid cooking in iron pots.",
+        "Zucchini is iron-safe."
+      ],
+      "calories": 310,
+      "protein": 10,
+      "carbs": 44,
+      "fat": 6
+    },
+    "meal3": {
+      "dish": "Sweet potato with steamed broccoli",
+      "menu": ["Sweet potato (70g)", "Broccoli (30g)"],
+      "notes": [
+        "Avoid pairing with vitamin C sources if iron absorption is a concern.",
+        "Use steamed not raw to reduce vitamin C content.",
+        "Sweet potato is safe and nutritious."
+      ],
+      "calories": 260,
+      "protein": 4,
+      "carbs": 46,
+      "fat": 2
+    },
+    "meal4": {
+      "dish": "Whole grain pasta with tomato and basil",
+      "menu": ["Whole grain pasta (60g)", "Chopped tomato (40g)", "Basil (1g)"],
+      "notes": [
+        "Tomato offers lycopene; use in moderation due to vitamin C.",
+        "Avoid meat sauces.",
+        "Whole grains slow iron absorption."
+      ],
+      "calories": 280,
+      "protein": 7,
+      "carbs": 45,
+      "fat": 4
+    },
+    "meal5": {
+      "dish": "Barley salad with cucumber and olive oil",
+      "menu": ["Cooked barley (50g)", "Cucumber (40g)", "Olive oil (5g)"],
+      "notes": [
+        "Barley is low-iron and fiber-rich.",
+        "Avoid dried fruits or spinach.",
+        "Cucumber cools and hydrates."
+      ],
+      "calories": 270,
+      "protein": 5,
+      "carbs": 42,
+      "fat": 6
+    },
+    "meal6": {
+      "dish": "Tofu wrap with lettuce and hummus",
+      "menu": ["Whole wheat wrap (50g)", "Firm tofu (40g)", "Lettuce (30g)", "Hummus (20g)"],
+      "notes": [
+        "Tofu and hummus are safe vegetarian protein options.",
+        "No iron-rich meats or seeds.",
+        "Avoid citrus dressings."
+      ],
+      "calories": 320,
+      "protein": 11,
+      "carbs": 43,
+      "fat": 9
+    },
+    "meal7": {
+      "dish": "Polenta with sautéed mushrooms",
+      "menu": ["Polenta (50g)", "Button mushrooms (40g)"],
+      "notes": [
+        "Avoid wild mushrooms high in iron.",
+        "Polenta is corn-based and safe.",
+        "Sauté in oil, not butter."
+      ],
+      "calories": 260,
+      "protein": 4,
+      "carbs": 44,
+      "fat": 5
+    },
+    "meal8": {
+      "dish": "Couscous with roasted carrots and pumpkin",
+      "menu": ["Couscous (50g)", "Carrots (30g)", "Pumpkin (30g)"],
+      "notes": [
+        "No dried fruits or nuts.",
+        "Plant-based carbs and fiber support gentle digestion.",
+        "Pumpkin in small portions is fine."
+      ],
+      "calories": 270,
+      "protein": 4,
+      "carbs": 45,
+      "fat": 4
+    },
+    "meal9": {
+      "dish": "Rice noodles with cabbage and sesame oil",
+      "menu": ["Rice noodles (60g)", "Boiled cabbage (40g)", "Sesame oil (3g)"],
+      "notes": [
+        "No red meat or soy sauce.",
+        "Cabbage is fiber-rich and low-iron.",
+        "Rice noodles are iron-neutral."
+      ],
+      "calories": 270,
+      "protein": 4,
+      "carbs": 46,
+      "fat": 4
+    },
+    "meal10": {
+      "dish": "Yogurt with peaches and iron-free granola",
+      "menu": ["Plain yogurt (100g)", "Peach slices (50g)", "Granola (30g, iron-free)"],
+      "notes": [
+        "Avoid iron-fortified cereals.",
+        "Peach is safe in small amounts.",
+        "Check yogurt label for added iron/vitamin C."
+      ],
+      "calories": 300,
+      "protein": 8,
+      "carbs": 40,
+      "fat": 8
+    }},
+  "FamilialHypercholesterolemia_meals": {
+    "meal1": {
+      "dish": "Oatmeal with flaxseed and banana",
+      "menu": [
+        "Rolled oats (50g)",
+        "Banana (50g)",
+        "Ground flaxseed (5g)",
+        "Water (100ml)"
+      ],
+      "notes": [
+        "No butter or whole milk.",
+        "Flaxseed provides omega-3 and fiber.",
+        "Banana adds natural sweetness without added sugar."
+      ],
+      "calories": 280,
+      "protein": 5,
+      "carbs": 45,
+      "fat": 6
+    },
+    "meal2": {
+      "dish": "Whole grain toast with avocado and tomato",
+      "menu": [
+        "Whole grain bread (50g)",
+        "Avocado slices (40g)",
+        "Tomato (30g)"
+      ],
+      "notes": [
+        "Avocado provides healthy monounsaturated fats.",
+        "No cheese or processed meats.",
+        "Tomatoes add antioxidants."
+      ],
+      "calories": 300,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 11
+    },
+    "meal3": {
+      "dish": "Brown rice with lentils and spinach",
+      "menu": [
+        "Brown rice (60g)",
+        "Cooked lentils (40g)",
+        "Spinach (30g)"
+      ],
+      "notes": [
+        "No butter or cream sauces.",
+        "Lentils offer plant protein and soluble fiber.",
+        "Spinach is low in fat and cholesterol."
+      ],
+      "calories": 320,
+      "protein": 10,
+      "carbs": 45,
+      "fat": 7
+    },
+    "meal4": {
+      "dish": "Sweet potato with olive oil and broccoli",
+      "menu": [
+        "Sweet potato (70g)",
+        "Olive oil (5g)",
+        "Steamed broccoli (30g)"
+      ],
+      "notes": [
+        "Use olive oil instead of butter.",
+        "Avoid added cheese or cream sauces.",
+        "Rich in fiber and antioxidants."
+      ],
+      "calories": 290,
+      "protein": 5,
+      "carbs": 46,
+      "fat": 6
+    },
+    "meal5": {
+      "dish": "Quinoa with roasted bell pepper and chickpeas",
+      "menu": [
+        "Cooked quinoa (50g)",
+        "Roasted bell pepper (30g)",
+        "Cooked chickpeas (30g)"
+      ],
+      "notes": [
+        "No animal fat or fried foods.",
+        "Quinoa and chickpeas offer fiber and plant-based protein.",
+        "No salty or preserved ingredients."
+      ],
+      "calories": 310,
+      "protein": 9,
+      "carbs": 44,
+      "fat": 7
+    },
+    "meal6": {
+      "dish": "Tofu stir-fry with rice and green beans",
+      "menu": [
+        "White rice (60g)",
+        "Firm tofu (40g)",
+        "Green beans (30g)"
+      ],
+      "notes": [
+        "No oyster sauce or butter.",
+        "Tofu is cholesterol-free and protein-rich.",
+        "Green beans add fiber and texture."
+      ],
+      "calories": 320,
+      "protein": 11,
+      "carbs": 45,
+      "fat": 6
+    },
+    "meal7": {
+      "dish": "Barley salad with avocado and parsley",
+      "menu": [
+        "Cooked barley (50g)",
+        "Avocado (40g)",
+        "Chopped parsley (1g)"
+      ],
+      "notes": [
+        "Avoid mayonnaise or creamy dressings.",
+        "Avocado supports heart health.",
+        "Barley offers beta-glucan fiber."
+      ],
+      "calories": 310,
+      "protein": 6,
+      "carbs": 42,
+      "fat": 9
+    },
+    "meal8": {
+      "dish": "Whole wheat pasta with tomato and white beans",
+      "menu": [
+        "Whole wheat pasta (60g)",
+        "Tomato (40g)",
+        "Cooked white beans (30g)"
+      ],
+      "notes": [
+        "No cheese or meat sauce.",
+        "Beans offer cholesterol-lowering soluble fiber.",
+        "Tomatoes are antioxidant-rich."
+      ],
+      "calories": 300,
+      "protein": 9,
+      "carbs": 45,
+      "fat": 5
+    },
+    "meal9": {
+      "dish": "Vegetable soup with lentils and barley",
+      "menu": [
+        "Vegetable broth (150ml)",
+        "Cooked lentils (30g)",
+        "Barley (40g)",
+        "Carrots (30g)"
+      ],
+      "notes": [
+        "No cream or butter.",
+        "Lentils and barley lower LDL cholesterol.",
+        "Low-sodium broth recommended."
+      ],
+      "calories": 280,
+      "protein": 8,
+      "carbs": 40,
+      "fat": 4
+    },
+    "meal10": {
+      "dish": "Chia pudding with almond milk and kiwi",
+      "menu": [
+        "Chia seeds (15g)",
+        "Almond milk (100ml)",
+        "Kiwi (50g)"
+      ],
+      "notes": [
+        "No added sugar or sweeteners.",
+        "Chia provides omega-3 and fiber.",
+        "Almond milk is cholesterol-free."
+      ],
+      "calories": 290,
+      "protein": 5,
+      "carbs": 30,
+      "fat": 12
+    }
+  },
+  "SmithLemliOpitzSyndrome_meals": {
+    "meal1": {
+      "dish": "Scrambled eggs with toast",
+      "menu": ["Egg yolk & white (1 whole egg, 50g)", "Whole grain toast (40g)", "Butter (5g)"],
+      "notes": [
+        "Egg yolks are a key cholesterol source.",
+        "SLOS patients benefit from cholesterol-rich meals.",
+        "Butter provides additional fat/calories."
+      ],
+      "calories": 320,
+      "protein": 10,
+      "carbs": 26,
+      "fat": 20
+    },
+    "meal2": {
+      "dish": "Yogurt with granola and banana",
+      "menu": ["Full-fat yogurt (100g)", "Granola (30g)", "Banana (40g)"],
+      "notes": [
+        "Use full-fat, cholesterol-containing yogurt.",
+        "Avoid low-fat products.",
+        "Banana provides energy and fiber."
+      ],
+      "calories": 310,
+      "protein": 8,
+      "carbs": 35,
+      "fat": 14
+    },
+    "meal3": {
+      "dish": "Cheese omelet with white rice",
+      "menu": ["Eggs (2, 100g)", "Cheddar cheese (20g)", "White rice (50g)"],
+      "notes": [
+        "Cheese and egg yolks increase cholesterol content.",
+        "Rice is a simple carbohydrate for energy.",
+        "Avoid lean/low-cholesterol substitutions."
+      ],
+      "calories": 390,
+      "protein": 16,
+      "carbs": 30,
+      "fat": 24
+    },
+    "meal4": {
+      "dish": "Macaroni with creamy egg sauce",
+      "menu": ["Macaroni (60g)", "Egg yolk (20g)", "Cream (30g)"],
+      "notes": [
+        "Use whole eggs and cream, not substitutes.",
+        "Focus on energy and cholesterol enrichment.",
+        "Limit added sugars."
+      ],
+      "calories": 360,
+      "protein": 9,
+      "carbs": 40,
+      "fat": 18
+    },
+    "meal5": {
+      "dish": "Mashed potatoes with butter and cheese",
+      "menu": ["Potatoes (70g)", "Butter (10g)", "Parmesan cheese (10g)"],
+      "notes": [
+        "Butter and cheese provide cholesterol.",
+        "Serve warm for better digestion.",
+        "Avoid margarine or low-fat cheese."
+      ],
+      "calories": 340,
+      "protein": 6,
+      "carbs": 38,
+      "fat": 18
+    },
+    "meal6": {
+      "dish": "Rice with liver and green peas",
+      "menu": ["White rice (60g)", "Cooked liver (40g)", "Boiled green peas (30g)"],
+      "notes": [
+        "Liver is high in cholesterol and recommended unless contraindicated.",
+        "Peas add fiber and balance.",
+        "Iron and fat-rich meal for growth support."
+      ],
+      "calories": 370,
+      "protein": 14,
+      "carbs": 34,
+      "fat": 20
+    },
+    "meal7": {
+      "dish": "Pasta with butter and egg yolk sauce",
+      "menu": ["Spaghetti (60g)", "Butter (10g)", "Egg yolk (20g)"],
+      "notes": [
+        "Butter and egg yolk increase dietary cholesterol.",
+        "Avoid tomato-based or low-fat sauces.",
+        "Simple and palatable."
+      ],
+      "calories": 360,
+      "protein": 7,
+      "carbs": 40,
+      "fat": 20
+    },
+    "meal8": {
+      "dish": "Creamy cheese sandwich",
+      "menu": ["White bread (50g)", "Cream cheese (20g)", "Butter (5g)"],
+      "notes": [
+        "Use real cheese and butter, not substitutes.",
+        "Avoid processed low-fat spreads.",
+        "Suitable for snack or breakfast."
+      ],
+      "calories": 330,
+      "protein": 6,
+      "carbs": 30,
+      "fat": 20
+    },
+    "meal9": {
+      "dish": "Egg salad with whole grain bread",
+      "menu": ["Boiled egg (50g)", "Mayonnaise (10g)", "Whole grain bread (40g)"],
+      "notes": [
+        "Mayonnaise contains egg yolk fats.",
+        "Eggs are rich in cholesterol needed for SLOS.",
+        "Avoid light mayo or egg substitutes."
+      ],
+      "calories": 340,
+      "protein": 9,
+      "carbs": 28,
+      "fat": 22
+    },
+    "meal10": {
+      "dish": "Yogurt smoothie with cream and banana",
+      "menu": ["Full-fat yogurt (80g)", "Heavy cream (20g)", "Banana (50g)"],
+      "notes": [
+        "Heavy cream boosts cholesterol intake.",
+        "Banana helps with energy and digestion.",
+        "Use full-fat dairy only."
+      ],
+      "calories": 350,
+      "protein": 6,
+      "carbs": 30,
+      "fat": 24
+    }
+  }
+
+}
+

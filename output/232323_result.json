@@ -1,0 +1,145 @@
+{
+  "user": {
+    "email": "232323",
+    "age": 23,
+    "height": 165,
+    "gender": "female",
+    "allergy": [
+      "prawn",
+      "pineapple",
+      "faw"
+    ],
+    "disease": [],
+    "ingredients": [
+      "milk",
+      "eggs",
+      "kiwi",
+      "serials"
+    ]
+  },
+  "meal_type": "lunch",
+  "diet": {},
+  "nutrition": {
+    "...": {
+      "name": "Sidi Ali",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "fiber": 0,
+      "vitamin_c": "알 수 없음"
+    },
+    "grilled": {
+      "name": "Grilletines blé complet",
+      "calories": 418,
+      "protein": 13,
+      "fat": 10,
+      "fiber": 6.7,
+      "vitamin_c": "알 수 없음"
+    },
+    "chicken": {
+      "name": "chicken",
+      "calories": "정보 없음",
+      "protein": "정보 없음",
+      "fat": "정보 없음",
+      "fiber": "정보 없음",
+      "vitamin_c": "정보 없음"
+    },
+    "salad": {
+      "name": "Salade & Compagnie Manhattan Poulet Roti",
+      "calories": 186,
+      "protein": 8.3,
+      "fat": 8.8,
+      "fiber": 2.8,
+      "vitamin_c": "알 수 없음"
+    },
+    "with": {
+      "name": "BTE 33CL SLIM COCA COLA",
+      "calories": 42,
+      "protein": 0,
+      "fat": 0,
+      "fiber": "알 수 없음",
+      "vitamin_c": "알 수 없음"
+    },
+    "mixed": {
+      "name": "",
+      "calories": 646,
+      "protein": 20.4,
+      "fat": 58,
+      "fiber": 8.5,
+      "vitamin_c": "알 수 없음"
+    },
+    "greens": {
+      "name": "Sidi Ali",
+      "calories": "알 수 없음",
+      "protein": "알 수 없음",
+      "fat": "알 수 없음",
+      "fiber": "알 수 없음",
+      "vitamin_c": "알 수 없음"
+    },
+    "cherry": {
+      "name": "Biotiful Dairy Morello Cherry Kefir",
+      "calories": 66,
+      "protein": 3.3,
+      "fat": 2.6,
+      "fiber": "알 수 없음",
+      "vitamin_c": "알 수 없음"
+    },
+    "tomatoes": {
+      "name": "Delicia double concentre de tomates",
+      "calories": 91,
+      "protein": 4.13,
+      "fat": 0.09,
+      "fiber": 0,
+      "vitamin_c": "알 수 없음"
+    },
+    "and": {
+      "name": "Sidi Ali",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "fiber": 0,
+      "vitamin_c": "알 수 없음"
+    },
+    "feta": {
+      "name": "Le Bloc",
+      "calories": 315,
+      "protein": 17,
+      "fat": 26.5,
+      "fiber": 0,
+      "vitamin_c": "알 수 없음"
+    },
+    "cheese": {
+      "name": "Perly",
+      "calories": 97,
+      "protein": 8,
+      "fat": 3,
+      "fiber": "알 수 없음",
+      "vitamin_c": "알 수 없음"
+    },
+    "on": {
+      "name": "Nutella",
+      "calories": 539,
+      "protein": 6.3,
+      "fat": 30.9,
+      "fiber": 3,
+      "vitamin_c": "알 수 없음"
+    },
+    "whole-wheat": {
+      "name": "Muffin Complet X4 245g IDS",
+      "calories": 161,
+      "protein": 9.7,
+      "fat": 4.8,
+      "fiber": 6.7,
+      "vitamin_c": "알 수 없음"
+    },
+    "bread": {
+      "name": "Sourdough White Ciabattin Bread",
+      "calories": 230,
+      "protein": 10.1,
+      "fat": 0.8,
+      "fiber": 2.9,
+      "vitamin_c": "알 수 없음"
+    }
+  },
+  "conflicts": []
+}

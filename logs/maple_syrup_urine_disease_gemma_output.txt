@@ -1,0 +1,156 @@
+
+You are a certified medical dietitian.
+
+You will be given a multi-paragraph explanation of a rare disease based on clinical studies. From this, extract and return structured data in JSON format.
+
+🛑 DO NOT include any commentary or explanation.
+
+You must strictly respond with a valid JSON object that matches **exactly** the following structure (no extra keys, no deviations):
+
+{
+  "avoid": ["..."],
+  "substitute": ["..."],
+  "nutrition_limit": {
+    "protein": 0,
+    "carbohydrates": 0,
+    "fat": 0
+  }
+}
+
+⚠ Use your medical knowledge to estimate reasonable numeric limits if they are not directly stated. Base your values on clinical implications such as hypoglycemia risk, hepatic load, or metabolic burden.
+
+Explanation:
+"""1. J Proteome Res. 2025 Apr 15. doi: 10.1021/acs.jproteome.5c00166. Online ahead
+of  print.
+
+Advancing the Biochemical Understanding of Maple Syrup Urine Disease and the 
+Impact of Liver Transplantation: A Pilot Study.
+
+Fortis SP(1), Grier AL(1), Reisz JA(1), Dzieciatkowska M(1), Cendali FI(1), 
+Kauffman V(2), Morton DH(2), D'Alessandro A(1).
+
+Author information:
+(1)Department of Biochemistry and Molecular Genetics, University of Colorado 
+Anschutz Medical Campus, Aurora, Colorado 80045, United States.
+(2)Central Pennsylvania Clinic, A Medical Home for Special Children and Adults, 
+Belleville, Pennsylvania 17004, United States.
+
+Maple syrup urine disease (MSUD) is a rare autosomal recessive metabolic 
+disorder causing impaired branched-chain amino acid (BCAA) catabolism and 
+systemic metabolic dysregulation. MSUD has an incidence of approximately 1 in 
+185,000 U.S. births, with much higher prevalence in the Mennonite communities 
+(up to 1 in 400 live births due to the c.1312T > A p.Tyr438Asn BCKDHA founder 
+mutation). Using a multiomic approach integrating metabolomics, lipidomics, and 
+proteomics, we analyzed blood samples from three patients on a BCAA-restricted 
+diet (MSUDDR), two MSUD patients who received liver transplants (MSUDLT), and 
+six healthy controls. Gene ontology analysis of integrated omics data confirmed 
+systemic metabolic imbalances in MSUD, highlighting increases in glycolysis, 
+oxidative phosphorylation, and purine metabolism. Lipidomic analysis revealed 
+disruptions in sphingolipids and lysophosphatidylcholines, affecting signaling 
+and membrane integrity. Liver transplantation corrected some abnormalities, but 
+key metabolites and proteins remained altered. Proteomic analysis revealed 
+significant alterations in redox homeostasis, energy metabolism, and 
+cytoskeletal organization with partial recovery post-transplantation. 
+Post-translational modifications indicated ongoing oxidative stress and immune 
+activation in the MSUDLT group. Elevated levels of l-isoleucine, l-valine, and 
+their ketoacids persisted post-transplant, correlating with impaired amino acid 
+metabolism, lipid remodeling, and protein folding. These findings provide 
+insights into MSUD-associated metabolic dysfunction and highlight potential 
+therapeutic targets.
+
+DOI: 10.1021/acs.jproteome.5c00166
+PMID: 40232068
+
+
+2. J Pediatr Endocrinol Metab. 2025 Jan 7;38(3):299-304. doi: 
+10.1515/jpem-2024-0542. Print 2025 Mar 26.
+
+Acrodermatitis dysmetabolica: lessons from two pediatric cases.
+
+Kahraman AB(1), Cosar MS(2), Dogan EE(3), Ünlü Y(4), Ugur C(2), Bagcı Z(2).
+
+Author information:
+(1)Division of Pediatric Metabolism, Konya City Hospital, University of Health 
+Sciences, Konya, Türkiye.
+(2)Department of Pediatrics, Konya City Hospital, University of Health Sciences, 
+Konya, Türkiye.
+(3)Faculty of Medicine, Karatay University, Konya, Türkiye.
+(4)Clinic of Pathology, Konya City Hospital, University of Health Sciences, 
+Konya, Türkiye.
+
+OBJECTIVES: Acrodermatitis dysmetabolica (AD) is a dermatologic manifestation 
+associated with inherited metabolic disorders (IMDs), distinct from 
+acrodermatitis enteropathica, which occurs solely due to zinc deficiency.
+CASE PRESENTATION: This report presents two pediatric cases: a 30-month-old girl 
+with maple syrup urine disease (MSUD) experiencing AD secondary to severe 
+isoleucine deficiency due to a protein-restricted diet, showing improvement with 
+dietary adjustments, and a 2.5-month-old boy infant with propionic acidemia (PA) 
+who developed AD alongside septic shock, which progressed despite intervention.
+CONCLUSIONS: These cases emphasize the importance of identifying AD in IMDs and 
+the critical need for meticulous monitoring of amino acid levels, as 
+deficiencies may lead to severe complications.
+
+© 2025 Walter de Gruyter GmbH, Berlin/Boston.
+
+DOI: 10.1515/jpem-2024-0542
+PMID: 39760321 [Indexed for MEDLINE]
+
+
+3. Nutrients. 2024 Sep 18;16(18):3145. doi: 10.3390/nu16183145.
+
+The Impact of Diet on Body Composition in a Cohort of Pediatric and Adult 
+Patients with Maple Syrup Urine Disease.
+
+Pretese R(1), Bonfanti C(1), Faraguna MC(1)(2), Fantasia M(1)(2), Crescitelli 
+V(1), Barzaghi S(1), Botti M(3), Mezzanotti G(4), Gasperini S(1).
+
+Author information:
+(1)Department of Pediatrics, Fondazione IRCCS San Gerardo dei Tintori, 20900 
+Monza, Italy.
+(2)Residency in Pediatrics, University of Milano Bicocca, 20126 Milano, Italy.
+(3)Rare Disease Centre, Fondazione IRCCS San Gerardo dei Tintori, 20900 Monza, 
+Italy.
+(4)Deparment of Biology Applied to Nutrition Sciences, University of Milano 
+Statale, 20122 Milano, Italy.
+
+The treatment for Maple Syrup Urine Disease (MSUD) consists of a hypoproteic 
+diet with integration therapy to limit leucine intake, ensuring adequate energy, 
+macronutrients, and micronutrients to prevent catabolism and promote anabolism. 
+We conducted a retrospective cross-sectional study at the Metabolic Rare Disease 
+Unit, Fondazione IRCCS San Gerardo dei Tintori, Monza, Italy. Patients with MSUD 
+who were over 3 years old, not treated with liver transplantation, and who 
+provided written consent, were included. The study aimed to describe the dietary 
+treatment of patients with MSUD, evaluate growth data, and analyze the effect of 
+a low-protein and semi-synthetic diet on body composition. Data on height, 
+weight, BMI, waist circumference, food intake, physical activity, and DEXA scans 
+were collected. Thirteen subjects (11 classic MSUD, 2 intermediate MSUD) were 
+included, of which 5 < 18 years old. Results indicated that patients with MSUD 
+follow a balanced diet and have body compositions like healthy subjects in terms 
+of fat and lean mass. A high incidence of osteopenia was observed from a young 
+age, with a positive correlation between protein intake and lean mass and a 
+negative correlation between BCAA-free mixture consumption and bone mineral 
+density z-score. The study highlights the positive effects and potential 
+consequences of the semi-synthetic diet on the body composition of patients with 
+MSUD. A similar study involving all Italian metabolic centers treating MSUD is 
+recommended.
+
+DOI: 10.3390/nu16183145
+PMCID: PMC11434745
+PMID: 39339744 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflicts of interest."""
+```
+
+**JSON Object:**
+
+```json
+{
+  "avoid": [],
+  "substitute": [],
+  "nutrition_limit": {
+    "protein": 0,
+    "carbohydrates": 0,
+    "fat": 0
+  }
+}
+```

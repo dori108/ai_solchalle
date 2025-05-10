@@ -1,0 +1,12 @@
+{
+  "wilson disease": {
+    "avoid": [],
+    "safe": [],
+    "nutrition_limit": {
+      "protein": 0,
+      "carbohydrates": 0,
+      "fat": 0
+    },
+    "note": "1. Cardiovasc Diabetol. 2025 Mar 5;24(1):107. doi: 10.1186/s12933-025-02658-z.\n\nA one-week reduced-carbohydrate diet to mitigate iatrogenic peripheral \nhyperinsulinemia does not improve insulin sensitivity or endothelial function in \na randomized, crossover trial in patients with type 1 diabetes.\n\nGregory JM(1), Smith TJ(2), Duffus SH(2)(3), Brooks D(4)(5), Akbar MN(2), \nHuntley MA(2), Gottlieb JA(6), LeStourgeon LM(7), Wilson CS(2), Beckman JA(8), \nCherrington AD(9).\n\nAuthor information:\n(1)Ian..."
+  }
+}

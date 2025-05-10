@@ -1,0 +1,147 @@
+from flask import Flask, request, jsonify
+from pathlib import Path
+import json
+import random
+from pubmed_fetcher import process_disease
+from gemma_util import call_gemma, extract_json
+from diet_generator import extract_keywords_from_diet_text, analyze_diet_nutrition_by_keywords, detect_conflicts
+
+app = Flask(__name__)
+
+# 병 리스트 제한 기반 데이터
+DISEASE_LIMIT_PATH = "data/disease_limit.json"
+FALLBACK_DIETS_PATH = "data/medical_diets.json"
+
+# 기준 몸무게
+REFERENCE_WEIGHT = 55
+
+# 병 제한 로딩
+def load_disease_limits():
+    if Path(DISEASE_LIMIT_PATH).exists():
+        with open(DISEASE_LIMIT_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+# fallback 식단 로딩
+def load_fallback_diets():
+    if Path(FALLBACK_DIETS_PATH).exists():
+        with open(FALLBACK_DIETS_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+# fallback 식단 비례 조정
+def scale_diet(meal, user_weight):
+    try:
+        scale_factor = user_weight / REFERENCE_WEIGHT
+        return {
+            "dish": meal["dish"],
+            "menu": meal["menu"],
+            "notes": meal["notes"],
+            "calories": round(meal["calories"] * scale_factor),
+            "protein": round(meal["protein"] * scale_factor, 1),
+            "carbs": round(meal["carbs"] * scale_factor, 1),
+            "fat": round(meal["fat"] * scale_factor, 1),
+        }
+    except:
+        return None
+
+# Gemma용 프롬프트 생성
+def generate_prompt(user_info, meal_type, disease_info, consumed_so_far):
+    disease_texts = []
+    remaining_nutrients = {"protein": 0, "fat": 0, "carbohydrates": 0}
+
+    for d in user_info["disease"]:
+        d_data = disease_info.get(d.lower())
+        if not d_data:
+            continue
+        disease_texts.append(f"※ {d_data['note']}\n- 피해야 할 음식: {', '.join(d_data['avoid'])}\n- 권장 식품: {', '.join(d_data['safe'])}")
+        limit = d_data.get("nutrition_limit", {})
+        for k in remaining_nutrients:
+            if k in limit:
+                remaining_nutrients[k] += limit[k]
+
+    for k in remaining_nutrients:
+        consumed = consumed_so_far.get(k, 0)
+        remaining_nutrients[k] = max(remaining_nutrients[k] - consumed, 0)
+
+    prompt = f"""
+You are a professional nutritionist. Recommend a {meal_type.upper()} meal for the following user:
+- Age: {user_info['age']}
+- Gender: {user_info['gender']}
+- Height: {user_info['height']}cm
+- Weight: {user_info['weight']}kg
+- Ingredients available: {', '.join(user_info['ingredients'])}
+
+Allergies: {', '.join(user_info['allergy'])}
+
+Health notes:
+{chr(10).join(disease_texts)}
+
+Remaining daily intake allowance:
+- Protein: {remaining_nutrients['protein']}g
+- Fat: {remaining_nutrients['fat']}g
+- Carbohydrates: {remaining_nutrients['carbohydrates']}g
+
+Please respond in JSON format only:
+{{
+  "{meal_type}": {{
+    "dish": "...",
+    "menu": ["..."],
+    "notes": ["..."],
+    "calories": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+  }}
+}}
+"""
+    return prompt
+
+@app.route("/generate_diet", methods=["POST"])
+def generate_diet():
+    data = request.json
+    user = data["user_info"]
+    diseases = user.get("disease", [])
+    meal_type = data.get("meal_type", "meal1")
+    consumed = data.get("consumed_so_far", {})
+
+    disease_info = {}
+    for d in diseases:
+        disease_info[d.lower()] = process_disease(d)
+
+    prompt = generate_prompt(user, meal_type, disease_info, consumed)
+    result = call_gemma(prompt)
+    parsed = extract_json(result)
+
+    if not parsed or meal_type not in parsed:
+        print("[Fallback] Gemma 응답 실패, fallback 실행")
+        fallback_diets = load_fallback_diets()
+        for d in diseases:
+            d_key = d.replace(" ", "_")
+            if d_key in fallback_diets:
+                meals = fallback_diets[d_key]
+                meal = random.choice(list(meals.values()))
+                scaled = scale_diet(meal, user["weight"])
+                if scaled:
+                    parsed = {meal_type: scaled}
+                    break
+
+        # fallback 조차 실패한 경우 → 다시 Gemma 호출 (최종 수단)
+        if not parsed:
+            print("[Gemma 재시도] Fallback scaling 실패, Gemma 재시도")
+            result = call_gemma(prompt)
+            parsed = extract_json(result)
+
+    keywords = extract_keywords_from_diet_text(json.dumps(parsed))
+    nutrition = analyze_diet_nutrition_by_keywords(keywords)
+    conflicts = detect_conflicts(keywords, user["allergy"], user["disease"], disease_info)
+
+    return jsonify({
+        "diet": parsed,
+        "nutrition": nutrition,
+        "conflicts": conflicts,
+        "fallback_used": not meal_type in result  # fallback 여부 추적
+    })
+
+if __name__ == "__main__":
+    app.run(debug=True)

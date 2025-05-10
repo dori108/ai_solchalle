@@ -1,0 +1,193 @@
+1. Cardiovasc Diabetol. 2025 Mar 5;24(1):107. doi: 10.1186/s12933-025-02658-z.
+
+A one-week reduced-carbohydrate diet to mitigate iatrogenic peripheral 
+hyperinsulinemia does not improve insulin sensitivity or endothelial function in 
+a randomized, crossover trial in patients with type 1 diabetes.
+
+Gregory JM(1), Smith TJ(2), Duffus SH(2)(3), Brooks D(4)(5), Akbar MN(2), 
+Huntley MA(2), Gottlieb JA(6), LeStourgeon LM(7), Wilson CS(2), Beckman JA(8), 
+Cherrington AD(9).
+
+Author information:
+(1)Ian Burr Division of Pediatric Endocrinology and Diabetes, Vanderbilt 
+University School of Medicine, 1500 21st Avenue South, Suite 1514, Nashville, 
+TN, 37212-3157, USA. justin.m.gregory.1@vumc.org.
+(2)Ian Burr Division of Pediatric Endocrinology and Diabetes, Vanderbilt 
+University School of Medicine, 1500 21st Avenue South, Suite 1514, Nashville, 
+TN, 37212-3157, USA.
+(3)Division of Pediatric Endocrinology, University of North Carolina, 127 
+Medical School Wing E, CB# 7039, Chapel Hill, NC, 27599-7039, USA.
+(4)Mildred Stahlman Division of Neonatology, Vanderbilt University School of 
+Medicine, 1161 21st Ave S A0126, Nashville, TN, 37232, USA.
+(5)Department of Pediatrics, Creighton University, 2412 Cuming St #103, Omaha, 
+NE, 68131, USA.
+(6)Vanderbilt Institute for Clinical and Translational Research, Vanderbilt 
+University School of Medicine, 2525 West End Ave., Nashville, TN, 37203-8820, 
+USA.
+(7)Department of Internal Medicine, Vanderbilt University School of Medicine, 
+1161 21st Ave S, Nashville, TN, 37232, USA.
+(8)Division of Vascular Medicine, University of Texas Southwestern, 5323 Harry 
+Hines Blvd., Dallas, TX, 75390, USA.
+(9)Department of Molecular Physiology and Biophysics, Vanderbilt University 
+School of Medicine, 2301 Vanderbilt Place, Nashville, TN, 37240, USA.
+
+BACKGROUND: Iatrogenic peripheral hyperinsulinemia, resulting from peripheral 
+insulin administration in type 1 diabetes, may increase insulin resistance and 
+impair endothelial function. We hypothesized that lowering iatrogenic peripheral 
+hyperinsulinemia via a one-week, reduced-carbohydrate diet (RCD) would improve 
+insulin sensitivity and endothelial function compared with an isocaloric 
+standard carbohydrate diet (SCD).
+METHODS: In this randomized, single-blinded, crossover trial, we studied 12 
+adults with type 1 diabetes. Participants completed both a one-week RCD and a 
+one-week SCD, separated by a three-week washout. After each intervention, we 
+measured insulin sensitivity using a hyperinsulinemic-euglycemic clamp and 
+assessed endothelial function via brachial-artery flow-mediated vasodilation 
+(FMD).
+RESULTS: The RCD reduced total daily insulin doses by 16% compared with the SCD. 
+Despite this reduction, insulin sensitivity did not improve (median glucose 
+infusion rates: RCD 8.1 mg/kg FFM/min [IQR 6.7-10.1] vs. SCD 8.6 mg/kg FFM/min 
+[7.0-11.0], p = 0.47). Similarly, endothelial function did not differ 
+significantly (FMD after RCD 7.50% [3.25-15.5] vs. SCD 9.81% [4.96-14.3], 
+p = 0.91). Although higher insulin doses correlated with lower insulin 
+sensitivity under both conditions, lowering insulin dose through the RCD alone 
+did not yield measurable improvements.
+CONCLUSIONS: Although a one-week RCD significantly lowered insulin requirements, 
+it failed to enhance insulin sensitivity or endothelial function in adults with 
+type 1 diabetes. These findings underscore the complex and dynamic relationship 
+between insulin exposure and cardiometabolic health. Similar basal overnight 
+insulin delivery may have masked potential benefits by the time of testing, 
+highlighting the need for further studies to refine strategies aimed at 
+mitigating hyperinsulinemia's adverse effects.
+TRIAL REGISTRATION: ClinicalTrials.gov NCT04118374.
+
+© 2025. The Author(s).
+
+DOI: 10.1186/s12933-025-02658-z
+PMCID: PMC11884211
+PMID: 40045281 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Ethics approval and consent to 
+participate: All participants provided written informed consent. The study was 
+approved by the Vanderbilt University Institutional Review Board and registered 
+at ClinicalTrials.gov (NCT04118374). Consent for publication: Not applicable. 
+Competing interests: J.M.G. has received consulting fees from vTV therapeutics, 
+DRI Capital Inc., Beckman Coulter Inc., and Sanofi; reimbursement for serving on 
+scientific advisory committees for vTV therapeutics and Sanofi; honoraria for 
+educational events with MJH Life Sciences; and payments for participation on a 
+clinical events committee for Medtronic. J.A.B. has received consulting fees 
+from Cook, JanOne, Merck, Medtronic, Novartis, and Tourmaline. A.D.C. serves on 
+scientific advisory boards or as a consultant for AdipoPharma, Fractyl Health, 
+Inc., Pioneering Medicine, Portal Insulin, Sekkei Bio, and Sensulin Labs, LLC. 
+Abvance, Novo Nordisk, Paratus, and Thetis Pharmaceuticals, LLC; and is 
+receiving research grant support from Abvance, Alnylam, and Novo Nordisk.
+
+1. Gene Ther. 2024 Dec 4. doi: 10.1038/s41434-024-00508-3. Online ahead of print.
+
+Placental nanoparticle-mediated IGF1 gene therapy corrects fetal growth 
+restriction in a guinea pig model.
+
+Davenport BN(#)(1)(2), Wilson RL(#)(3)(4), Williams AA(1)(2), Jones HN(1)(2).
+
+Author information:
+(1)Center for Research in Perinatal Outcomes, College of Medicine, University of 
+Florida, Gainesville, FL, USA.
+(2)Department of Physiology and Aging, College of Medicine, University of 
+Florida, Gainesville, FL, USA.
+(3)Center for Research in Perinatal Outcomes, College of Medicine, University of 
+Florida, Gainesville, FL, USA. rebecca.wilson@ufl.edu.
+(4)Department of Physiology and Aging, College of Medicine, University of 
+Florida, Gainesville, FL, USA. rebecca.wilson@ufl.edu.
+(#)Contributed equally
+
+Update of
+    bioRxiv. 2024 Sep 21:2024.04.05.587765. doi: 10.1101/2024.04.05.587765.
+
+Fetal growth restriction (FGR) caused by placental insufficiency is a major 
+contributor to neonatal morbidity and mortality. There is currently no in utero 
+treatment for placental insufficiency or FGR. The placenta serves as the vital 
+communication, supply, exchange, and defense organ for the developing fetus and 
+offers an excellent opportunity for therapeutic interventions. Here we show 
+efficacy of repeated treatments of trophoblast-specific human insulin-like 1 
+growth factor (IGF1) gene therapy delivered in a non-viral, polymer nanoparticle 
+to the placenta for the treatment of FGR. Using a guinea pig maternal nutrient 
+restriction model (70% food intake) of FGR, nanoparticle-mediated IGF1 treatment 
+was delivered to the placenta via ultrasound guidance across the second half of 
+pregnancy, after establishment of FGR. This treatment resulted in correction of 
+fetal weight in MNR + IGF1 animals compared to sham treated controls on an ad 
+libitum diet, increased fetal blood glucose and decreased fetal blood cortisol 
+levels compared to sham treated MNR, and showed no negative maternal 
+side-effects. Overall, we show a therapy capable of positively impacting the 
+entire pregnancy environment: maternal, placental, and fetal. This combined with 
+our previous studies using this therapy at mid pregnancy in the guinea pig and 
+in two different mouse model and three different human in vitro/ex vivo models, 
+demonstrate the plausibility of this therapy for future human translation. Our 
+overall goal is to improve health outcomes of neonates and decrease numerous 
+morbidities associated with the developmental origins of disease.
+
+© 2024. The Author(s), under exclusive licence to Springer Nature Limited.
+
+DOI: 10.1038/s41434-024-00508-3
+PMID: 39627510
+
+Conflict of interest statement: Competing interests: The authors declare no 
+competing interests. Ethics approval: Animal care and usage was approved by the 
+University of Florida Intuitional Animal Care and Usage Committee (Protocol 
+#202011236).
+
+1. Nutr Rev. 2025 Mar 1;83(3):e1049-e1067. doi: 10.1093/nutrit/nuae103.
+
+Effects of Single Low-Carbohydrate, High-Fat Meal Consumption on Postprandial 
+Lipemia and Markers of Endothelial Dysfunction: A Systematic Review of Current 
+Evidence.
+
+Wilson ML(1), Lane KE(1), Fadel A(2), Dawson EA(1), Moore E(1), Mazidi M(3), 
+Webb RJ(4), Davies IG(1).
+
+Author information:
+(1)Research Institute of Sport and Exercise Sciences, Faculty of Science, 
+Liverpool John Moores University, Liverpool L3 3AF, United Kingdom.
+(2)Department of Nutrition and Health, College of Medicine and Health Sciences, 
+United Arab Emirates University, Al Ain, United Arab Emirates.
+(3)Clinical Trial Service Unit, Nuffield Department of Population Health, 
+University of Oxford, Oxford OX3 7LF, United Kingdom.
+(4)Nutrition and Food Science, School of Health and Sport Sciences, Liverpool 
+Hope University, Liverpool L16 9JD, United Kingdom.
+
+CONTEXT: Postprandial lipemia (PPL) is associated with increased risk of 
+endothelial dysfunction (ED), a precursor of atherosclerotic cardiovascular 
+disease (ASCVD). The effects of low-carbohydrate, high-fat (LCHF) diets on ASCVD 
+risk are uncertain; therefore, gaining a greater understanding of LCHF meals on 
+PPL may provide valuable insights.
+OBJECTIVE: The current systematic review investigated the effects of single LCHF 
+meal consumption on PPL and markers of ED.
+DATA SOURCES: CINAHL Plus, PubMed, Web of Science, and Cochrane Central Register 
+of Controlled Trials (CENTRAL) were searched for key terms related to 
+endothelial function, cardiovascular disease, glycemia, lipemia, and the 
+postprandial state with no restriction on date.
+DATA EXTRACTION: Full-text articles were independently screened by 2 reviewers, 
+of which 16 studies were eligible to be included in the current review. All 
+trials reported a minimum analysis of postprandial triglycerides (PPTG) 
+following consumption of an LCHF meal (<26% of energy as carbohydrate). Results 
+were reported according to the Preferred Reporting Items for Systematic Reviews 
+and Meta-Analyses (PRISMA) statement.
+DATA ANALYSIS: Single-meal macronutrient composition was found to play a key 
+role in determining postprandial lipid and lipoprotein responses up to 8 hours 
+post-meal. Consumption of LCHF meals increased PPTG and may contribute to ED via 
+reduced flow-mediated dilation and increased oxidative stress; however, energy 
+and macronutrient composition varied considerably between studies.
+CONCLUSION: Consumption of an LCHF meal had a negative impact on PPL based on 
+some, but not all, single-meal studies; therefore, the contribution of LCHF 
+meals to cardiometabolic health outcomes remains unclear. Further research is 
+needed on specific categories of LCHF diets to establish a causal relationship 
+between postprandial modulation of lipids/lipoproteins and impaired vascular 
+endothelial function.
+SYSTEMATIC REVIEW REGISTRATION: PROSPERO registration no. CRD 42023398774.
+
+© The Author(s) 2024. Published by Oxford University Press on behalf of the 
+International Life Sciences Institute.
+
+DOI: 10.1093/nutrit/nuae103
+PMCID: PMC11819491
+PMID: 39094053 [Indexed for MEDLINE]
+
+Conflict of interest statement: None declared.

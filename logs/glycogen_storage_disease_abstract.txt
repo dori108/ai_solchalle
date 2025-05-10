@@ -1,0 +1,168 @@
+1. Orphanet J Rare Dis. 2024 Jul 30;19(1):283. doi: 10.1186/s13023-024-03201-1.
+
+Potential use of other starch sources in the treatment of glycogen storage 
+disease type Ia - an in vitro study.
+
+Monteiro V(1)(2), Colonetti K(3), Pagno CH(4), Schmidt HO(4), Sperb-Ludwig F(3), 
+Oliveira BM(1), Poloni S(5), Rios AO(4), de Souza CFM(5), Schwartz 
+IVD(6)(7)(8)(9)(10)(11).
+
+Author information:
+(1)Postgraduate Program in Genetics and Molecular Biology, Universidade Federal 
+do Rio Grande do Sul, Porto Alegre, Brazil.
+(2)Undergraduate program in Food Technology, Universidade Federal de Ciências da 
+Saúde de Porto Alegre, Porto Alegre, Rio Grande do Sul, Brazil.
+(3)Basic Research and Advanced Investigations in Neurosciences Laboratory 
+(B.R.A.I.N), Hospital de Clínicas de Porto Alegre, Porto Alegre, Rio Grande do 
+Sul, Brazil.
+(4)Bioactive Compounds Laboratory, Institute of Food Science and Technology, 
+Universidade Federal do Rio Grande do Sul, Porto Alegre, Brazil.
+(5)Medical Genetics and Nutrition Services, Hospital de Clínicas de Porto 
+Alegre, Porto Alegre, Rio Grande do Sul, Brazil.
+(6)Postgraduate Program in Genetics and Molecular Biology, Universidade Federal 
+do Rio Grande do Sul, Porto Alegre, Brazil. ischwartz@hcpa.edu.br.
+(7)Basic Research and Advanced Investigations in Neurosciences Laboratory 
+(B.R.A.I.N), Hospital de Clínicas de Porto Alegre, Porto Alegre, Rio Grande do 
+Sul, Brazil. ischwartz@hcpa.edu.br.
+(8)Medical Genetics and Nutrition Services, Hospital de Clínicas de Porto 
+Alegre, Porto Alegre, Rio Grande do Sul, Brazil. ischwartz@hcpa.edu.br.
+(9)Department of Genetics, Universidade Federal do Rio Grande do Sul, Porto 
+Alegre, Brazil. ischwartz@hcpa.edu.br.
+(10)Center for Clinical Research, Nuclimed, Hospital de Clínicas de Porto 
+Alegre, Porto Alegre, Rio Grande do Sul, Brazil. ischwartz@hcpa.edu.br.
+(11)Serviço de Genética Médica, Hospital de Clínicas de Porto Alegre, Rua Ramiro 
+Barcelos, Porto Alegre, 2350, 90035-003, RS, Brazil. ischwartz@hcpa.edu.br.
+
+BACKGROUND: Glycogen storage disease type Ia (GSD-Ia) is one of the most common 
+hepatic GSD. Its treatment mainly consists of a diet including a high intake of 
+slow-digestion carbohydrates such as raw cornstarch and the restriction of 
+simple sugars. This enables the maintenance of euglycemia and prevents secondary 
+metabolic disorders. Starch is a glucose polymer formed by amylose and 
+amylopectin, which can be obtained from distinct sources. Although uncooked 
+cornstarch has been successfully used in the treatment of GSD-Ia, it can lead to 
+hyperglycemia and weight gain. in vitro andin vivo tests indicated that sweet 
+manioc starch can be potentially used in the treatment of GSD-Ia.
+RESULTS: The moisture analysis revealed a variation from 10.3 to 12.8% in the 
+sweet manioc starch samples, whereas the moisture content of uncooked cornstarch 
+ranged from 7.3 to 11.1%. Quantifiable sugar was detected in 3/5 samples of 
+sweet manioc starch and 1/3 samples of uncooked cornstarch. Notably, this 
+uncooked cornstarch brand is widely employed in GSD-Ia treatment in Brazil. 
+Products B and E had higher values of amylopectin and undetectable levels of 
+sugars. A clinical trial is warranted to compare samples F and G and determine 
+the impact of sugar trace in the same dietary source of starch.
+CONCLUSIONS: Collectively, the results demonstrated possible therapeutic 
+alternatives for GSD-Ia in addition to traditional uncooked cornstarch.
+
+© 2024. The Author(s).
+
+DOI: 10.1186/s13023-024-03201-1
+PMCID: PMC11289971
+PMID: 39080776 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing of interest.
+
+1. Foods. 2024 Apr 2;13(7):1091. doi: 10.3390/foods13071091.
+
+Medium-Chain Triglyceride Oil and Dietary Intervention Improved Body Composition 
+and Metabolic Parameters in Children with Glycogen Storage Disease Type 1 in 
+Jordan: A Clinical Trial.
+
+Subih HS(1), Qudah RA(1), Janakat S(1), Rimawi H(2), Elsahoryi NA(3), Alyahya 
+L(4).
+
+Author information:
+(1)Department of Nutrition and Food Technology, Faculty of Agriculture, Jordan 
+University of Science and Technology, P.O. Box 3030, Irbid 22110, Jordan.
+(2)Royal Medical Services, P.O. Box 712996, Amman 11171, Jordan.
+(3)Department of Nutrition, Faculty of Pharmacy and Medical Sciences, University 
+of Petra, Amman 11196, Jordan.
+(4)School of Pharmaceutical Sciences, Universiti Sains Malaysia, Gelugor 11800, 
+Malaysia.
+
+Glycogen storage diseases (GSDs) are a group of carbohydrate metabolism 
+disorders, most of which are inherited in autosomal recessive patterns. GSDs are 
+of two types: those that have to do with liver and hypoglycaemia (hepatic GSDs) 
+and those that are linked to neuromuscular presentation. This study aims to 
+assess the impact of dietary intervention, including medium-chain triglyceride 
+(MCT) oil, on anthropometric measurements, body composition analysis and 
+metabolic parameters among Jordanian children and is expected to be the first in 
+the country. A sample of 38 children with glycogen storage disease type 1 
+(GSD-1) (median age = 6.4 years) were on a diet that included uncooked 
+cornstarch therapy and a fructose-, sucrose- and lactose-restricted diet. 
+Patients started to take MCT oil along with the prescribed diet after the first 
+body composition test. Patients' nutritional status was re-evaluated three 
+months later. The study results show that the percentage of patients who 
+suffered from hypoglycaemia at the beginning of the study decreased 
+significantly from 94.7% to 7.9% (p < 0.0001). The serum levels of 
+triglycerides, cholesterol, uric acid and lactate decreased significantly after 
+three months of intervention (100-71.1%, 73.7-21.1%, 97.4-52.6% and 94.7-18.4%, 
+respectively). In contrast, there was no statistical difference in neutrophil 
+count. Regarding clinical parameters, liver span was significantly reduced from 
+(16.01 ± 2.65 cm) to (14.85 ± 2.26 cm) (p < 0.0001). There were significant 
+improvements in growth parameters, including height-for-age and BMI-for-age for 
+children aged ≥2 years (p = 0.034 and p = 0.074, respectively). Significant 
+improvements in skeletal muscle mass and bone mineral content were also noticed 
+at the end of the trial (p ≤ 0.05). In conclusion, medium-chain triglyceride 
+therapy is found to improve biochemical and growth parameters in children with 
+GSD-1 in Jordan.
+
+DOI: 10.3390/foods13071091
+PMCID: PMC11011708
+PMID: 38611395
+
+Conflict of interest statement: The authors declare no conflict of interest.
+
+1. Eur J Clin Nutr. 2024 May;78(5):407-412. doi: 10.1038/s41430-024-01412-0. Epub
+ 2024 Feb 24.
+
+Intestinal microbiota composition of children with glycogen storage Type I 
+patients.
+
+Gokalp S(1), Dinleyici EC(2), Muluk C(3), Inci A(4), Aktas E(4), Okur I(4), Ezgu 
+F(4), Tumer L(4).
+
+Author information:
+(1)Gazi University Faculty of Medicine, Department of Pediatric Nutrition and 
+Metabolism, Ankara, Turkey. sabire32@hotmail.com.
+(2)Eskisehir Osmangazi University Faculty of Medicine, Department of Pediatrics, 
+Eskisehir, Turkey.
+(3)Gazi University Faculty of Medicine, Department of Pediatrics, Ankara, 
+Turkey.
+(4)Gazi University Faculty of Medicine, Department of Pediatric Nutrition and 
+Metabolism, Ankara, Turkey.
+
+Erratum in
+    Eur J Clin Nutr. 2025 Mar;79(2):176. doi: 10.1038/s41430-024-01533-6.
+
+AIM: Dietary therapy of glycogen storage disease I (GSD I) is based on frequent 
+feeding, with a high intake of complex carbohydrates (supplied by uncooked 
+cornstarch), restriction of sugars, and a lower amount of lipids. There is 
+limited information about the dietary regimen in patients with GSD, which might 
+affect the intestinal luminal pH and microbiota composition. The aim of this 
+study to investigate the intestinal microbiota composition in patients with GSD 
+receiving diet treatment.
+METHOD: Twelve patients who were followed up with GSD I after the diagnosis 
+receiving diet therapy and 11 healthy children have been enrolled. Intestinal 
+microbiota composition was evaluated by 16 s rRNA gene sequencing.
+RESULTS: A significant difference was found for beta-diversity between the GSD 
+group and controls. A significantly lower abundance of Firmicutes and higher 
+abundance of Actinobacteria was found in GSD group compared to the controls. 
+Akkermansia, Pseudoalteromonas, Uruburella, and Castellaniella were dominant in 
+the GSD patients at the genus level, while Faecalibacterium, Bacterioides, 
+Gemmiger, Parabacteroides in the control group. At species level, 
+Faecalibacterium prausnitzii decreased, and Akkermansia muciniphila were 
+dominant in children with GSD.
+DISCUSSION: There is a substantial change in the composition of the gut 
+microbiota, reduction of F. prausnitzii and an increase of A. muciniphila in 
+children with GSD receiving consumption of uncooked cornstarch. Alterations of 
+the intestinal microbiota might be related with the disease itself or dietary 
+restrictions in patients with GSD, however, in certain condition, dysbiosis can 
+negatively affect the course and make it difficult to control the disease.
+
+© 2024. The Author(s).
+
+DOI: 10.1038/s41430-024-01412-0
+PMCID: PMC11078752
+PMID: 38402355 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no competing interests.

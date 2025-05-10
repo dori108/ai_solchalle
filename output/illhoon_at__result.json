@@ -1,0 +1,28 @@
+{
+  "user": {
+    "email": "illhoon@",
+    "age": 23,
+    "height": 164,
+    "gender": "female",
+    "allergy": [],
+    "disease": [],
+    "ingredients": [
+      "milk",
+      "egg",
+      "pineapple"
+    ]
+  },
+  "meal_type": "lunch",
+  "diet": {},
+  "nutrition": {
+    "...": {
+      "name": "Sidi Ali",
+      "calories": 0,
+      "protein": 0,
+      "fat": 0,
+      "fiber": 0,
+      "vitamin_c": "알 수 없음",
+      "status": "ok"
+    }
+  }
+}

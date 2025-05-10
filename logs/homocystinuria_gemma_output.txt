@@ -1,0 +1,142 @@
+# pubmed_fetcher.py (JSON 보정 로직 포함)
+import requests, json, re
+from pathlib import Path
+from urllib.parse import urlencode
+from gemma_util import call_gemma
+
+EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
+CLINICAL_TABLES_API = "https://clinicaltables.nlm.nih.gov/api/conditions/v3/search"
+
+FALLBACK_NOTES = {
+    "wilson disease": "Wilson disease is a genetic disorder causing copper accumulation. Patients should avoid high-copper foods and maintain protein balance.",
+    "phenylketonuria": "PKU requires strict control of phenylalanine intake. Avoid high-protein foods and use medical formula."
+}
+
+def suggest_similar_diseases(keyword):
+    try:
+        res = requests.get(CLINICAL_TABLES_API, params={"terms": keyword})
+        data = res.json()
+        return [e[0] for e in data[2] if keyword.lower() in e[0].lower()]
+    except:
+        return []
+
+def fetch_pubmed_ids(term):
+    search_params = {"db": "pubmed", "term": term, "retmax": 3, "retmode": "json"}
+    search_url = f"{EUTILS_BASE}esearch.fcgi?{urlencode(search_params)}"
+    try:
+        res = requests.get(search_url, timeout=10).json()
+        return res.get("esearchresult", {}).get("idlist", [])
+    except Exception as e:
+        print(f"❌ PubMed ID 검색 실패: {e}")
+        return []
+
+def fetch_pubmed_abstracts_by_ids(ids):
+    fetch_params = {"db": "pubmed", "id": ",".join(ids), "retmode": "text", "rettype": "abstract"}
+    fetch_url = f"{EUTILS_BASE}efetch.fcgi?{urlencode(fetch_params)}"
+    try:
+        res = requests.get(fetch_url, timeout=10)
+        return res.text
+    except Exception as e:
+        print(f"❌ PubMed 본문 요청 실패: {e}")
+        return ""
+
+def clean_and_validate_abstract(raw_text):
+    text = re.sub(r"<.*?>", "", raw_text).strip()
+    return text if len(text) >= 200 else None
+
+def build_prompt(disease_name, explanation):
+    return f'''
+You are a certified medical dietitian.
+
+Below is a clinical explanation of a disease. Based on your understanding, fill out the following information in JSON format. You must strictly match the following format.
+
+Disease: {disease_name}
+
+Explanation:
+"""{explanation}"""
+
+Respond ONLY in this exact JSON format:
+{{
+  "avoid": ["..."],
+  "substitute": ["..."],
+  "nutrition_limit": {{
+    "protein": 0,
+    "carbohydrates": 0,
+    "fat": 0
+  }}
+}}
+
+Think carefully about the explanation. Consider what foods should be avoided, which foods are safe or recommended substitutes, and what daily intake limits should apply. Respond only with JSON. Do not include commentary.
+'''
+
+def extract_json(text):
+    matches = re.findall(r"\{[\s\S]*?\}", text)
+    for m in matches:
+        try:
+            return json.loads(m)
+        except:
+            continue
+    return {}
+
+def normalize_extracted_json(data):
+    if "substitute" in data and isinstance(data["substitute"], str):
+        data["substitute"] = [data["substitute"]]
+    return data
+
+def update_disease_guide(disease_name, content, note):
+    path = Path("data/disease_guide.json")
+    if path.exists():
+        with open(path, encoding="utf-8") as f:
+            guide = json.load(f)
+    else:
+        guide = {}
+
+    guide[disease_name.lower()] = {
+        "avoid": content.get("avoid", []),
+        "safe": content.get("substitute", []),
+        "nutrition_limit": content.get("nutrition_limit", {}),
+        "note": note[:300],
+        "source": "PubMed + Gemma"
+    }
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(guide, f, indent=2, ensure_ascii=False)
+
+def manual_fallback_note(disease_name):
+    return FALLBACK_NOTES.get(disease_name.lower())
+
+def process_disease_from_pubmed(disease_name):
+    ids = fetch_pubmed_ids(f"{disease_name} diet restriction")
+    if not ids:
+        ids = fetch_pubmed_ids(f"{disease_name}[MeSH Terms]")
+    if not ids:
+        return False
+
+    raw = fetch_pubmed_abstracts_by_ids(ids)
+    cleaned = clean_and_validate_abstract(raw)
+    if not cleaned:
+        cleaned = manual_fallback_note(disease_name)
+        if not cleaned:
+            return False
+
+    prompt = build_prompt(disease_name, cleaned)
+    result = call_gemma(prompt)
+
+    Path("logs").mkdir(exist_ok=True)
+    with open(f"logs/{disease_name.lower().replace(' ', '_')}_gemma_output.txt", "w", encoding="utf-8") as f:
+        f.write(result)
+
+    print(f"🧾 Gemma 응답 일부:\n{result[:300]}...")
+    parsed = normalize_extracted_json(extract_json(result))
+
+    if not parsed.get("avoid") or not parsed.get("substitute"):
+        print("⚠️ Gemma 응답에서 JSON 추출 실패. 전체 응답은 logs/ 폴더에 저장됨.")
+        return False
+
+    update_disease_guide(disease_name, parsed, cleaned)
+    return True
+
+if __name__ == "__main__":
+    disease = input("질병명 입력: ").strip()
+    ok = process_disease_from_pubmed(disease)
+    print("✅ 처리 완료" if ok else "❌ 실패: 수동 확인 필요")

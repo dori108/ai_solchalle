@@ -1,0 +1,25 @@
+{
+  "user": {
+    "email": "ｉｌｌ",
+    "age": 34,
+    "height": 178,
+    "gender": "male",
+    "allergy": [
+      "gluten",
+      "milk"
+    ],
+    "disease": [
+      "celiac disease",
+      "hypertension"
+    ],
+    "ingredients": [
+      "감자",
+      "닭가슴살",
+      "브로콜리",
+      "두유"
+    ]
+  },
+  "meal_type": "breakfast",
+  "diet": {},
+  "nutrition": {}
+}
