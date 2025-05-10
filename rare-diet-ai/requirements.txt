@@ -1,0 +1,19 @@
+Flask==3.1.0
+gunicorn
+
+transformers==4.51.3
+huggingface-hub==0.30.2
+torch==2.7.0
+safetensors==0.5.3
+
+sentence-transformers==4.1.0
+keybert==0.9.0
+nltk==3.9.1
+
+requests==2.32.3
+beautifulsoup4==4.12.3
+pandas==2.2.3
+scikit-learn==1.5.2
+
+# 선택적으로 포함 가능
+python-dotenv  # 환경 변수 테스트에 유용

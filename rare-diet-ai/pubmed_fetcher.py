@@ -118,8 +118,3 @@ def process_disease(disease_name):
         "nutrition_limit": limit,
         "note": note
     }
-
-# 단독 실행 테스트
-if __name__ == "__main__":
-    result = process_disease("phenylketonuria")
-    print(json.dumps(result, indent=2, ensure_ascii=False))

@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Jupyter/IPython
+*.ipynb
+.ipynb_checkpoints/
+
+# VSCode, PyCharm settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Hugging Face / cache
+*.cache/
