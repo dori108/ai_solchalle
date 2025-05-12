@@ -1,15 +1,16 @@
 from keybert import KeyBERT
 import nltk
-from nltk.tokenize import sent_tokenize
+from nltk.tokenize import sent_tokenize, word_tokenize
 from nutrition_fetcher import get_nutrition_from_openfoodfacts
+import difflib
 
 nltk.download("punkt", quiet=True)
 kw_model = KeyBERT()
 
 def extract_keywords_from_diet_text(text):
     """
-    식단 설명 텍스트에서 문장 단위로 키워드 추출.
-    긍정/부정 의미로 분류하여 추천 식재료와 피해야 할 식재료 목록 반환
+    Extract keywords sentence by sentence and classify them based on sentiment.
+    Return recommended and to_avoid keyword lists.
     """
     sentences = sent_tokenize(text)
     positive_keywords = set()
@@ -32,34 +33,44 @@ def extract_keywords_from_diet_text(text):
 
 def analyze_diet_nutrition_by_keywords(keywords_dict):
     """
-    추천된 키워드들에 대해 OpenFoodFacts 또는 USDA에서 영양 정보를 조회
+    Fetch nutritional info for recommended keywords.
     """
     result = {}
     for keyword in keywords_dict.get("recommended", []):
         result[keyword] = get_nutrition_from_openfoodfacts(keyword)
     return result
 
+def fuzzy_match(keyword, target_list, threshold=0.8):
+    """
+    Check if a keyword closely matches any item in a target list using fuzzy ratio.
+    """
+    for target in target_list:
+        ratio = difflib.SequenceMatcher(None, keyword.lower(), target.lower()).ratio()
+        if ratio >= threshold:
+            return True
+    return False
+
 def detect_conflicts(keywords_dict, allergies, diseases, disease_guide):
     """
-    추천/비추천 키워드가 사용자의 알레르기나 질병 제한과 충돌하는지 확인
+    Detect conflicts between extracted keywords and user allergies or disease restrictions.
     """
     all_keywords = keywords_dict.get("recommended", []) + keywords_dict.get("to_avoid", [])
     conflicts = set()
 
-    # 알레르기와의 충돌
+    # Allergy conflict
     for allergy in allergies:
         for keyword in all_keywords:
-            if allergy.lower() in keyword.lower():
+            if fuzzy_match(keyword, [allergy]):
                 conflicts.add(keyword)
 
-    # 질병 제한과의 충돌
+    # Disease-related food restrictions
     for disease in diseases:
         d_info = disease_guide.get(disease.lower())
         if not d_info:
             continue
         for forbidden in d_info.get("avoid", []):
             for keyword in all_keywords:
-                if forbidden.lower() in keyword.lower():
+                if fuzzy_match(keyword, [forbidden]):
                     conflicts.add(keyword)
 
     return list(conflicts)
