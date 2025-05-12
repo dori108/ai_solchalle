@@ -41,6 +41,18 @@ def scale_diet(meal, user_weight):
         print(f"[ERROR] fallback scaling failed: {e}")
         return None
 
+def is_invalid_diet(parsed: dict, meal_key: str) -> bool:
+    try:
+        meal = parsed.get(meal_key, {})
+        required_fields = ["dish", "menu", "notes", "calories", "protein", "carbs", "fat"]
+        for field in required_fields:
+            value = meal.get(field)
+            if value in [None, "...", "정보 없음", "", []]:
+                return True
+        return False
+    except:
+        return True
+
 def generate_prompt(user_info, meal_type, disease_info, consumed_so_far):
     disease_texts = []
     remaining_nutrients = {"protein": 0, "fat": 0, "carbohydrates": 0, "sodium": 0}
@@ -78,7 +90,7 @@ Remaining daily intake allowance:
 
 Please respond in JSON format only:
 {{
-  "{meal_type}": {{
+  "meal": {{
     "dish": "...",
     "menu": ["..."],
     "notes": ["..."],
@@ -124,17 +136,17 @@ def generate_diet():
 
     fallback_used = False
 
-    if not parsed or meal_type not in parsed:
-        print("[Fallback] Gemma response failed, trying fallback")
+    if not parsed or "meal" not in parsed or is_invalid_diet(parsed, "meal"):
+        print("[Fallback] Gemma output is incomplete or invalid. Using fallback.")
         fallback_diets = load_fallback_diets()
         for d in diseases:
-            d_key = d.replace(" ", "_") + "_meals"
+            d_key = d.replace(" ", "_").replace("(", "").replace(")", "") + "_meals"
             if d_key in fallback_diets:
                 meals = fallback_diets[d_key]
                 meal = meals.get("meal1")
                 scaled = scale_diet(meal, user["weight"])
                 if scaled:
-                    parsed = {meal_type: scaled}
+                    parsed = {"meal": scaled}
                     fallback_used = True
                     print(f"[Fallback success] Used: {d_key}")
                     break
@@ -148,11 +160,11 @@ def generate_diet():
     nutrition = analyze_diet_nutrition_by_keywords(keywords)
     conflicts = detect_conflicts(keywords, user.get("allergy", []), diseases, disease_info)
 
-    if meal_type in parsed:
-        if "notes" not in parsed[meal_type]:
-            parsed[meal_type]["notes"] = []
+    if "meal" in parsed:
+        if "notes" not in parsed["meal"]:
+            parsed["meal"]["notes"] = []
         if conflicts:
-            parsed[meal_type]["notes"].append(
+            parsed["meal"]["notes"].append(
                 f"\u26a0\ufe0f This meal may conflict with your conditions: {', '.join(conflicts)}"
             )
 
