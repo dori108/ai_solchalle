@@ -43,13 +43,13 @@ def scale_diet(meal, user_weight):
 
 def generate_prompt(user_info, meal_type, disease_info, consumed_so_far):
     disease_texts = []
-    remaining_nutrients = {"protein": 0, "fat": 0, "carbohydrates": 0}
+    remaining_nutrients = {"protein": 0, "fat": 0, "carbohydrates": 0, "sodium": 0}
 
     for d in user_info["disease"]:
         d_data = disease_info.get(d.lower())
         if not d_data:
             continue
-        disease_texts.append(f"※ {d_data['note']}\n- 피해야 할 음식: {', '.join(d_data['avoid'])}\n- 권장 식품: {', '.join(d_data['safe'])}")
+        disease_texts.append(f"* {d_data['note']}\n- Avoid: {', '.join(d_data['avoid'])}\n- Safe: {', '.join(d_data['safe'])}")
         limit = d_data.get("nutrition_limit", {})
         for k in remaining_nutrients:
             if k in limit:
@@ -67,8 +67,6 @@ You are a professional nutritionist. Recommend a {meal_type.upper()} meal for th
 - Weight: {user_info['weight']}kg
 - Ingredients available: {', '.join(user_info['ingredients'])}
 
-Allergies: {', '.join(user_info['allergy'])}
-
 Health notes:
 {chr(10).join(disease_texts)}
 
@@ -76,6 +74,7 @@ Remaining daily intake allowance:
 - Protein: {remaining_nutrients['protein']}g
 - Fat: {remaining_nutrients['fat']}g
 - Carbohydrates: {remaining_nutrients['carbohydrates']}g
+- Sodium: {remaining_nutrients['sodium']}mg
 
 Please respond in JSON format only:
 {{
@@ -97,46 +96,65 @@ def generate_diet():
     data = request.json
     user = data["user_info"]
     diseases = user.get("disease", [])
-    meal_type = data.get("meal_type", "meal1")
+    meal_type = data.get("meal_type", "breakfast").lower()
     consumed = data.get("consumed_so_far", {})
 
-    # 1. 질병 정보 수집
     disease_info = {}
     for d in diseases:
         disease_info[d.lower()] = process_disease(d)
 
-    # 2. Gemma 모델 호출
+    for d in diseases:
+        d_info = disease_info.get(d.lower(), {})
+        if "nutrition_limit" not in d_info or not d_info["nutrition_limit"]:
+            disease_info[d.lower()] = {
+                "avoid": [],
+                "safe": [],
+                "nutrition_limit": {
+                    "protein": user.get("protein", 0),
+                    "carbohydrates": user.get("sugar", 0),
+                    "fat": 0,
+                    "sodium": user.get("sodium", 0)
+                },
+                "note": "Based on user-provided daily nutrient limits."
+            }
+
     prompt = generate_prompt(user, meal_type, disease_info, consumed)
     result = call_gemma(prompt)
     parsed = extract_json(result)
 
     fallback_used = False
 
-    # 3. Gemma 실패 → fallback 시도
     if not parsed or meal_type not in parsed:
-        print("[Fallback] Gemma 응답 실패, fallback 실행")
+        print("[Fallback] Gemma response failed, trying fallback")
         fallback_diets = load_fallback_diets()
         for d in diseases:
-            d_key = d.replace(" ", "_")
+            d_key = d.replace(" ", "_") + "_meals"
             if d_key in fallback_diets:
                 meals = fallback_diets[d_key]
-                meal = random.choice(list(meals.values()))
+                meal = meals.get("meal1")
                 scaled = scale_diet(meal, user["weight"])
                 if scaled:
                     parsed = {meal_type: scaled}
                     fallback_used = True
-                    print(f"[Fallback 성공] {d_key} fallback 사용됨")
+                    print(f"[Fallback success] Used: {d_key}")
                     break
 
         if not parsed:
-            print("[Gemma 재시도] Fallback scaling 실패, Gemma 재시도")
+            print("[Retry] Fallback failed, retrying Gemma")
             result = call_gemma(prompt)
             parsed = extract_json(result)
 
-    # 4. 키워드 및 영양 분석
     keywords = extract_keywords_from_diet_text(json.dumps(parsed))
     nutrition = analyze_diet_nutrition_by_keywords(keywords)
-    conflicts = detect_conflicts(keywords, user["allergy"], user["disease"], disease_info)
+    conflicts = detect_conflicts(keywords, user.get("allergy", []), diseases, disease_info)
+
+    if meal_type in parsed:
+        if "notes" not in parsed[meal_type]:
+            parsed[meal_type]["notes"] = []
+        if conflicts:
+            parsed[meal_type]["notes"].append(
+                f"\u26a0\ufe0f This meal may conflict with your conditions: {', '.join(conflicts)}"
+            )
 
     return jsonify({
         "diet": parsed,
