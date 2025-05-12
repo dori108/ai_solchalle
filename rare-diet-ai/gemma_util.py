@@ -1,4 +1,5 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM, TextGenerationPipeline
+from huggingface_hub import login
 import torch
 import re
 import json
@@ -6,17 +7,32 @@ import os
 
 print("GCP environment")
 
+# 모델 정보 및 디바이스 설정
 MODEL_ID = "google/gemma-2b-it"
 device = torch.device("cpu")
 
+# Hugging Face 인증
+hf_token = os.getenv("HUGGINGFACE_TOKEN")
+if hf_token:
+    try:
+        login(hf_token)
+        print("[INFO] Hugging Face login successful.")
+    except Exception as e:
+        print(f"[ERROR] Hugging Face login failed: {e}")
+else:
+    print("[WARNING] HUGGINGFACE_TOKEN environment variable not set.")
+
+# 모델 로드
 try:
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
-    model = AutoModelForCausalLM.from_pretrained(MODEL_ID).to(device)
-    generator = TextGenerationPipeline(model=model, tokenizer=tokenizer, device=device)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, token=hf_token)
+    model = AutoModelForCausalLM.from_pretrained(MODEL_ID, token=hf_token).to(device)
+    generator = TextGenerationPipeline(model=model, tokenizer=tokenizer, device=-1)  # CPU 사용 시 device=-1
+    print("[INFO] Gemma model loaded successfully.")
 except Exception as e:
     print(f"[ERROR] Failed to load model: {e}")
     generator = None
 
+# Gemma 호출 함수
 def call_gemma(prompt: str, max_tokens: int = 512) -> str:
     if not generator:
         return "[ERROR] Gemma model is not loaded."
@@ -27,6 +43,7 @@ def call_gemma(prompt: str, max_tokens: int = 512) -> str:
         print(f"[ERROR] Gemma generation failed: {e}")
         return "{}"
 
+# JSON 추출 유틸 함수
 def extract_json(text: str) -> dict:
     match = re.search(r"\{[\s\S]+?\}", text)
     if not match:
@@ -38,6 +55,7 @@ def extract_json(text: str) -> dict:
         return json.loads(match.group())
     except json.JSONDecodeError as e:
         print(f"[ERROR] Failed to parse JSON: {e}")
+        # 일부 누락된 괄호 등으로 마무리 처리
         fixed = match.group().strip()
         while not fixed.endswith("}"):
             fixed += "}"
