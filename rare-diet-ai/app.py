@@ -9,28 +9,22 @@ from diet_generator import extract_keywords_from_diet_text, analyze_diet_nutriti
 
 app = Flask(__name__)
 
-# 병 리스트 제한 기반 데이터
 DISEASE_LIMIT_PATH = "data/disease_limit.json"
 FALLBACK_DIETS_PATH = "data/medical_diets.json"
-
-# 기준 몸무게
 REFERENCE_WEIGHT = 55
 
-# 병 제한 로딩
 def load_disease_limits():
     if Path(DISEASE_LIMIT_PATH).exists():
         with open(DISEASE_LIMIT_PATH, encoding="utf-8") as f:
             return json.load(f)
     return []
 
-# fallback 식단 로딩
 def load_fallback_diets():
     if Path(FALLBACK_DIETS_PATH).exists():
         with open(FALLBACK_DIETS_PATH, encoding="utf-8") as f:
             return json.load(f)
     return {}
 
-# fallback 식단 비례 조정
 def scale_diet(meal, user_weight):
     try:
         scale_factor = user_weight / REFERENCE_WEIGHT
@@ -43,10 +37,10 @@ def scale_diet(meal, user_weight):
             "carbs": round(meal["carbs"] * scale_factor, 1),
             "fat": round(meal["fat"] * scale_factor, 1),
         }
-    except:
+    except Exception as e:
+        print(f"[ERROR] fallback scaling failed: {e}")
         return None
 
-# Gemma용 프롬프트 생성
 def generate_prompt(user_info, meal_type, disease_info, consumed_so_far):
     disease_texts = []
     remaining_nutrients = {"protein": 0, "fat": 0, "carbohydrates": 0}
@@ -106,14 +100,19 @@ def generate_diet():
     meal_type = data.get("meal_type", "meal1")
     consumed = data.get("consumed_so_far", {})
 
+    # 1. 질병 정보 수집
     disease_info = {}
     for d in diseases:
         disease_info[d.lower()] = process_disease(d)
 
+    # 2. Gemma 모델 호출
     prompt = generate_prompt(user, meal_type, disease_info, consumed)
     result = call_gemma(prompt)
     parsed = extract_json(result)
 
+    fallback_used = False
+
+    # 3. Gemma 실패 → fallback 시도
     if not parsed or meal_type not in parsed:
         print("[Fallback] Gemma 응답 실패, fallback 실행")
         fallback_diets = load_fallback_diets()
@@ -125,14 +124,16 @@ def generate_diet():
                 scaled = scale_diet(meal, user["weight"])
                 if scaled:
                     parsed = {meal_type: scaled}
+                    fallback_used = True
+                    print(f"[Fallback 성공] {d_key} fallback 사용됨")
                     break
 
-        # fallback 조차 실패한 경우 → 다시 Gemma 호출 (최종 수단)
         if not parsed:
             print("[Gemma 재시도] Fallback scaling 실패, Gemma 재시도")
             result = call_gemma(prompt)
             parsed = extract_json(result)
 
+    # 4. 키워드 및 영양 분석
     keywords = extract_keywords_from_diet_text(json.dumps(parsed))
     nutrition = analyze_diet_nutrition_by_keywords(keywords)
     conflicts = detect_conflicts(keywords, user["allergy"], user["disease"], disease_info)
@@ -141,7 +142,7 @@ def generate_diet():
         "diet": parsed,
         "nutrition": nutrition,
         "conflicts": conflicts,
-        "fallback_used": not meal_type in result  # fallback 여부 추적
+        "fallback_used": fallback_used
     })
 
 if __name__ == "__main__":
