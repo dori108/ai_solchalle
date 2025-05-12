@@ -10,6 +10,9 @@ DISEASE_LIMIT_PATH = "data/disease_limit.json"
 LOG_PATH = os.path.join(tempfile.gettempdir(), "logs")  # Render 호환
 os.makedirs(LOG_PATH, exist_ok=True)
 
+def normalize_disease_name(name: str) -> str:
+    return name.lower().replace("(", "").replace(")", "").strip()
+
 # disease_limit.json 로딩
 def load_disease_limits():
     if Path(DISEASE_LIMIT_PATH).exists():
@@ -20,9 +23,9 @@ def load_disease_limits():
 # disease_limit에서 해당 질병 정보 찾기
 def find_disease_info(name):
     limits = load_disease_limits()
-    name_lower = name.lower()
+    name_normalized = normalize_disease_name(name)
     for item in limits:
-        if item["diseaseName"].lower() == name_lower:
+        if normalize_disease_name(item["diseaseName"]) == name_normalized:
             return {
                 "avoid": [],
                 "safe": [],
@@ -46,6 +49,7 @@ def fetch_pubmed_abstracts(disease_name):
         res.raise_for_status()
         ids = res.json().get("esearchresult", {}).get("idlist", [])
         if not ids:
+            print(f"[INFO] No PubMed results found for: {disease_name}")
             return "", []
     except Exception as e:
         print(f"[ERROR] PubMed 검색 실패: {str(e)}")
@@ -58,7 +62,10 @@ def fetch_pubmed_abstracts(disease_name):
             res = requests.get(fetch_url, timeout=10)
             if res.ok:
                 abstracts.append(res.text.strip())
-        except:
+            else:
+                print(f"[WARNING] PubMed fetch failed for PMID {pmid}: status {res.status_code}")
+        except Exception as e:
+            print(f"[WARNING] PubMed fetch exception for PMID {pmid}: {e}")
             continue
 
     return "\n\n".join(abstracts), ids
@@ -108,7 +115,7 @@ def process_disease(disease_name):
     avoid, safe, limit, note = extract_diet_info_rule_based(text)
 
     # 로그 저장
-    log_file = os.path.join(LOG_PATH, f"{disease_name.lower().replace(' ', '_')}_abstract.txt")
+    log_file = os.path.join(LOG_PATH, f"{normalize_disease_name(disease_name).replace(' ', '_')}_abstract.txt")
     with open(log_file, "w", encoding="utf-8") as f:
         f.write(text)
 
