@@ -7,6 +7,15 @@ from pubmed_fetcher import process_disease
 from gemma_util import call_gemma, extract_json
 from diet_generator import extract_keywords_from_diet_text, analyze_diet_nutrition_by_keywords, detect_conflicts
 
+from huggingface_hub import login
+
+hf_token = os.getenv("HUGGINGFACE_TOKEN")
+if hf_token:
+    login(hf_token)
+else:
+    print("[WARNING] Hugging Face token is not set. Gemma may not work.")
+
+
 app = Flask(__name__)
 
 DISEASE_LIMIT_PATH = "data/disease_limit.json"
