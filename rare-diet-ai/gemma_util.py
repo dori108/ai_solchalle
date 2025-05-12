@@ -4,7 +4,7 @@ import re
 import json
 import os
 
-print("[INFO] Hugging Face login 생략 (GCP 환경)")
+print("GCP environment")
 
 MODEL_ID = "google/gemma-2b-it"
 device = torch.device("cpu")
@@ -20,8 +20,12 @@ except Exception as e:
 def call_gemma(prompt: str, max_tokens: int = 512) -> str:
     if not generator:
         return "[ERROR] Gemma model is not loaded."
-    result = generator(prompt, max_new_tokens=max_tokens, temperature=0.7, do_sample=True)[0]["generated_text"]
-    return result
+    try:
+        result = generator(prompt, max_new_tokens=max_tokens, temperature=0.7, do_sample=True)[0]["generated_text"]
+        return result
+    except Exception as e:
+        print(f"[ERROR] Gemma generation failed: {e}")
+        return "{}"
 
 def extract_json(text: str) -> dict:
     match = re.search(r"\{[\s\S]+?\}", text)
@@ -39,5 +43,6 @@ def extract_json(text: str) -> dict:
             fixed += "}"
         try:
             return json.loads(fixed)
-        except:
+        except Exception as e:
+            print(f"[ERROR] Retry JSON parse failed: {e}")
             return {}
