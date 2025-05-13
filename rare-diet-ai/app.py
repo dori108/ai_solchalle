@@ -82,6 +82,7 @@ def generate_prompt(user_info, meal_type, disease_info, consumed_so_far):
 
     prompt = f"""
 You are a professional nutritionist. Recommend a {meal_type.upper()} meal for the following user:
+
 - Age: {user_info['age']}
 - Gender: {user_info['gender']}
 - Height: {user_info['height']}cm
@@ -97,50 +98,71 @@ Remaining daily intake allowance:
 - Carbohydrates: {remaining_nutrients['carbohydrates']}g
 - Sodium: {remaining_nutrients['sodium']}mg
 
-Please respond in JSON format only:
+ IMPORTANT INSTRUCTIONS:
+- You MUST respond in **valid JSON** format.
+- DO NOT include any natural language explanation or commentary.
+- Your output MUST match the following structure exactly and include **all fields**.
+- If any value is unknown, use 0 or an empty string ("") — but never omit keys.
+
+ EXAMPLE OUTPUT FORMAT:
 {{
   "meal": {{
-    "dish": "...",
-    "menu": ["..."],
-    "notes": ["..."],
-    "calories": 0,
-    "protein": 0,
-    "carbs": 0,
-    "fat": 0
+    "dish": "Grilled Chicken Salad",
+    "menu": ["Grilled chicken breast", "Mixed greens", "Cherry tomatoes", "Olive oil dressing"],
+    "notes": ["Low-carb, high-protein meal suitable for most dietary restrictions."],
+    "calories": 350,
+    "protein": 32.5,
+    "carbs": 15.0,
+    "fat": 12.0
   }}
 }}
+
+Now generate the meal plan in the exact same JSON format.
 """
     return prompt
 
 @app.route("/generate_diet", methods=["POST"])
 def generate_diet():
     from random import choice, shuffle
+    import traceback
 
-    data = request.json
-    user = data["user_info"]
-    diseases = user.get("disease", [])
-    meal_type = data.get("meal_type", "breakfast").lower()
-    consumed = data.get("consumed_so_far", {})
+    try:
+        data = request.json
+        print("[DEBUG] 받은 JSON:", data)
 
-    disease_info = {}
-    for d in diseases:
-        disease_info[d.lower()] = process_disease(d)
+        user = data["user_info"]
+        diseases = user.get("disease", [])
+        meal_type = data.get("meal_type", "breakfast").lower()
+        consumed = data.get("consumed_so_far", {})
 
-    # nutrition_limit 보정
-    for d in diseases:
-        d_info = disease_info.get(d.lower(), {})
-        if "nutrition_limit" not in d_info or not d_info["nutrition_limit"]:
-            disease_info[d.lower()] = {
-                "avoid": [],
-                "safe": [],
-                "nutrition_limit": {
-                    "protein": user.get("protein", 0),
-                    "carbohydrates": user.get("sugar", 0),
-                    "fat": 0,
-                    "sodium": user.get("sodium", 0)
-                },
-                "note": "Based on user-provided daily nutrient limits."
-            }
+        disease_info = {}
+        for d in diseases:
+            disease_info[d.lower()] = process_disease(d)
+
+        # nutrition_limit 보정
+        for d in diseases:
+            d_info = disease_info.get(d.lower(), {})
+            if "nutrition_limit" not in d_info or not d_info["nutrition_limit"]:
+                disease_info[d.lower()] = {
+                    "avoid": [],
+                    "safe": [],
+                    "nutrition_limit": {
+                        "protein": user.get("protein", 0),
+                        "carbohydrates": user.get("sugar", 0),
+                        "fat": 0,
+                        "sodium": user.get("sodium", 0)
+                    },
+                    "note": "Based on user-provided daily nutrient limits."
+                }
+
+        # (이 아래에는 기존 코드 계속 이어가시면 됩니다 — Gemma 호출 등)
+        ...
+        
+    except Exception as e:
+        print("[❗️예외 발생]")
+        traceback.print_exc()
+        return jsonify({"error": str(e)}), 500
+
 
     # ✅ Gemma 호출
     prompt = generate_prompt(user, meal_type, disease_info, consumed)
