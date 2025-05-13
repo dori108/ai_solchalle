@@ -102,8 +102,11 @@ def generate_prompt(user_info, meal_type, disease_info, consumed_so_far):
         remaining_nutrients[k] = max(remaining_nutrients[k] - consumed, 0)
 
     prompt = f"""
-You are a professional nutritionist. Recommend a {meal_type.upper()} meal for the following user:
+You are a professional nutritionist and your task is to recommend a {meal_type.upper()} meal for a specific user.
+You will be provided with health details, dietary restrictions, and ingredient availability.
+ Your response must ONLY be a well-formatted JSON object following the exact structure shown below.
 
+User Information:
 - Age: {user_info['age']}
 - Gender: {user_info['gender']}
 - Height: {user_info['height']}cm
@@ -119,13 +122,15 @@ Remaining daily intake allowance:
 - Carbohydrates: {remaining_nutrients['carbohydrates']}g
 - Sodium: {remaining_nutrients['sodium']}mg
 
- IMPORTANT INSTRUCTIONS:
-- You MUST respond in **valid JSON** format.
-- DO NOT include any natural language explanation or commentary.
-- Your output MUST match the following structure exactly and include **all fields**.
-- If any value is unknown, use 0 or an empty string ("") — but never omit keys.
+RESPONSE INSTRUCTIONS — PLEASE FOLLOW STRICTLY:
+- You MUST respond with ONLY valid **JSON**.
+- DO NOT add any extra text, explanation, comment, greeting, or closing.
+- DO NOT omit or rename any keys.
+- Every field shown below must be included — even if the value is 0 or an empty string ("").
+- Do not use ellipses (...), placeholders, or incomplete values.
+- If a value is unknown, write 0 (for numbers) or "" (for strings) — do not leave out any field.
 
- EXAMPLE OUTPUT FORMAT:
+ REQUIRED JSON FORMAT (copy exactly):
 {{
   "meal": {{
     "dish": "Grilled Chicken Salad",
@@ -138,8 +143,9 @@ Remaining daily intake allowance:
   }}
 }}
 
-Now generate the meal plan in the exact same JSON format.
+Now respond with the meal plan in EXACTLY the same JSON format shown above.
 """
+
     return prompt
 
 @app.route("/generate_diet", methods=["POST"])
