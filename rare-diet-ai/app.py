@@ -54,13 +54,38 @@ def is_invalid_diet(parsed: dict, meal_key: str) -> bool:
     try:
         meal = parsed.get(meal_key, {})
         required_fields = ["dish", "menu", "notes", "calories", "protein", "carbs", "fat"]
+
+        # 모든 필드가 존재해야 함
         for field in required_fields:
-            value = meal.get(field)
-            if value in [None, "...", "정보 없음", "", []]:
+            if field not in meal:
+                print(f"[DEBUG] Missing field: {field}")
                 return True
+
+        # 문자열 필드 검사
+        if not isinstance(meal["dish"], str) or len(meal["dish"].strip()) < 2:
+            print("[DEBUG] Invalid dish name")
+            return True
+
+        if not isinstance(meal["menu"], list) or len(meal["menu"]) == 0:
+            print("[DEBUG] Invalid menu list")
+            return True
+
+        if not isinstance(meal["notes"], list):
+            print("[DEBUG] Notes is not a list")
+            return True
+
+        # 영양소 숫자 값 검사
+        for field in ["calories", "protein", "carbs", "fat"]:
+            value = meal[field]
+            if not isinstance(value, (int, float)) or value <= 0:
+                print(f"[DEBUG] Invalid value for {field}: {value}")
+                return True
+
         return False
-    except:
+    except Exception as e:
+        print(f"[ERROR] Exception in is_invalid_diet: {e}")
         return True
+
 
 def generate_prompt(user_info, meal_type, disease_info, consumed_so_far):
     disease_texts = []
@@ -121,108 +146,56 @@ Now generate the meal plan in the exact same JSON format.
 """
     return prompt
 
-@app.route("/generate_diet", methods=["POST"])
-def generate_diet():
-    from random import choice, shuffle
-    import traceback
+# ✅ fallback 진입
+if not parsed or "meal" not in parsed or is_invalid_diet(parsed, "meal"):
+    print("[Fallback] Gemma output invalid. Trying fallback.")
+    fallback_diets = load_fallback_diets()
 
-    try:
-        data = request.json
-        print("[DEBUG] 받은 JSON:", data)
+    fallback_found = False
 
-        user = data["user_info"]
-        diseases = user.get("disease", [])
-        meal_type = data.get("meal_type", "breakfast").lower()
-        consumed = data.get("consumed_so_far", {})
+    for d in diseases:
+        d_key = d.replace(" ", "_").replace("(", "").replace(")", "").lower() + "_meals"
+        if d_key not in fallback_diets:
+            print(f"[Fallback] No fallback meals found for key: {d_key}")
+            continue
 
-        disease_info = {}
-        for d in diseases:
-            disease_info[d.lower()] = process_disease(d)
+        meals = fallback_diets[d_key]
+        meal_keys = list(meals.keys())
+        shuffle(meal_keys)  # 무작위 순서
 
-        # nutrition_limit 보정
-        for d in diseases:
-            d_info = disease_info.get(d.lower(), {})
-            if "nutrition_limit" not in d_info or not d_info["nutrition_limit"]:
-                disease_info[d.lower()] = {
-                    "avoid": [],
-                    "safe": [],
-                    "nutrition_limit": {
-                        "protein": user.get("protein", 0),
-                        "carbohydrates": user.get("sugar", 0),
-                        "fat": 0,
-                        "sodium": user.get("sodium", 0)
-                    },
-                    "note": "Based on user-provided daily nutrient limits."
-                }
+        for key in meal_keys:
+            raw_meal = meals[key]
+            scaled = scale_diet(raw_meal, user["weight"])
+            if scaled and not is_invalid_diet({"meal": scaled}, "meal"):
+                parsed = {"meal": scaled}
+                fallback_used = True
+                fallback_reason = f"Gemma failed. Fallback used: {d_key} / {key}"
+                fallback_found = True
+                print(f"[Fallback success] Used {d_key} / {key}")
+                break
+            else:
+                print(f"[Fallback] Skipped invalid or unscalable fallback: {d_key} / {key}")
 
-        # (이 아래에는 기존 코드 계속 이어가시면 됩니다 — Gemma 호출 등)
-        ...
-        
-    except Exception as e:
-        print("[❗️예외 발생]")
-        traceback.print_exc()
-        return jsonify({"error": str(e)}), 500
+        if fallback_found:
+            break
 
-
-    # ✅ Gemma 호출
-    prompt = generate_prompt(user, meal_type, disease_info, consumed)
-    result = call_gemma(prompt)
-    parsed = extract_json(result)
-
-    fallback_used = False
-    fallback_reason = ""
-
-    # ✅ Gemma 실패 → fallback 진입
-    if not parsed or "meal" not in parsed or is_invalid_diet(parsed, "meal"):
-        print("[Fallback] Gemma output invalid. Trying fallback.")
-        fallback_diets = load_fallback_diets()
-
-        fallback_found = False
-
-        for d in diseases:
-            d_key = d.replace(" ", "_").replace("(", "").replace(")", "") + "_meals"
-            if d_key in fallback_diets:
-                meals = fallback_diets[d_key]
-                meal_keys = [k for k in meals if k.startswith("meal")]
-                shuffle(meal_keys)  # 무작위 순서
-
-                for key in meal_keys:
-                    scaled = scale_diet(meals[key], user["weight"])
-                    if scaled:
-                        parsed = {"meal": scaled}
-                        fallback_used = True
-                        fallback_reason = f"Gemma failed. Fallback meal used from '{d_key}' / {key}."
-                        fallback_found = True
-                        print(f"[Fallback success] Used: {d_key} / {key}")
-                        break
-
-                # ✅ fallback 실패 → 무작위 식단 1개 강제 선택하여 원본 또는 scaled 사용
-                if not fallback_found and meal_keys:
-                    selected_key = choice(meal_keys)
-                    print(f"[Force Fallback] All scale_diet() failed. Forcing: {selected_key}")
-                    meal = meals[selected_key]
-                    scaled = scale_diet(meal, user["weight"]) or meal
-                    parsed = {"meal": scaled}
-                    fallback_used = True
-                    fallback_reason = f"Gemma failed. Forced fallback meal from '{d_key}' / {selected_key}."
-                    fallback_found = True
-                    break
-
-        if not fallback_found:
-            print("[Fallback failed] No fallback meals found in dataset.")
-            parsed = {
-                "meal": {
-                    "dish": "Unknown meal",
-                    "menu": [],
-                    "notes": ["⚠️ Gemma and fallback both failed. No known meal."],
-                    "calories": 0,
-                    "protein": 0,
-                    "carbs": 0,
-                    "fat": 0
-                }
+    # ✅ 모든 fallback 실패 → 안전 기본 식단 생성
+    if not fallback_found:
+        print("[Fallback failed] No valid fallback meals found. Using default safe meal.")
+        parsed = {
+            "meal": {
+                "dish": "Basic Rice Bowl",
+                "menu": ["Steamed rice", "Boiled chicken", "Blanched spinach"],
+                "notes": ["⚠️ Gemma and fallback both failed. This is a safe default meal."],
+                "calories": 400,
+                "protein": 25,
+                "carbs": 45,
+                "fat": 10
             }
-            fallback_used = True
-            fallback_reason = "Gemma and fallback data both missing for diseases."
+        }
+        fallback_used = True
+        fallback_reason = "Gemma and all fallback meals failed. Default safe meal used."
+
 
     # ✅ 키워드 분석 및 충돌 검사
     keywords = extract_keywords_from_diet_text(json.dumps(parsed))
