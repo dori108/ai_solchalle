@@ -50,18 +50,12 @@ def fuzzy_match(keyword, target_list, threshold=0.8):
             return True
     return False
 
-def detect_conflicts(keywords_dict, allergies, diseases, disease_guide):
+def detect_conflicts(keywords_dict, diseases, disease_guide):
     """
-    Detect conflicts between extracted keywords and user allergies or disease restrictions.
+    Detect conflicts between extracted keywords and disease restrictions only.
     """
     all_keywords = keywords_dict.get("recommended", []) + keywords_dict.get("to_avoid", [])
     conflicts = set()
-
-    # Allergy conflict
-    for allergy in allergies:
-        for keyword in all_keywords:
-            if fuzzy_match(keyword, [allergy]):
-                conflicts.add(keyword)
 
     # Disease-related food restrictions
     for disease in diseases:
