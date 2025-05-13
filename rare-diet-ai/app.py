@@ -131,8 +131,7 @@ RESPONSE INSTRUCTIONS — PLEASE FOLLOW STRICTLY:
 - If a value is unknown, write 0 (for numbers) or "" (for strings) — do not leave out any field.
 
  REQUIRED JSON FORMAT (copy exactly):
-{{
-  "meal": {{
+{{{
     "dish": "Grilled Chicken Salad",
     "menu": ["Grilled chicken breast", "Mixed greens", "Cherry tomatoes", "Olive oil dressing"],
     "notes": ["Low-carb, high-protein meal suitable for most dietary restrictions."],
@@ -140,7 +139,7 @@ RESPONSE INSTRUCTIONS — PLEASE FOLLOW STRICTLY:
     "protein": 32.5,
     "carbs": 15.0,
     "fat": 12.0
-  }}
+  }
 }}
 
 Now respond with the meal plan in EXACTLY the same JSON format shown above.
