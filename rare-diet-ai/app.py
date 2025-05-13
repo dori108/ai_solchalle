@@ -18,8 +18,8 @@ else:
 
 app = Flask(__name__)
 
-DISEASE_LIMIT_PATH = "data/disease_limit.json"
-FALLBACK_DIETS_PATH = "data/medical_diets.json"
+DISEASE_LIMIT_PATH = "data/disease_limit/disease_limit.json"
+FALLBACK_DIETS_PATH = "data/diet_data/medical_diets.json"
 REFERENCE_WEIGHT = 55
 
 def load_disease_limits():
