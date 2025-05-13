@@ -33,34 +33,45 @@ except Exception as e:
     generator = None
 
 # Gemma 호출 함수
+import time
 def call_gemma(prompt: str, max_tokens: int = 512) -> str:
     if not generator:
         return "[ERROR] Gemma model is not loaded."
     try:
+        start = time.time()
         result = generator(prompt, max_new_tokens=max_tokens, temperature=0.7, do_sample=True)[0]["generated_text"]
+        duration = time.time() - start
+        print(f"[Gemma] Generated in {duration:.2f} seconds")
         return result
     except Exception as e:
         print(f"[ERROR] Gemma generation failed: {e}")
         print(f"[DEBUG] Prompt that caused failure:\n{prompt[:300]}...")
         return "{}"
 
-# JSON 추출 유틸 함수
-def extract_json(text: str) -> dict | None:
-    match = re.search(r"\{[\s\S]+?\}", text)
-    if not match:
-        print("[ERROR] JSON format not found. Original output:")
-        print(text)
-        return None
 
-    try:
-        return json.loads(match.group())
-    except json.JSONDecodeError as e:
-        print(f"[ERROR] Failed to parse JSON: {e}")
-        fixed = match.group().strip()
-        while not fixed.endswith("}"):
-            fixed += "}"
-        try:
-            return json.loads(fixed)
-        except Exception as e:
-            print(f"[ERROR] Retry JSON parse failed: {e}")
-            return None
+def extract_json(text: str) -> dict | None:
+    """
+    Attempts to extract the largest valid JSON object from a text string.
+    """
+    stack = []
+    start_idx = None
+
+    for i, char in enumerate(text):
+        if char == '{':
+            if not stack:
+                start_idx = i
+            stack.append('{')
+        elif char == '}':
+            if stack:
+                stack.pop()
+                if not stack:
+                    candidate = text[start_idx:i+1]
+                    try:
+                        return json.loads(candidate)
+                    except json.JSONDecodeError as e:
+                        print(f"[ERROR] JSON decode failed: {e}")
+                        continue
+
+    print("[ERROR] No valid JSON object found. Full text:")
+    print(text)
+    return None
