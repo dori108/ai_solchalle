@@ -41,21 +41,21 @@ def call_gemma(prompt: str, max_tokens: int = 512) -> str:
         return result
     except Exception as e:
         print(f"[ERROR] Gemma generation failed: {e}")
+        print(f"[DEBUG] Prompt that caused failure:\n{prompt[:300]}...")
         return "{}"
 
 # JSON 추출 유틸 함수
-def extract_json(text: str) -> dict:
+def extract_json(text: str) -> dict | None:
     match = re.search(r"\{[\s\S]+?\}", text)
     if not match:
         print("[ERROR] JSON format not found. Original output:")
         print(text)
-        return {}
+        return None
 
     try:
         return json.loads(match.group())
     except json.JSONDecodeError as e:
         print(f"[ERROR] Failed to parse JSON: {e}")
-        # 일부 누락된 괄호 등으로 마무리 처리
         fixed = match.group().strip()
         while not fixed.endswith("}"):
             fixed += "}"
@@ -63,4 +63,4 @@ def extract_json(text: str) -> dict:
             return json.loads(fixed)
         except Exception as e:
             print(f"[ERROR] Retry JSON parse failed: {e}")
-            return {}
+            return None
